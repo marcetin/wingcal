@@ -1,0 +1,96 @@
+{
+	"id": "1",
+	"slug": "demontaze",
+	"elementi": {
+		"0": {
+			"id": 0,
+			"naziv": "Demontaža prozorskih rešetki",
+			"opis": "Demontaža prozorskih rešetki sa čišćenjem i odvozom na deponiju koju odredi nadzorni organ, na udaljenost do 15 km.",
+			"obracun": "Obračun po komadu rešetke.",
+			"jedinica": "Kom",
+			"cena": 5.88,
+			"slug": ""
+		},
+		"1": {
+			"id": 0,
+			"naziv": "Demontaža metalne zastakljene nadstrešnice.",
+			"opis": "Demontaža metalne zastakljene nadstrešnice. Prvo demontirati staklo a zatim metalne delove nadstrešnice, sve očistiti i složiti za ponovnu ugradnju ili utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km. Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju",
+			"obracun": "Obračun po m2 nadstrešnice.",
+			"jedinica": "m2",
+			"cena": 6.65,
+			"slug": ""
+		},
+		"2": {
+			"id": 0,
+			"naziv": "Pažljiva demontaža parketa zajedno sa lajsnama",
+			"opis": "Pažljiva demontaža parketa zajedno sa lajsnama. Parket i lajsne pažljivo demontirati, očistiti, složiti po vrsti, upakovati, utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km.Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po m2 poda.",
+			"jedinica": "m2",
+			"cena": 4.55,
+			"slug": ""
+		},
+		"3": {
+			"id": 0,
+			"naziv": "Demontaža prozorskih rešetki",
+			"opis": "Demontaža prozorskih rešetki sa čišćenjem i odvozom na deponiju koju odredi nadzorni organ, na udaljenost do 15 km.",
+			"obracun": "Obračun po komadu rešetke.",
+			"jedinica": "Kom",
+			"cena": 5,
+			"slug": ""
+		},
+		"4": {
+			"id": 0,
+			"naziv": "Demontaža metalne zastakljene nadstrešnice.",
+			"opis": "Demontaža metalne zastakljene nadstrešnice. Prvo demontirati staklo a zatim metalne delove nadstrešnice, sve očistiti i složiti za ponovnu ugradnju ili utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km. Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju",
+			"obracun": "Obračun po m2 nadstrešnice.",
+			"jedinica": "m2",
+			"cena": 6,
+			"slug": ""
+		},
+		"5": {
+			"id": 0,
+			"naziv": "Pažljiva demontaža parketa zajedno sa lajsnama",
+			"opis": "Pažljiva demontaža parketa zajedno sa lajsnama. Parket i lajsne pažljivo demontirati, očistiti, složiti po vrsti, upakovati, utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km.Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po m2 poda.",
+			"jedinica": "m2",
+			"cena": 4,
+			"slug": ""
+		},
+		"6": {
+			"id": 0,
+			"naziv": "Pažljiva demontaža parketa zajedno sa lajsnama",
+			"opis": "Pažljiva demontaža parketa zajedno sa lajsnama. Parket i lajsne pažljivo demontirati, očistiti, složiti po vrsti, upakovati, utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km.Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po m2 poda.",
+			"jedinica": "m2",
+			"cena": 4.55,
+			"slug": ""
+		},
+		"7": {
+			"id": 0,
+			"naziv": "Demontaža prozorskih rešetki",
+			"opis": "Demontaža prozorskih rešetki sa čišćenjem i odvozom na deponiju koju odredi nadzorni organ, na udaljenost do 15 km.",
+			"obracun": "Obračun po komadu rešetke.",
+			"jedinica": "Kom",
+			"cena": 5.22,
+			"slug": ""
+		},
+		"8": {
+			"id": 0,
+			"naziv": "Demontaža metalne zastakljene nadstrešnice.",
+			"opis": "Demontaža metalne zastakljene nadstrešnice. Prvo demontirati staklo a zatim metalne delove nadstrešnice, sve očistiti i složiti za ponovnu ugradnju ili utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km. Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju",
+			"obracun": "Obračun po m2 nadstrešnice.",
+			"jedinica": "m2",
+			"cena": 6,
+			"slug": ""
+		},
+		"9": {
+			"id": 0,
+			"naziv": "Pažljiva demontaža parketa zajedno sa lajsnama",
+			"opis": "Pažljiva demontaža parketa zajedno sa lajsnama. Parket i lajsne pažljivo demontirati, očistiti, složiti po vrsti, upakovati, utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km.Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po m2 poda.",
+			"jedinica": "m2",
+			"cena": 4.66,
+			"slug": ""
+		}
+	}
+}
