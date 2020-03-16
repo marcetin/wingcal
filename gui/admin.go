@@ -5,21 +5,23 @@ import (
 	"gioui.org/layout"
 	"gioui.org/text"
 	"gioui.org/unit"
+	"github.com/jung-kurt/gofpdf"
 	"github.com/marcetin/wingcal/model"
 	"github.com/marcetin/wingcal/pkg/gel"
 )
 
 var (
-	adminMenuList = &layout.List{
+	leftMenuList = &layout.List{
 		Axis: layout.Vertical,
 	}
-	list = &layout.List{
+	sumList = &layout.List{
 		Axis: layout.Vertical,
 	}
 	thingEditTitle   = new(gel.Editor)
 	thingEditContent = new(gel.Editor)
 	post             = new(model.DuoCMSpost)
 	dodajDugme       = new(gel.Button)
+	stampajDugme     = new(gel.Button)
 	kolicina         = &gel.DuoUIcounter{
 		Value:        1,
 		OperateValue: 1,
@@ -73,23 +75,20 @@ func (w *WingCal) admin() func() {
 					Axis: layout.Horizontal,
 				}.Layout(w.Context,
 					layout.Rigid(func() {
-						w.Theme.DuoUIitem(0, w.Theme.Colors["Warning"]).Layout(w.Context, layout.Center, func() {
+						if w.Context.Constraints.Width.Max > 500 {
+							w.Context.Constraints.Width.Max = 500
+						}
+						w.Theme.DuoUIitem(0, w.Theme.Colors["Warning"]).Layout(w.Context, layout.N, func() {
 
-							list.Layout(w.Context, len(w.Transfered.Elementi), func(i int) {
+							leftMenuList.Layout(w.Context, len(w.Transfered.Elementi), func(i int) {
 								element := w.Transfered.Elementi[i]
-								layout.UniformInset(unit.Dp(16)).Layout(w.Context, func() {
-									if w.Context.Constraints.Width.Max > 500 {
-										w.Context.Constraints.Width.Max = 500
-									}
+								layout.UniformInset(unit.Dp(0)).Layout(w.Context, func() {
 									layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 										layout.Rigid(func() {
-
 											btn := w.Theme.Button(element.Naziv)
-
 											for w.ElementsButtons[i].Clicked(w.Context) {
 												w.PrikazaniElement = &element
 											}
-
 											btn.Layout(w.Context, w.ElementsButtons[i])
 										}),
 									)
@@ -109,7 +108,7 @@ func (w *WingCal) admin() func() {
 								})
 							}),
 							layout.Flexed(1, func() {
-								w.Theme.DuoUIitem(0, w.Theme.Colors["Secondary"]).Layout(w.Context, layout.Center, func() {
+								w.Theme.DuoUIitem(0, w.Theme.Colors["Secondary"]).Layout(w.Context, layout.N, func() {
 									//thingEdit := []func(){
 									//	func() {
 									//		w.Theme.DuoUIitem(0, w.Theme.Colors["Light"]).Layout(w.Context, layout.Center, func() {
@@ -209,17 +208,17 @@ func (w *WingCal) admin() func() {
 							}))
 					}),
 					layout.Rigid(func() {
-						w.Theme.DuoUIitem(0, w.Theme.Colors["Danger"]).Layout(w.Context, layout.Center, func() {
+						w.Theme.DuoUIitem(0, w.Theme.Colors["Danger"]).Layout(w.Context, layout.N, func() {
 							var sumaSumarum float64
 							layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 								layout.Rigid(func() {
-									list.Layout(w.Context, len(w.Suma.Elementi), func(i int) {
+									if w.Context.Constraints.Width.Max > 500 {
+										w.Context.Constraints.Width.Max = 500
+									}
+									sumList.Layout(w.Context, len(w.Suma.Elementi), func(i int) {
 										element := w.Suma.Elementi[i]
 										sumaSumarum = sumaSumarum + element.SumaCena
-										layout.UniformInset(unit.Dp(16)).Layout(w.Context, func() {
-											if w.Context.Constraints.Width.Max > 500 {
-												w.Context.Constraints.Width.Max = 500
-											}
+										layout.UniformInset(unit.Dp(4)).Layout(w.Context, func() {
 											layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 												layout.Rigid(func() {
 													layout.Flex{Axis: layout.Horizontal, Spacing: layout.SpaceBetween}.Layout(w.Context,
@@ -243,8 +242,31 @@ func (w *WingCal) admin() func() {
 									suma.Alignment = text.End
 									suma.Layout(w.Context)
 								}),
-							)
+								layout.Rigid(func() {
 
+									btn := w.Theme.Button("Stampaj")
+
+									for stampajDugme.Clicked(w.Context) {
+
+										pdf := gofpdf.New("P", "mm", "A4", "")
+										pdf.AddPage()
+										pdf.SetFont("Arial", "B", 12)
+										for _, e := range w.Suma.Elementi {
+											pdf.Cell(40, 10, e.Element.Naziv)
+											pdf.Cell(40, 10, fmt.Sprint(e.Kolicina))
+											pdf.Cell(40, 10, fmt.Sprint(e.SumaCena))
+											pdf.Ln(8)
+										}
+										err := pdf.OutputFileAndClose("nalog.pdf")
+										if err != nil {
+
+										}
+									}
+
+									btn.Layout(w.Context, stampajDugme)
+
+								}),
+							)
 						})
 					}))
 			}),

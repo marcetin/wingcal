@@ -29,11 +29,6 @@ var (
 	btn = new(gel.Button)
 )
 
-type Client struct {
-	Socket net.Conn
-	data   chan []byte
-}
-
 func main() {
 	wing := NewWingCal()
 	js.BuildJS()

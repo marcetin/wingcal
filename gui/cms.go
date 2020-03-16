@@ -5,7 +5,13 @@ import (
 	"gioui.org/layout"
 	"github.com/marcetin/wingcal/pkg/gel"
 	"github.com/marcetin/wingcal/pkg/gelook"
+	"net"
 )
+
+type Client struct {
+	Socket net.Conn
+	data   chan []byte
+}
 
 type WingCal struct {
 	Title           string
