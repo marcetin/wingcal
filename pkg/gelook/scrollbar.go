@@ -7,7 +7,6 @@ import (
 	"gioui.org/layout"
 	"gioui.org/unit"
 	"github.com/marcetin/wingcal/pkg/gel"
-	"github.com/p9c/logi"
 )
 
 var (
@@ -171,7 +170,5 @@ func (s *ScrollBar) bodyLayout(gtx *layout.Context, positionOffset int, scrollUn
 			)
 		})
 		s.controller.Layout(gtx)
-		logi.L.Info("RADI Constraints")
-		logi.L.Info(s.controller.BodyHeight)
 	}
 }

@@ -6,8 +6,6 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/p9c/logi"
-
 	"gioui.org/f32"
 	"gioui.org/io/pointer"
 	"gioui.org/layout"
@@ -236,9 +234,6 @@ func (b DuoUIbutton) Layout(gtx *layout.Context, button *gel.Button) {
 	if button.Hover(gtx) {
 		txColor = b.TxColorHover
 		bgColor = b.BgColorHover
-		logi.L.Info("")
-		logi.L.Info("oce")
-		logi.L.Info("")
 	}
 	layout.Stack{Alignment: layout.Center}.Layout(gtx,
 		layout.Expanded(func() {

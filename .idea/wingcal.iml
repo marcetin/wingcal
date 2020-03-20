@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/BAZA" />
       <excludeFolder url="file://$MODULE_DIR$/BAZA1" />
+      <excludeFolder url="file://$MODULE_DIR$/OLD" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,4 +1,4 @@
-package main
+package kalkulator
 
 import "C"
 import (
@@ -22,7 +22,7 @@ var (
 	btn = new(gel.Button)
 )
 
-func main() {
+func C() {
 	wing := calc.NewWingCal()
 	//js.BuildJS()
 	//c, err := net.Dial("tcp", "localhost:19999")
