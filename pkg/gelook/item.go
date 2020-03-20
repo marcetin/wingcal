@@ -22,6 +22,7 @@ type DuoUIitem struct {
 	BgColor       string
 	TxColorHover  string
 	BgColorHover  string
+	FullWidth     bool
 	Width         int
 	Height        int
 	CornerRadius  unit.Value
@@ -52,6 +53,9 @@ func (t *DuoUItheme) DuoUIitem(padding int, background string) DuoUIitem {
 
 func (d DuoUIitem) Layout(gtx *layout.Context, direction layout.Direction, itemContent func()) {
 	hmin := gtx.Constraints.Width.Min
+	if d.FullWidth {
+		hmin = gtx.Constraints.Width.Max
+	}
 	vmin := gtx.Constraints.Height.Min
 	layout.Stack{Alignment: layout.W}.Layout(gtx,
 		layout.Expanded(func() {

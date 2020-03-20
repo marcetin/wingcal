@@ -22,11 +22,14 @@ import (
 type Button struct {
 	Text string
 	// Color is the text color.
+	Align        layout.Direction
 	Color        color.RGBA
 	Font         text.Font
 	TextSize     unit.Value
-	Background   color.RGBA
-	CornerRadius unit.Value
+	Background   string
+	CornerRadius float32
+	FullWidth    bool
+	FullHeight   bool
 	shaper       text.Shaper
 }
 
@@ -43,9 +46,10 @@ func (t *DuoUItheme) Button(txt string) Button {
 		Font: text.Font{
 			Typeface: t.Fonts["Primary"],
 		},
+		Align:      layout.Center,
 		Text:       txt,
 		Color:      rgb(0xffffff),
-		Background: HexARGB(t.Colors["Primary"]),
+		Background: t.Colors["Primary"],
 		TextSize:   t.TextSize.Scale(14.0 / 16.0),
 		shaper:     t.Shaper,
 	}
@@ -66,9 +70,15 @@ func (b Button) Layout(gtx *layout.Context, button *gel.Button) {
 	bgcol := b.Background
 	hmin := gtx.Constraints.Width.Min
 	vmin := gtx.Constraints.Height.Min
-	layout.Stack{Alignment: layout.Center}.Layout(gtx,
+	if b.FullWidth {
+		hmin = gtx.Constraints.Width.Max
+	}
+	if b.FullHeight {
+		hmin = gtx.Constraints.Height.Max
+	}
+	layout.Stack{Alignment: b.Align}.Layout(gtx,
 		layout.Expanded(func() {
-			rr := float32(gtx.Px(unit.Dp(4)))
+			rr := float32(gtx.Px(unit.Dp(b.CornerRadius)))
 			clip.Rect{
 				Rect: f32.Rectangle{Max: f32.Point{
 					X: float32(gtx.Constraints.Width.Min),
@@ -76,7 +86,7 @@ func (b Button) Layout(gtx *layout.Context, button *gel.Button) {
 				}},
 				NE: rr, NW: rr, SE: rr, SW: rr,
 			}.Op(gtx.Ops).Add(gtx.Ops)
-			fill(gtx, bgcol)
+			fill(gtx, HexARGB(bgcol))
 			for _, c := range button.History() {
 				drawInk(gtx, c)
 			}
@@ -84,7 +94,7 @@ func (b Button) Layout(gtx *layout.Context, button *gel.Button) {
 		layout.Stacked(func() {
 			gtx.Constraints.Width.Min = hmin
 			gtx.Constraints.Height.Min = vmin
-			layout.Center.Layout(gtx, func() {
+			b.Align.Layout(gtx, func() {
 				layout.Inset{Top: unit.Dp(10), Bottom: unit.Dp(10), Left: unit.Dp(12), Right: unit.Dp(12)}.Layout(gtx, func() {
 					paint.ColorOp{Color: col}.Add(gtx.Ops)
 					gel.Label{}.Layout(gtx, b.shaper, b.Font, b.TextSize, b.Text)

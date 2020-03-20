@@ -1,0 +1,59 @@
+package calc
+
+import (
+	"gioui.org/app"
+	"gioui.org/layout"
+	"gioui.org/text"
+	"github.com/marcetin/wingcal/db"
+	"github.com/marcetin/wingcal/model"
+	"github.com/marcetin/wingcal/pkg/gel"
+	"github.com/marcetin/wingcal/pkg/gelook"
+)
+
+var (
+	izbornikRadova = &layout.List{
+		Axis: layout.Vertical,
+	}
+	sumList = &layout.List{
+		Axis: layout.Vertical,
+	}
+	neophodanMaterijalList = &layout.List{
+		Axis: layout.Vertical,
+	}
+	ukupanNeophodanMaterijalList = &layout.List{
+		Axis: layout.Vertical,
+	}
+	nazadDugme = new(gel.Button)
+	dodajDugme = new(gel.Button)
+	kolicina   = &gel.DuoUIcounter{
+		Value:        1,
+		OperateValue: 1,
+		From:         1,
+		To:           100,
+		CounterInput: &gel.Editor{
+			Alignment:  text.Middle,
+			SingleLine: true,
+		},
+		CounterIncrease: new(gel.Button),
+		CounterDecrease: new(gel.Button),
+		CounterReset:    new(gel.Button),
+	}
+)
+
+type WingCal struct {
+	Naziv                      string
+	Window                     *app.Window
+	Context                    *layout.Context
+	Tema                       *gelook.DuoUItheme
+	Strana                     string
+	LinkoviIzboraVrsteRadova   map[int]*gel.Button
+	EditabilnaPoljaVrsteRadova map[int]*model.EditabilnaPoljaVrsteRadova
+	Materijal                  map[int]*model.WingMaterijal
+	Radovi                     model.WingVrstaRadova
+	IzbornikRadova             *model.WingVrstaRadova
+	Transfered                 model.WingCalGrupaRadova
+	Db                         *db.DuoUIdb
+	Client                     *model.Client
+	PrikazaniElement           *model.WingVrstaRadova
+	Suma                       *model.WingIzabraniElementi
+}
