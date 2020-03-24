@@ -1,0 +1,102 @@
+{
+	"id": "1",
+	"slug": "probijanja",
+	"elementi": {
+		"0": {
+			"id": 0,
+			"naziv": "Bušenje rupa za postavljanje instalacija, preseka 10x10 cm.",
+			"opis": "Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po komadu rupe.",
+			"varijanta": [
+				{
+					"opis": "Preseka 10x10 cm.",
+					"jedinica": "Kom",
+					"cena": 10
+				},
+				{
+					"opis": "Preseka 10x20 cm.",
+					"jedinica": "Kom",
+					"cena": 25
+				},
+				{
+					"opis": "Preseka 20x20 cm.",
+					"jedinica": "Kom",
+					"cena": 50
+				},
+				{
+					"opis": "Preseka 30x30 cm.",
+					"jedinica": "Kom",
+					"cena": 80
+				},
+				{
+					"opis": "Preseka 50x50 cm.",
+					"jedinica": "Kom",
+					"cena": 100
+				}
+			],
+			"slug": ""
+		},
+		"1": {
+			"id": 0,
+			"naziv": "Probijanje zida za prolaz vodovodnih cevi.",
+			"opis": " Kroz zidove, tavanice i slično pažljivo probiti rupe za prolaz cevi za vodovod. Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po komadu rupe.",
+			"varijanta": [
+				{
+					"opis": "Za vodovodne cevi.",
+					"jedinica": "Kom",
+					"cena": 5.5
+				},
+				{
+					"opis": "Za kanalizacione cevi.",
+					"jedinica": "Kom",
+					"cena": 10
+				},
+				{
+					"opis": "Za cevi grejanja.",
+					"jedinica": "Kom",
+					"cena": 6
+				},
+				{
+					"opis": "Za kanale klimatizacije.",
+					"jedinica": "Kom",
+					"cena": 35
+				}
+			],
+			"slug": ""
+		},
+		"2": {
+			"id": 0,
+			"naziv": "Pažljivo šlicevanje zida od opeke za prolaz vodovodnih cevi.",
+			"opis": "Pažljiva demontaža parketa zajedno sa lajsnama. Parket i lajsne pažljivo demontirati, očistiti, složiti po vrsti, upakovati, utovariti u kamion i odvesti na deponiju koju odredi investitor udaljenu do 15 km.Šut prikupiti, izneti, utovariti na kamion i odvesti na gradsku deponiju.",
+			"obracun": "Obračun po m1 šlica.",
+			"varijanta": [
+				{
+					"opis": "Od opeke. ",
+					"jedinica": "Kom",
+					"cena": 2.5
+				},
+				{
+					"opis": "Od kamena.",
+					"jedinica": "Kom",
+					"cena": 7.5
+				}
+			],
+			"slug": ""
+		},
+		"3": {
+			"id": 3,
+			"naziv": "Novi podatak u bazi.",
+			"opis": "Opis iz baze novov.",
+			"obracun": "Obračun po m1 šlica.",
+			"varijanta": [
+				{
+					"opis": "",
+					"jedinica": "m2",
+					"cena": 17.5
+				}
+			],
+			"slug": ""
+		}
+	}
+}
