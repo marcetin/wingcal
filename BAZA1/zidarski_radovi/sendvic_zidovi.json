@@ -1,0 +1,15 @@
+{
+	"id": "1",
+	"slug": "sendvic-zidovi",
+	"elementi": {
+		"0": {
+			"id": 0,
+			"naziv": "",
+			"opis": "",
+			"obracun": "",
+			"jedinica": "",
+			"cena": 0,
+			"slug": ""
+		}
+	}
+}

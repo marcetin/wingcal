@@ -50,6 +50,7 @@ type WingCal struct {
 	EditabilnaPoljaVrsteRadova map[int]*model.EditabilnaPoljaVrsteRadova
 	Materijal                  map[int]*model.WingMaterijal
 	Radovi                     model.WingVrstaRadova
+	Putanja                    []*model.WingVrstaRadova
 	IzbornikRadova             *model.WingVrstaRadova
 	Transfered                 model.WingCalGrupaRadova
 	Db                         *db.DuoUIdb

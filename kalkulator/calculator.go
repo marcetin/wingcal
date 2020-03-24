@@ -21,6 +21,9 @@ var (
 	materijalList = &layout.List{
 		Axis: layout.Vertical,
 	}
+	putanjaList = &layout.List{
+		Axis: layout.Horizontal,
+	}
 )
 
 type DuoCMSadmin struct {
@@ -87,6 +90,12 @@ func header(w *calc.WingCal) func() {
 					w.Strana = "materijal"
 				}
 				btnMaterijal.Layout(w.Context, materijalDugme)
+			},
+			func() {
+				putanjaList.Layout(w.Context, len(w.Putanja), func(i int) {
+					w.Tema.Caption(w.Putanja[i].Naziv).Layout(w.Context)
+				})
+
 			},
 		}
 		headerMenuList.Layout(w.Context, len(headerMenu), func(i int) {

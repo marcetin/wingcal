@@ -1,0 +1,106 @@
+{
+	"id": 1,
+	"naziv":  "PRIPREMNO ZAVRŠNI RADOVI",
+	"opis": "",
+	"obracun": "",
+	"jedinica": "",
+	"cena": 0,
+	"slug": "pripremno_zavrsni_radovi",
+	"Omogucen": false,
+	"Baza": false,
+	"Element": false,
+	"Roditelj": null,
+	"PodvrsteRadova": {
+		"0": {
+			"id": 1,
+			"naziv": "Dozvole",
+			"slug": "dozvole",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"1": {
+			"id": 2,
+			"naziv": "Priključci",
+			"slug": "prikljucci",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"2": {
+			"id": 3,
+			"naziv": "Saglasnosti",
+			"slug": "saglasnosti",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"3": {
+			"id": 4,
+			"naziv": "Priprema gradilišta",
+			"slug": "priprema_gradilista",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"4": {
+			"id": 5,
+			"naziv": "Skele",
+			"slug": "skele",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"5": {
+			"id": 6,
+			"naziv": "Ograde",
+			"slug": "ograde",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"6": {
+			"id": 7,
+			"naziv": "Nadstrešnice",
+			"slug": "nadstresnice",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"7": {
+			"id": 8,
+			"naziv": "Signalizacija",
+			"slug": "signalizacija",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"8": {
+			"id": 9,
+			"naziv": "Zaštite",
+			"slug": "zastite",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"9": {
+			"id": 10,
+			"naziv": "Čišćenja",
+			"slug": "ciscenja",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"10": {
+			"id": 11,
+			"naziv": "Pranja",
+			"slug": "pranja",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"11": {
+			"id": 12,
+			"naziv": "Šut",
+			"slug": "sut",
+			"Omogucen": false,
+			"Baza": true
+		},
+		"12": {
+			"id": 13,
+			"naziv": "Ostali pripremno završni radovi",
+			"slug": "ostali_pripremno_zavrsni_radovi",
+			"Omogucen": false,
+			"Baza": true
+		}
+	}
+}

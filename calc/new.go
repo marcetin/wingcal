@@ -20,7 +20,7 @@ func NewWingCal() *WingCal {
 		),
 		Tema:             gelook.NewDuoUItheme(),
 		Strana:           "kalkulator",
-		Db:               db.DuoUIdbInit("./../BAZA"),
+		Db:               db.DuoUIdbInit("./BAZA"),
 		PrikazaniElement: &model.WingVrstaRadova{},
 		Suma: &model.WingIzabraniElementi{
 			UkupanNeophodanMaterijal: map[int]model.WingNeophodanMaterijal{},
@@ -36,6 +36,7 @@ func NewWingCal() *WingCal {
 		Element:        false,
 		PodvrsteRadova: wing.Db.DbReadAll("radovi"),
 	}
+	wing.Putanja = append(wing.Putanja, &wing.Radovi)
 	return wing
 }
 

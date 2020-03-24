@@ -33,6 +33,7 @@ func (w *WingCal) IzborVrsteRadova() func() {
 									btn.CornerRadius = 0
 									btn.Align = layout.W
 									for w.LinkoviIzboraVrsteRadova[i].Clicked(w.Context) {
+										w.Putanja = append(w.Putanja, &vrstarada)
 
 										if vrstarada.Baza {
 											elementi := w.Db.DbRead(w.IzbornikRadova.Slug, vrstarada.Slug)
@@ -57,15 +58,16 @@ func (w *WingCal) IzborVrsteRadova() func() {
 
 func (w *WingCal) Nazad() func() {
 	return func() {
-		if w.IzbornikRadova.Roditelj != nil {
+		if len(w.Putanja) > 0 {
 			btnNazad := w.Tema.Button("NAZAD")
 			btnNazad.Background = w.Tema.Colors["Secondary"]
 			for nazadDugme.Clicked(w.Context) {
-				w.GenerisanjeLinkova(w.IzbornikRadova.Roditelj.PodvrsteRadova)
+				w.IzbornikRadova = w.Putanja[len(w.Putanja)-1]
+				w.GenerisanjeLinkova(w.Putanja[len(w.Putanja)-1].PodvrsteRadova)
+				w.Putanja = w.Putanja[:len(w.Putanja)-1]
 				w.Roditelj()
-				w.IzbornikRadova = w.IzbornikRadova.Roditelj
 				fmt.Println("IzbornikroditeL::" + w.IzbornikRadova.Slug)
-				fmt.Println("roditeL::" + w.IzbornikRadova.Roditelj.Slug)
+				//fmt.Println("roditeL::" + w.IzbornikRadova.Roditelj.Slug)
 			}
 			btnNazad.Layout(w.Context, nazadDugme)
 		}
