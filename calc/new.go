@@ -36,25 +36,36 @@ func NewWingCal() *WingCal {
 		Element:        false,
 		PodvrsteRadova: wing.Db.DbReadAll("radovi"),
 	}
+
+	wing.EditPolja = &model.EditabilnaPoljaVrsteRadova{
+		Id:       new(gel.Editor),
+		Naziv:    new(gel.Editor),
+		Opis:     new(gel.Editor),
+		Obracun:  new(gel.Editor),
+		Jedinica: new(gel.Editor),
+		Cena:     new(gel.Editor),
+		Slug:     new(gel.Editor),
+		Omogucen: new(gel.CheckBox),
+	}
+
 	wing.Putanja = append(wing.Putanja, &wing.Radovi)
 	return wing
 }
 
-func (w *WingCal) GenerisanjeEdita(radovi map[int]model.WingVrstaRadova) {
-	w.EditabilnaPoljaVrsteRadova = make(map[int]*model.EditabilnaPoljaVrsteRadova)
-	for rad, _ := range radovi {
-		w.EditabilnaPoljaVrsteRadova[rad] = &model.EditabilnaPoljaVrsteRadova{
-			Id:    new(gel.Editor),
-			Naziv: new(gel.Editor),
-			Opis: &gel.Editor{
-				SingleLine: false,
-			},
-			Obracun:  new(gel.Editor),
-			Jedinica: new(gel.Editor),
-			Cena:     new(gel.Editor),
-			Slug:     new(gel.Editor),
-			Omogucen: new(gel.CheckBox),
-		}
+func (w *WingCal) GenerisanjeEdita() (edit *model.EditabilnaPoljaVrsteRadova) {
+	//w.EditabilnaPoljaVrsteRadova = make(map[int]*model.EditabilnaPoljaVrsteRadova)
+	//for rad, _ := range radovi {
+	//	w.EditabilnaPoljaVrsteRadova[rad] =
+	return &model.EditabilnaPoljaVrsteRadova{
+		Id:    new(gel.Editor),
+		Naziv: new(gel.Editor),
+		Opis: &gel.Editor{
+			SingleLine: false,
+		},
+		Obracun:  new(gel.Editor),
+		Jedinica: new(gel.Editor),
+		Cena:     new(gel.Editor),
+		Slug:     new(gel.Editor),
+		Omogucen: new(gel.CheckBox),
 	}
-	return
 }

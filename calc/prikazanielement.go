@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"gioui.org/layout"
 	"github.com/marcetin/wingcal/model"
+	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 func (w *WingCal) PrikazaniElementIzgled() func() {
@@ -12,12 +13,12 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 			Axis: layout.Vertical,
 		}.Layout(w.Context,
 			layout.Rigid(func() {
-				w.Tema.DuoUIitem(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.W, func() {
+				w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.W, func() {
 					w.Tema.H5(w.PrikazaniElement.Naziv).Layout(w.Context)
 				})
 			}),
 			layout.Flexed(1, func() {
-				w.Tema.DuoUIitem(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.NW, func() {
+				w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.NW, func() {
 					//sumaCena := 111.33
 					layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 						layout.Rigid(func() {
@@ -26,7 +27,7 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 						layout.Rigid(func() {
 							w.Tema.Caption(w.PrikazaniElement.Obracun).Layout(w.Context)
 						}),
-						layout.Rigid(w.Tema.DuoUIline(w.Context, 32, "Dark")),
+						layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 32, "Dark")),
 
 						layout.Rigid(func() {
 							w.Tema.H6("Neophodan materijal za izvrsenje radova").Layout(w.Context)
@@ -36,7 +37,7 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 				})
 			}),
 			layout.Rigid(func() {
-				w.Tema.DuoUIitem(0, w.Tema.Colors["Gray"]).Layout(w.Context, layout.NW, func() {
+				w.Tema.DuoUIcontainer(0, w.Tema.Colors["Gray"]).Layout(w.Context, layout.NW, func() {
 					sumaCena := float64(kolicina.Value) * w.PrikazaniElement.Cena
 
 					layout.Flex{
@@ -48,13 +49,13 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 								Axis: layout.Vertical,
 							}.Layout(w.Context,
 								layout.Rigid(func() {
-									w.Tema.DuoUIitem(8, w.Tema.Colors["Primary"]).Layout(w.Context, layout.NW, func() {
+									w.Tema.DuoUIcontainer(8, w.Tema.Colors["Primary"]).Layout(w.Context, layout.NW, func() {
 										w.Tema.H6("Cena:" + fmt.Sprint(w.PrikazaniElement.Cena)).Layout(w.Context)
 									})
 								}),
-								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, "Dark")),
+								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 0, "Dark")),
 								layout.Rigid(func() {
-									w.Tema.DuoUIitem(8, w.Tema.Colors["Primary"]).Layout(w.Context, layout.NW, func() {
+									w.Tema.DuoUIcontainer(8, w.Tema.Colors["Primary"]).Layout(w.Context, layout.NW, func() {
 										w.Tema.H6("Suma:" + fmt.Sprint(sumaCena)).Layout(w.Context)
 									})
 								}),
@@ -71,7 +72,7 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 									btn := w.Tema.Button("DODAJ")
 									//btn.FullWidth = true
 									//btn.FullHeight = true
-									btn.Background = w.Tema.Colors["Secondary"]
+									btn.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
 									suma := model.WingIzabraniElement{
 										Kolicina: kolicina.Value,
 										SumaCena: sumaCena,

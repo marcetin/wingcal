@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/p9c/cms/cmd/gui/helpers"
+	"github.com/p9c/pod/cmd/gui/helpers"
 	"image/color"
 
 	"gioui.org/layout"

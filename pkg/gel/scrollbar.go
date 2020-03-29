@@ -14,51 +14,55 @@ func (it *item) doSlide(n int) {
 }
 
 type ScrollBar struct {
-	//Height       float32
-	body *ScrollBarBody
-	//up   *ScrollBarButton
-	//down *ScrollBarButton
-	BodyHeight   int
-	CursorHeight int
-	Cursor       float32
-	Position     float32
+	Size   int
+	Slider *Slider
+	Up     *Button
+	Down   *Button
 }
-type ScrollBarBody struct {
-	pressed      bool
+
+type Slider struct {
 	Do           func(interface{})
 	OperateValue interface{}
+	pressed      bool
+	Position     int
+	Cursor       int
+	Height       int
+	CursorHeight int
+	//Icon         DuoUIicon
 }
 
-func (s *ScrollBar) Layout(gtx *layout.Context) {
-	s.BodyHeight = gtx.Constraints.Height.Max
-
-	//// Flush clicks from before the previous frame.
-	//b.clicks -= b.prevClicks
-	//b.prevClicks = 0
-	s.processEvents(gtx)
-	//b.click.Add(gtx.Ops)
-	//for len(b.history) > 0 {
-	//	c := b.history[0]
-	//	if gtx.Now().Sub(c.Time) < 1*time.Second {
-	//		break
-	//	}
-	//	copy(b.history, b.history[1:])
-	//	b.history = b.history[:len(b.history)-1]
-	//}
+type ScrollBarButton struct {
+	//button      DuoUIbutton
+	Height      int
+	insetTop    float32
+	insetRight  float32
+	insetBottom float32
+	insetLeft   float32
+	iconSize    int
+	iconPadding float32
 }
 
-func (s *ScrollBar) processEvents(gtx *layout.Context) {
-	for _, e := range gtx.Events(s.body) {
+func (s *Slider) Layout(gtx *layout.Context) {
+	//fmt.Println("He::", gtx.Constraints.Height.Max)
+	//fmt.Println("wi::", gtx.Constraints.Width.Max)
+
+	for _, e := range gtx.Events(s) {
 		if e, ok := e.(pointer.Event); ok {
-			s.Position = e.Position.Y - float32(s.CursorHeight/2)
+			//s.Body.Position = e.Position.Y - float32(s.CursorHeight/2)
+			if e.Position.Y > 0 {
+				s.Position = int(e.Position.Y) - (s.CursorHeight / 2)
+			}
 			switch e.Type {
 			case pointer.Press:
-				s.body.pressed = true
-				s.body.Do(s.body.OperateValue)
-				//list.Position.First = int(s.Position)
+				s.pressed = true
+				s.Do(s.OperateValue)
+				// list.Position.First = int(s.Position)
+				L.Debug("RADI PRESS")
 			case pointer.Release:
-				s.body.pressed = false
+				s.pressed = false
 			}
 		}
 	}
+	cs := gtx.Constraints
+	s.Height = cs.Height.Max
 }

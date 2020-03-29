@@ -86,7 +86,7 @@ func C() {
 					Axis: layout.Vertical,
 				}.Layout(wing.Context,
 					layout.Rigid(func() {
-						wing.Tema.DuoUIitem(0, wing.Tema.Colors["Primary"]).Layout(wing.Context, layout.Center, func() {
+						wing.Tema.DuoUIcontainer(0, wing.Tema.Colors["Primary"]).Layout(wing.Context, layout.Center, func() {
 							wing.Tema.H6("W-ing Solutions ").Layout(wing.Context)
 						})
 					}),

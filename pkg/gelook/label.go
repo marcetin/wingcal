@@ -3,12 +3,11 @@
 package gelook
 
 import (
-	"github.com/marcetin/wingcal/pkg/gel"
-
 	"gioui.org/layout"
 	"gioui.org/op/paint"
 	"gioui.org/text"
 	"gioui.org/unit"
+	"github.com/marcetin/wingcal/pkg/gel"
 )
 
 type DuoUIlabel struct {

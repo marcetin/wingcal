@@ -9,13 +9,13 @@ import (
 
 func (w *WingCal) SumaIzgled() func() {
 	return func() {
-		w.Tema.DuoUIitem(0, w.Tema.Colors["LightGrayI"]).Layout(w.Context, layout.NW, func() {
+		w.Tema.DuoUIcontainer(0, w.Tema.Colors["LightGrayI"]).Layout(w.Context, layout.NW, func() {
 			var sumaSumarum float64
 			layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 				layout.Flexed(0.5, func() {
 					layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 						layout.Rigid(func() {
-							ukupan := w.Tema.DuoUIitem(16, w.Tema.Colors["Primary"])
+							ukupan := w.Tema.DuoUIcontainer(16, w.Tema.Colors["Primary"])
 							ukupan.FullWidth = true
 							ukupan.Layout(w.Context, layout.W, func() {
 								suma := w.Tema.H5("Ukupna cena radova")
@@ -56,7 +56,7 @@ func (w *WingCal) SumaIzgled() func() {
 				layout.Flexed(0.5, func() {
 					layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 						layout.Rigid(func() {
-							ukupan := w.Tema.DuoUIitem(16, w.Tema.Colors["Primary"])
+							ukupan := w.Tema.DuoUIcontainer(16, w.Tema.Colors["Primary"])
 							ukupan.FullWidth = true
 							ukupan.Layout(w.Context, layout.W, func() {
 								suma := w.Tema.H5("Ukupan neophdni materijal")

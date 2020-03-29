@@ -6,11 +6,10 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/marcetin/wingcal/pkg/gelook/ico"
-
 	"gioui.org/f32"
 	"gioui.org/layout"
 	"gioui.org/op/paint"
+	"github.com/marcetin/wingcal/pkg/gelook/ico"
 	"golang.org/x/exp/shiny/materialdesign/icons"
 )
 
@@ -23,6 +22,9 @@ func NewDuoUIicons() (i map[string]*DuoUIicon) {
 	i["iconCancel"] = mustIcon(NewDuoUIicon(icons.NavigationCancel))
 	i["iconOK"] = mustIcon(NewDuoUIicon(icons.NavigationCheck))
 	i["iconClose"] = mustIcon(NewDuoUIicon(icons.NavigationClose))
+	i["foldIn"] = mustIcon(NewDuoUIicon(icons.ContentRemove))
+	i["minimize"] = mustIcon(NewDuoUIicon(icons.NavigationExpandMore))
+	i["zoom"] = mustIcon(NewDuoUIicon(icons.NavigationExpandLess))
 	i["logo"] = mustIcon(NewDuoUIicon(ico.ParallelCoin))
 	i["overviewIcon"] = mustIcon(NewDuoUIicon(icons.ActionHome))
 	i["sendIcon"] = mustIcon(NewDuoUIicon(icons.ActionStarRate))
@@ -57,10 +59,14 @@ func NewDuoUIicons() (i map[string]*DuoUIicon) {
 	i["DeviceSignalCellular0Bar"] = mustIcon(NewDuoUIicon(icons.DeviceSignalCellular0Bar))
 	i["HardwareWatch"] = mustIcon(NewDuoUIicon(icons.HardwareWatch))
 	i["EditorMonetizationOn"] = mustIcon(NewDuoUIicon(icons.EditorMonetizationOn))
-
-	i["iconGrab"] = mustIcon(NewDuoUIicon(icons.NavigationMenu))
-	i["iconUp"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropUp))
-	i["iconDown"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropDown))
+	i["Run"] = mustIcon(NewDuoUIicon(icons.AVPlayArrow))
+	i["Stop"] = mustIcon(NewDuoUIicon(icons.AVStop))
+	i["Pause"] = mustIcon(NewDuoUIicon(icons.AVPause))
+	i["Kill"] = mustIcon(NewDuoUIicon(icons.NavigationCancel))
+	i["Restart"] = mustIcon(NewDuoUIicon(icons.NavigationRefresh))
+	i["Grab"] = mustIcon(NewDuoUIicon(icons.NavigationMenu))
+	i["Up"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropUp))
+	i["Down"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropDown))
 	return i
 }
 

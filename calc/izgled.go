@@ -5,6 +5,12 @@ import (
 	"gioui.org/layout"
 	"gioui.org/unit"
 	"github.com/marcetin/wingcal/model"
+	"github.com/marcetin/wingcal/pkg/gel"
+	"github.com/marcetin/wingcal/pkg/gelook"
+)
+
+var (
+	IzborVrsteRadovaPanelElement = gel.NewPanel()
 )
 
 func (w *WingCal) IzborVrsteRadova() func() {
@@ -13,12 +19,20 @@ func (w *WingCal) IzborVrsteRadova() func() {
 		//w.Context.Constraints.Width.Min = 300
 		//w.Context.Constraints.Width.Max = 300
 		//}
-		w.Tema.DuoUIitem(0, w.Tema.Colors["DarkGrayI"]).Layout(w.Context, layout.W, func() {
+		w.Tema.DuoUIcontainer(0, w.Tema.Colors["DarkGrayI"]).Layout(w.Context, layout.W, func() {
 			layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 				layout.Rigid(w.NazivRoditelja()),
 				layout.Rigid(w.Nazad()),
 				layout.Flexed(1, func() {
-					izbornikRadova.Layout(w.Context, len(w.IzbornikRadova.PodvrsteRadova), func(i int) {
+
+					IzborVrsteRadovaPanelElement.PanelObject = w.IzbornikRadova.PodvrsteRadova
+					IzborVrsteRadovaPanelElement.PanelObjectsNumber = len(w.IzbornikRadova.PodvrsteRadova)
+					izborVrsteRadovaPanel := w.Tema.DuoUIpanel()
+					izborVrsteRadovaPanel.ScrollBar = w.Tema.ScrollBar()
+					izborVrsteRadovaPanel.Layout(w.Context, IzborVrsteRadovaPanelElement, func(i int, in interface{}) {
+						//if in != nil {
+						//addresses := in.([]model.DuoUIaddress)
+
 						//*w.IzbornikRadova.Izbor.PodvrsteRadova[i].Roditelj =w.IzbornikRadova.Izbor
 						vrstarada := w.IzbornikRadova.PodvrsteRadova[i]
 						//if vrstarada.Element && vrstarada.NeophodanMaterijal != nil  {
@@ -28,10 +42,10 @@ func (w *WingCal) IzborVrsteRadova() func() {
 								layout.Rigid(func() {
 
 									btn := w.Tema.Button(vrstarada.Naziv)
-									btn.FullWidth = true
-									btn.Background = w.Tema.Colors["Gray"]
-									btn.CornerRadius = 0
-									btn.Align = layout.W
+									//btn.FullWidth = true
+									btn.Background = gelook.HexARGB(w.Tema.Colors["Gray"])
+									//btn.CornerRadius = 0
+									//btn.Align = layout.W
 									for w.LinkoviIzboraVrsteRadova[i].Clicked(w.Context) {
 										w.Putanja = append(w.Putanja, &vrstarada)
 
@@ -42,11 +56,19 @@ func (w *WingCal) IzborVrsteRadova() func() {
 										}
 										//if vrstarada.PodvrsteRadova != nil {
 										w.Podvrsta(&vrstarada)
+
+										w.EditPolja.Id.SetText(fmt.Sprint(w.PrikazaniElement.Id))
+										w.EditPolja.Naziv.SetText(w.PrikazaniElement.Naziv)
+										w.EditPolja.Opis.SetText(w.PrikazaniElement.Opis)
+										w.EditPolja.Obracun.SetText(w.PrikazaniElement.Obracun)
+										w.EditPolja.Jedinica.SetText(fmt.Sprint(w.PrikazaniElement.Jedinica))
+										w.EditPolja.Cena.SetText(fmt.Sprint(w.PrikazaniElement.Cena))
+
 										//}
 									}
 									btn.Layout(w.Context, w.LinkoviIzboraVrsteRadova[i])
 								}),
-								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, "Dark")),
+								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 0, "Dark")),
 							)
 						})
 						//}
@@ -60,7 +82,7 @@ func (w *WingCal) Nazad() func() {
 	return func() {
 		if len(w.Putanja) > 0 {
 			btnNazad := w.Tema.Button("NAZAD")
-			btnNazad.Background = w.Tema.Colors["Secondary"]
+			btnNazad.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
 			for nazadDugme.Clicked(w.Context) {
 				w.IzbornikRadova = w.Putanja[len(w.Putanja)-1]
 				w.GenerisanjeLinkova(w.Putanja[len(w.Putanja)-1].PodvrsteRadova)
@@ -115,7 +137,7 @@ func (w *WingCal) NeophodanMaterijal(l *layout.List, n map[int]model.WingNeophod
 						}),
 					)
 				}),
-				layout.Rigid(w.Tema.DuoUIline(w.Context, 8, "Gray")),
+				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 8, "Gray")),
 			)
 		})
 	}

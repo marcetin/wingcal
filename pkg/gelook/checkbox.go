@@ -6,6 +6,7 @@ import (
 	"gioui.org/layout"
 	"gioui.org/text"
 	"gioui.org/unit"
+
 	"github.com/marcetin/wingcal/pkg/gel"
 )
 

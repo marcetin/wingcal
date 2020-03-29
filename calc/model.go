@@ -41,20 +41,21 @@ var (
 )
 
 type WingCal struct {
-	Naziv                      string
-	Window                     *app.Window
-	Context                    *layout.Context
-	Tema                       *gelook.DuoUItheme
-	Strana                     string
-	LinkoviIzboraVrsteRadova   map[int]*gel.Button
-	EditabilnaPoljaVrsteRadova map[int]*model.EditabilnaPoljaVrsteRadova
-	Materijal                  map[int]*model.WingMaterijal
-	Radovi                     model.WingVrstaRadova
-	Putanja                    []*model.WingVrstaRadova
-	IzbornikRadova             *model.WingVrstaRadova
-	Transfered                 model.WingCalGrupaRadova
-	Db                         *db.DuoUIdb
-	Client                     *model.Client
-	PrikazaniElement           *model.WingVrstaRadova
-	Suma                       *model.WingIzabraniElementi
+	Naziv                    string
+	Window                   *app.Window
+	Context                  *layout.Context
+	Tema                     *gelook.DuoUItheme
+	Strana                   string
+	Edit                     bool
+	LinkoviIzboraVrsteRadova map[int]*gel.Button
+	EditPolja                *model.EditabilnaPoljaVrsteRadova
+	Materijal                map[int]*model.WingMaterijal
+	Radovi                   model.WingVrstaRadova
+	Putanja                  []*model.WingVrstaRadova
+	IzbornikRadova           *model.WingVrstaRadova
+	Transfered               model.WingCalGrupaRadova
+	Db                       *db.DuoUIdb
+	Client                   *model.Client
+	PrikazaniElement         *model.WingVrstaRadova
+	Suma                     *model.WingIzabraniElementi
 }

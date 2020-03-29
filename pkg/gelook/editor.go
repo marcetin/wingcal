@@ -5,13 +5,12 @@ package gelook
 import (
 	"image/color"
 
-	"github.com/marcetin/wingcal/pkg/gel"
-
 	"gioui.org/layout"
 	"gioui.org/op"
 	"gioui.org/op/paint"
 	"gioui.org/text"
 	"gioui.org/unit"
+	"github.com/marcetin/wingcal/pkg/gel"
 )
 
 type DuoUIeditor struct {
