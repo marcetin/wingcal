@@ -227,5 +227,6 @@ func (w *WingCal) NewMaterijal() {
 			Slug:      "lepak_za_kamen_sivi",
 		},
 	}
+
 	return
 }

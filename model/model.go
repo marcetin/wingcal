@@ -77,12 +77,13 @@ type WingCalEcommand struct {
 	Data     interface{} `json:"data"`
 }
 type EditabilnaPoljaVrsteRadova struct {
-	Id       *gel.Editor
-	Naziv    *gel.Editor
-	Opis     *gel.Editor
-	Obracun  *gel.Editor
-	Jedinica *gel.Editor
-	Cena     *gel.Editor
-	Slug     *gel.Editor
-	Omogucen *gel.CheckBox
+	Id        *gel.Editor
+	Naziv     *gel.Editor
+	Opis      *gel.Editor
+	Obracun   *gel.Editor
+	Jedinica  *gel.Editor
+	Cena      *gel.Editor
+	Slug      *gel.Editor
+	Omogucen  *gel.CheckBox
+	Materijal map[int]*gel.Editor
 }

@@ -47,7 +47,10 @@ func NewWingCal() *WingCal {
 		Slug:     new(gel.Editor),
 		Omogucen: new(gel.CheckBox),
 	}
-
+	wing.EditPolja.Materijal = make(map[int]*gel.Editor)
+	for _, materijal := range wing.Materijal {
+		wing.EditPolja.Materijal[materijal.Id] = new(gel.Editor)
+	}
 	wing.Putanja = append(wing.Putanja, &wing.Radovi)
 	return wing
 }

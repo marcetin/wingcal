@@ -64,6 +64,10 @@ func (w *WingCal) IzborVrsteRadova() func() {
 										w.EditPolja.Jedinica.SetText(fmt.Sprint(w.PrikazaniElement.Jedinica))
 										w.EditPolja.Cena.SetText(fmt.Sprint(w.PrikazaniElement.Cena))
 
+										for _, neophodanMaterijal := range w.PrikazaniElement.NeophodanMaterijal {
+											w.EditPolja.Materijal[neophodanMaterijal.Id].SetText("0")
+											w.EditPolja.Materijal[neophodanMaterijal.Id].SetText(fmt.Sprint(neophodanMaterijal.Kolicina))
+										}
 										//}
 									}
 									btn.Layout(w.Context, w.LinkoviIzboraVrsteRadova[i])
