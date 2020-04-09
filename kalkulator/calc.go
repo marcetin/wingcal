@@ -3,9 +3,9 @@ package kalkulator
 import (
 	"gioui.org/layout"
 	"gioui.org/unit"
+	"github.com/gioapp/gel"
+	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/calc"
-	"github.com/marcetin/wingcal/pkg/gel"
-	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 var (
@@ -15,6 +15,7 @@ var (
 	stampajDugme    = new(gel.Button)
 	kalkulatorDugme = new(gel.Button)
 	materijalDugme  = new(gel.Button)
+	projekatDugme   = new(gel.Button)
 	editorDugme     = new(gel.Button)
 	headerMenuList  = &layout.List{
 		Axis: layout.Horizontal,
@@ -69,6 +70,8 @@ func strana(w *calc.WingCal) (s func()) {
 		s = material(w)
 	case "kalkulator":
 		s = kalkulator(w)
+	case "projekat":
+		s = projekat(w)
 	}
 	return
 }
@@ -105,6 +108,14 @@ func header(w *calc.WingCal) func() {
 					w.Strana = "materijal"
 				}
 				btnMaterijal.Layout(w.Context, materijalDugme)
+			},
+			func() {
+				btnMaterijal := w.Tema.Button("PROJEKAT")
+				btnMaterijal.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
+				for projekatDugme.Clicked(w.Context) {
+					w.Strana = "projekat"
+				}
+				btnMaterijal.Layout(w.Context, projekatDugme)
 			},
 			func() {
 				putanjaList.Layout(w.Context, len(w.Putanja), func(i int) {

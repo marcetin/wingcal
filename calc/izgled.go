@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"gioui.org/layout"
 	"gioui.org/unit"
+	"github.com/gioapp/gel"
+	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/model"
-	"github.com/marcetin/wingcal/pkg/gel"
-	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 var (
@@ -28,7 +28,7 @@ func (w *WingCal) IzborVrsteRadova() func() {
 					IzborVrsteRadovaPanelElement.PanelObject = w.IzbornikRadova.PodvrsteRadova
 					IzborVrsteRadovaPanelElement.PanelObjectsNumber = len(w.IzbornikRadova.PodvrsteRadova)
 					izborVrsteRadovaPanel := w.Tema.DuoUIpanel()
-					izborVrsteRadovaPanel.ScrollBar = w.Tema.ScrollBar()
+					izborVrsteRadovaPanel.ScrollBar = w.Tema.ScrollBar(0)
 					izborVrsteRadovaPanel.Layout(w.Context, IzborVrsteRadovaPanelElement, func(i int, in interface{}) {
 						//if in != nil {
 						//addresses := in.([]model.DuoUIaddress)

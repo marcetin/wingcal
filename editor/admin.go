@@ -5,9 +5,9 @@ import (
 	"gioui.org/layout"
 	"gioui.org/text"
 	"gioui.org/unit"
+	"github.com/gioapp/gel"
+	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/calc"
-	"github.com/marcetin/wingcal/pkg/gel"
-	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 var (

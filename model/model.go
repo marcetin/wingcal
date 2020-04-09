@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/marcetin/wingcal/pkg/gel"
+	"github.com/gioapp/gel"
 	"net"
 )
 

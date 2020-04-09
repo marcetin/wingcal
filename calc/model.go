@@ -4,10 +4,10 @@ import (
 	"gioui.org/app"
 	"gioui.org/layout"
 	"gioui.org/text"
+	"github.com/gioapp/gel"
+	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/db"
 	"github.com/marcetin/wingcal/model"
-	"github.com/marcetin/wingcal/pkg/gel"
-	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 var (

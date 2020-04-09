@@ -3,8 +3,8 @@ package calc
 import (
 	"gioui.org/layout"
 	"gioui.org/unit"
-	"github.com/marcetin/wingcal/pkg/gel"
-	"github.com/marcetin/wingcal/pkg/gelook"
+	"github.com/gioapp/gel"
+	"github.com/gioapp/gelook"
 )
 
 var (
@@ -57,7 +57,7 @@ func (w *WingCal) EditorElementaIzgled() func() {
 									materijalElementaPanelElement.PanelObject = w.Materijal
 									materijalElementaPanelElement.PanelObjectsNumber = len(w.Materijal)
 									materijalElementaPanel := w.Tema.DuoUIpanel()
-									materijalElementaPanel.ScrollBar = w.Tema.ScrollBar()
+									materijalElementaPanel.ScrollBar = w.Tema.ScrollBar(0)
 									materijalElementaPanel.Layout(w.Context, materijalElementaPanelElement, func(i int, in interface{}) {
 										//if in != nil {
 										//addresses := in.([]model.DuoUIaddress)
@@ -102,7 +102,9 @@ func Editor(gtx *layout.Context, th *gelook.DuoUItheme, editorControler *gel.Edi
 			}),
 			layout.Rigid(func() {
 				th.DuoUIcontainer(8, "ffffffff").Layout(gtx, layout.NW, func() {
-					e := th.DuoUIeditor(label)
+					//width := gtx.Constraints.Width.Max
+					width := 555
+					e := th.DuoUIeditor(label, "", "", width)
 					e.Font.Typeface = th.Fonts["Mono"]
 					e.TextSize = unit.Dp(12)
 					layout.UniformInset(unit.Dp(4)).Layout(gtx, func() {

@@ -3,8 +3,8 @@ package calc
 import (
 	"fmt"
 	"gioui.org/layout"
+	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/model"
-	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 func (w *WingCal) PrikazaniElementIzgled() func() {
