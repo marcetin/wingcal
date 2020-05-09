@@ -42,6 +42,7 @@ func (w *WingCal) IzborVrsteRadova() func() {
 								layout.Rigid(func() {
 
 									btn := w.Tema.Button(vrstarada.Naziv)
+									btn.CornerRadius = unit.Dp(0)
 									//btn.FullWidth = true
 									btn.Background = gelook.HexARGB(w.Tema.Colors["Gray"])
 									//btn.CornerRadius = 0

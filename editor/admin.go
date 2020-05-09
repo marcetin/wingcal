@@ -20,10 +20,9 @@ var (
 	thingEditTitle   = new(gel.Editor)
 	thingEditContent = new(gel.Editor)
 	//post             = new(model.DuoCMSpost)
-	dodajDugme   = new(gel.Button)
-	stampajDugme = new(gel.Button)
-	nazadDugme   = new(gel.Button)
-	kolicina     = &gel.DuoUIcounter{
+	dodajDugme = new(gel.Button)
+	nazadDugme = new(gel.Button)
+	kolicina   = &gel.DuoUIcounter{
 		Value:        1,
 		OperateValue: 1,
 		From:         1,

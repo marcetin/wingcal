@@ -5,6 +5,12 @@ import (
 	"gioui.org/layout"
 	"gioui.org/text"
 	"gioui.org/unit"
+	"github.com/gioapp/gel"
+	"github.com/jung-kurt/gofpdf"
+)
+
+var (
+	stampajDugme = new(gel.Button)
 )
 
 func (w *WingCal) SumaIzgled() func() {
@@ -65,35 +71,32 @@ func (w *WingCal) SumaIzgled() func() {
 							})
 						}),
 						layout.Flexed(1, w.NeophodanMaterijal(ukupanNeophodanMaterijalList, w.Suma.UkupanNeophodanMaterijal)),
-						layout.Rigid(func() {}),
-					)
-				}),
 
-				//layout.Rigid(func() {
-				//
-				//	btn := w.Tema.Button("Stampaj")
-				//
-				//	for stampajDugme.Clicked(w.Context) {
-				//
-				//		pdf := gofpdf.New("P", "mm", "A4", "")
-				//		pdf.AddPage()
-				//		pdf.SetFont("Arial", "B", 12)
-				//		for _, e := range w.Suma.Elementi {
-				//			pdf.Cell(40, 10, e.Element.Naziv)
-				//			pdf.Cell(40, 10, fmt.Sprint(e.Kolicina))
-				//			pdf.Cell(40, 10, fmt.Sprint(e.SumaCena))
-				//			pdf.Ln(8)
-				//		}
-				//		err := pdf.OutputFileAndClose("nalog.pdf")
-				//		if err != nil {
-				//
-				//		}
-				//	}
-				//
-				//	btn.Layout(w.Context, stampajDugme)
-				//
-				//}),
+						layout.Rigid(w.Stampa()))
+				}),
 			)
 		})
+	}
+}
+
+func (w *WingCal) Stampa() func() {
+	return func() {
+
+		btn := w.Tema.Button("Stampaj")
+		for stampajDugme.Clicked(w.Context) {
+			pdf := gofpdf.New("P", "mm", "A4", "")
+			pdf.AddPage()
+			pdf.SetFont("Arial", "B", 12)
+			for _, e := range w.Suma.Elementi {
+				pdf.Cell(40, 10, e.Element.Naziv)
+				pdf.Cell(40, 10, fmt.Sprint(e.Kolicina))
+				pdf.Cell(40, 10, fmt.Sprint(e.SumaCena))
+				pdf.Ln(8)
+			}
+			err := pdf.OutputFileAndClose("nalog.pdf")
+			if err != nil {
+			}
+		}
+		btn.Layout(w.Context, stampajDugme)
 	}
 }

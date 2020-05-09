@@ -6,8 +6,6 @@ import (
 	"image"
 	"image/color"
 
-	"github.com/marcetin/wingcal/pkg/gelook/ico"
-
 	"gioui.org/f32"
 	"gioui.org/layout"
 	"gioui.org/op/paint"

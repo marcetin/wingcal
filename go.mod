@@ -11,6 +11,7 @@ require (
 	github.com/gioapp/gelook v0.0.0-20200409222352-89e6beb344a9
 	github.com/gorilla/mux v1.7.4
 	github.com/jcelliott/lumber v0.0.0-20160324203708-dd349441af25 // indirect
+	github.com/jung-kurt/gofpdf v1.16.2
 	github.com/nanobox-io/golang-scribble v0.0.0-20190309225732-aa3e7c118975
 	github.com/p9c/cms v0.0.0-20200311052948-c621afb2fbc8
 	github.com/p9c/logi v0.0.17
