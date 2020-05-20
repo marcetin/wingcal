@@ -41,6 +41,30 @@ func material(w *calc.WingCal) func() {
 						}),
 					)
 				}),
+
+				layout.Rigid(func() {
+					layout.Flex{
+						Axis: layout.Horizontal,
+					}.Layout(w.Context,
+						layout.Flexed(0.4, func() {
+							w.Tema.Body1(m.NacinRada).Layout(w.Context)
+						}),
+
+						layout.Flexed(0.2, func() {
+							w.Tema.Caption(m.OsobineNamena).Layout(w.Context)
+						}),
+
+						layout.Flexed(0.1, func() {
+							w.Tema.H6(fmt.Sprint(m.Potrosnja)).Layout(w.Context)
+						}),
+						layout.Flexed(0.1, func() {
+							w.Tema.H6(m.JedinicaPotrosnje).Layout(w.Context)
+						}),
+						layout.Flexed(0.2, func() {
+							w.Tema.H6(m.RokUpotrebe).Layout(w.Context)
+						}),
+					)
+				}),
 				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 4, "Dark")),
 			)
 		})

@@ -6,7 +6,6 @@ import (
 	"gioui.org/text"
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
-	"github.com/jung-kurt/gofpdf"
 )
 
 var (
@@ -84,18 +83,53 @@ func (w *WingCal) Stampa() func() {
 
 		btn := w.Tema.Button("Stampaj")
 		for stampajDugme.Clicked(w.Context) {
-			pdf := gofpdf.New("P", "mm", "A4", "")
-			pdf.AddPage()
-			pdf.SetFont("Arial", "B", 12)
-			for _, e := range w.Suma.Elementi {
-				pdf.Cell(40, 10, e.Element.Naziv)
-				pdf.Cell(40, 10, fmt.Sprint(e.Kolicina))
-				pdf.Cell(40, 10, fmt.Sprint(e.SumaCena))
-				pdf.Ln(8)
-			}
-			err := pdf.OutputFileAndClose("nalog.pdf")
-			if err != nil {
-			}
+			//	pdf := gofpdf.New("P", "mm", "A4", "")
+			//	pdf.AddPage()
+			//	pdf.SetFont("Arial", "B", 12)
+			//	for _, e := range w.Suma.Elementi {
+			//		pdf.Cell(40, 10, e.Element.Naziv)
+			//		pdf.Ln(8)
+			//		pdf.Cell(40, 10, "Jedinicna cena")
+			//		pdf.Cell(40, 10, fmt.Sprint(e.Element.Cena))
+			//		pdf.Cell(40, 10, "Jedinicna cena")
+			//		pdf.Ln(8)
+			//		pdf.Cell(40, 10, "Kolicina")
+			//		pdf.Cell(40, 10, fmt.Sprint(e.Kolicina))
+			//		pdf.Cell(40, 10, e.Element.Jedinica)
+			//		pdf.Cell(40, 10, "Cena suma:")
+			//		pdf.Cell(40, 10, fmt.Sprint(e.SumaCena))
+			//		pdf.Ln(8)
+			//	}
+			//
+			//	pdf.Ln(16)
+			//	pdf.Cell(40, 10, "UkupanNeophodanMaterijal:")
+			//
+			//
+			//	for _, e := range w.Suma.UkupanNeophodanMaterijal {
+			//		//pdf.Cell(40, 10, e.Materijal.Naziv)
+			//		pdf.Ln(8)
+			//		pdf.Cell(40, 10, "Jedinicna cena")
+			//		pdf.Cell(40, 10, fmt.Sprint(e.Materijal.Cena))
+			//		pdf.Cell(40, 10, e.Materijal.Jedinica)
+			//
+			//		pdf.Ln(8)
+			//		pdf.Cell(40, 10, "Ukupno")
+			//		pdf.Cell(40, 10, fmt.Sprint(e.UkupnoPakovanja))
+			//		pdf.Cell(40, 10, "Ukupna cena")
+			//		pdf.Cell(40, 10, fmt.Sprint(e.UkupnaCena))
+			//
+			//	}
+			//
+			//
+			//
+			//	pdf.Ln(16)
+			//	pdf.Cell(40, 10, "Suma:")
+			//	pdf.Cell(40, 10, fmt.Sprint(w.Suma.SumaCena))
+			//
+			//	err := pdf.OutputFileAndClose("nalog.pdf")
+			//	if err != nil {
+			//	}
+			fmt.Println("Sume", w.Suma.UkupanNeophodanMaterijal)
 		}
 		btn.Layout(w.Context, stampajDugme)
 	}

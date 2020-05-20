@@ -105,9 +105,9 @@ func (w *WingCal) NeophodanMaterijal(l *layout.List, n map[int]model.WingNeophod
 	return func() {
 		width := w.Context.Constraints.Width.Max
 		l.Layout(w.Context, len(n), func(i int) {
-			materijal := n[i]
+			materijal := n[i-1]
 			materijal.Materijal = w.Materijal[materijal.Id]
-			materijal.UkupnaCena = materijal.Materijal.Cena * float64(materijal.Kolicina)
+			materijal.UkupnaCena = materijal.Materijal.Cena * materijal.Materijal.Potrosnja
 			materijal.UkupnoPakovanja = materijal.Kolicina / materijal.Materijal.Pakovanje
 			w.Context.Constraints.Width.Min = width
 			layout.Flex{
