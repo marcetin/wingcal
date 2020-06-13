@@ -1,0 +1,42 @@
+{
+  "id": 15,
+  "slug": "Mobilijar",
+  "PodvrsteRadova": {
+    "0": {
+      "id": 1,
+      "naziv": "Bojenje plakara, lazurnim bojama, sa lakiranjem. - Sa lakiranjem.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 5.25,
+      "element": true
+    },
+    "1": {
+      "id": 2,
+      "naziv": "Bojenje plakara, lazurnim bojama, sa lakiranjem. - Bez lakiranja.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 41.25,
+      "element": true
+    },
+    "2": {
+      "id": 3,
+      "naziv": "Bojenje plakara.",
+      "opis": "Vrsta boje, proizvođač i ton po izboru projektanta. Izvršiti brušenje i predkitovanje uljanim kitom i prevlačenje uljanim kitom prvi put. Brusiti i prevući uljanim kitom drugi put. Brusiti i ponovo kitovati. Bojiti uljanom bojom prvi put. Po sušenju brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "3": {
+      "id": 4,
+      "naziv": "Bojenje plakara.",
+      "opis": "Vrsta boje, proizvođač i ton po izboru projektanta. Izvršiti brušenje i predkitovanje uljanim kitom i prevlačenje uljanim kitom prvi put. Brusiti i prevući uljanim kitom drugi put. Brusiti i ponovo kitovati. Bojiti uljanom bojom prvi put. Po sušenju brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    }
+  }
+}

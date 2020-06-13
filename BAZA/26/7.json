@@ -1,0 +1,105 @@
+{
+  "id": "7",
+  "slug": "Stepeništa",
+  "PodvrsteRadova": {
+    "0": {
+      "id": 1,
+      "naziv": "Skidanje boje sa stepeništa, hemijskim putem.",
+      "opis": "Postojeće slojeve boje skinuti nanošenjem hemijskog rastvarača i skidanjem slojeva boje špahtlama i odgovarajućim alatkama. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "1": {
+      "id": 2,
+      "naziv": "Skidanje boje sa stepeništa, upotrebom specijalnog fena za skidanje boje.",
+      "opis": "Postojeće slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "2": {
+      "id": 3,
+      "naziv": "Skidanje boje sa stepeništa, paljenjem.",
+      "opis": "Postojeće slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "3": {
+      "id": 4,
+      "naziv": "Čišćenje i bojenje osnovne boje, podloge stepenišne čelične konstrukcije.",
+      "opis": "Stepenišnu konstrukciju očistiti od korozije i prašine hemijskim i fizičkim sredstvima, brusiti i očistiti. Naneti impregnaciju i obojiti osnovnom bojom.",
+      "obracun": "Obračun po m2 obrađene površine.",
+      "jedinica": "m2",
+      "cena": 2.00,
+      "element": true
+    },
+    "4": {
+      "id": 5,
+      "naziv": "Bojenje stepenišne čelične konstrukcije, bojom za metal.",
+      "opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Naneti impregnaciju i obojiti osnovnom bojom. Bojiti dva puta bojom za metal.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 4.25,
+      "element": true
+    },
+    "5": {
+      "id": 6,
+      "naziv": "Bojenje novog stepeništa od drveta.",
+      "opis": "Impregnirati stepenište polifirnisom, kitovati spojeve, pukotine i čvorove. Pod prevući brusnim kitom, brusiti i nadkitovati. Stepenište b bojiti u dva puta emajl lakom, po izboru projektanta.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "6": {
+      "id": 7,
+      "naziv": "Bojenje postojećeg stepeništa od drveta, preko postojeće boje.",
+      "opis": "Pre bojenja sve površine brusiti, očistiti i kitovati spojeve, pukotine i čvorove. Prevući brusnim kitom, brusiti i nadkitovati. Stepenište bojiti u dva puta emajl lakom, po izboru projektanta.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "7": {
+      "id": 8,
+      "naziv": "Bojenje postojećeg stepeništa od drveta, sa skidanjem boje.",
+      "opis": "Postojeću boju skinuti hemijskim ili mehaničkim putem. Kitovati spojeve, pukotine i čvorove, prevući brusnim kitom, brusiti i nadkitovati. Stepenište bojiti u dva puta emajl lakom, po izboru projektanta.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 8.50,
+      "element": true
+    },
+    "8": {
+      "id": 9,
+      "naziv": "Bojenje drvenog stepeništa, lazurnim bojama, sa lakiranjem.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "9": {
+      "id": 10,
+      "naziv": "Bojenje drvenog stepeništa, lazurnim bojama.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom i bojiti po treći put.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 4.25,
+      "element": true
+    },
+    "10": {
+      "id": 11,
+      "naziv": "Lakiranje stepeništa, prethodno obrađeno lazurnom bojom, sadolinom ili sličnim sredstvom.",
+      "opis": "Sve površine lakirati dva puta mat ili sjajnim lakom, po izboru projektanta, sa razmakom od 24 h.",
+      "obracun": "Obračun po m2 lakirane površine.",
+      "jedinica": "m2",
+      "cena": 2.00,
+      "element": true
+    }
+  }
+}

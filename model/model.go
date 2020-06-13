@@ -54,7 +54,8 @@ type WingMaterijal struct {
 
 type WingNeophodanMaterijal struct {
 	Id              int            `json:"id"`
-	Kolicina        int            `json:"kolicina"`
+	Kolicina        float64        `json:"kolicina"`
+	Koeficijent     float64        `json:"koeficijent"`
 	UkupnoPakovanja int            `json:"ukupnopakovanja"`
 	UkupnaCena      float64        `json:"ukupnacena"`
 	Materijal       *WingMaterijal `json:"materijal"`

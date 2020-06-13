@@ -1,0 +1,1866 @@
+"id": 1,
+"naziv": " Pripremni",
+
+"id": 1,
+"naziv": "Pomeranje postojećeg nameštaja iz prostora koji se adaptira. Nameštaj po završenim radovima vratiti na prvobitno mesto.",
+Obračun po m2 površine prostorije.
+m2 0,50 €
+
+"id": 2,
+"naziv": "Iznošenje postojećeg nameštaja iz prostora koji se adaptira. Nameštaj deponovati u okviru objekta.",
+Obračun po m2 površine prostorije.
+m2 1,25 €
+
+"id": 3,
+"naziv": "Nabavka i postavljanje polietilenske folije preko otvora, vrata i prozora, radi zaštite. Foliju učvrstiti drvenim letvama, vodeći računa da se ne ošteti postojeća stolarija. Sva eventualna oštećenja padaju na teret izvođača.",
+Obračun po m2 folije.
+m2 1,50 €
+
+"id": 4,
+"naziv": "Nabavka i postavljanje deblje polietilenske folije preko nameštaja, radi zaštite. Sva eventualna prljanja ili oštećenja nameštaja padaju na teret izvođača.",
+Obračun po m2 folije.
+m2 0,70 €
+
+"id": 5,
+"naziv": "Nabavka i postavljanje zaštite podova od deblje polietilenske folije. Sva eventualna prljanja ili oštećenja poda padaju na teret izvođača.",
+Obračun po m2 poda.
+m2 0,60 €
+
+"id": 6,
+"naziv": "Montaža i demontaža pomoćne skele u objektu, za rad u prostorijama. Skela mora biti izvedena po svim HTZ propisima. Koristi se za sve vreme trajanja radova i plaća samo jedanput.",
+Obračun po m2 horizontalne površine.
+m2 2,50 €
+
+"id": 7,
+"naziv": "Čišćenje i pranje izloga po završetku radova. Pažljivo mehanički očistiti sve površine i oprati vodom sa dodatkom odgovarajućih hemijskih sredstava.",
+Obračun po m2 oprane površine.
+m2 0,50 €
+
+"id": 8,
+"naziv": "Čišćenje i pranje prozora i vrata po završetku radova. Pažljivo mehanički očistiti sve površine i oprati vodom sa dodatkom odgovarajućih hemijskih sredstava.",
+Obračun po m2 oprane površine.
+m2 0,60 €
+
+"id": 9,
+"naziv": "Prikupljanje šuta i drugog otpadnog materijala sa objekta, utovar u kamion i odvoz na gradsku deponiju.",
+Obračun po m3 odvezenog šuta.
+m3 12,50 €
+
+"id": 10,
+"naziv": "Čišćenje i pranje gradilišta po završetku svih radova. Izvršiti detaljno čišćenje celog gradilišta, pranje svih staklenih površina, čišćenje i fino pranje svih unutrašnjih prostora i spoljnih površina.",
+Obračun po m2 očišćene površine.
+m2 0,50 €
+
+"id": 2,
+"naziv": " Vrata i prozori",
+
+"id": 1,
+"naziv": "Skidanje boje sa vrata i prozora hemijskim putem.",
+Postojeće slojeve boje skinuti nanošenjem hemijskog rastvarača i skidanjem slojeva boje špahtlama i odgovarajućim alatkama. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije.
+Obračun po m2 očišćene površine.
+m2 3,50 €
+
+"id": 2,
+"naziv": "Skidanje boje sa vrata i prozora upotrebom specijalnog fena za skidanje boje. Postojeće slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.",
+Obračun po m2 očišćene površine.
+m2 4,00 €
+
+"id": 3,
+"naziv": "Skidanje boje sa vrata i prozora paljenjem.",
+Postojeće slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 5,00 €
+
+"id": 4,
+"naziv": "Bojenje novih prozora i vrata.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo očistiti od maltera i prašine, natopiti razređenim firnisom i minizirati gvozdeni okov. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno kitovati. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 5,00 €
+b.
+ U dva tona.
+  m2 5,75 €
+
+"id": 6,
+"naziv": "Bojenje novih prozora i vrata, kvalitetnije bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo očistiti od maltera i prašine, natopiti razređenim firnisom i minizirati gvozdeni okov. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno kitovati. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Bojiti uljanom bojom, drugi put. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 6,00 €
+b.
+ U dva tona.
+  m2 6,75 €
+
+"id": 8,
+"naziv": "Bojenje novih prozora i vrata, prvorazredno bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo očistiti od maltera i prašine, natopiti razređenim firnisom i minizirati gvozdeni okov. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno prevući uljani kit, drugi put. Brusiti i ponovo kitovati. Bojiti uljanom bojom prvi put. Brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 8,00 €
+b.
+ U dva tona.
+  m2 9,00 €
+
+
+"id": 10,
+"naziv": "Bojenje novih prozora i vrata lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+a.
+ Sa lakiranjem.
+  m2 3,50 €
+b.
+ Bez lakiranja.
+  m2 3,00 €
+
+"id": 12,
+"naziv": "Bojenje starih prozora i vrata preko postojeće boje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 4,25 €
+b.
+ U dva tona.
+  m2 4,75 €
+
+"id": 14,
+"naziv": "Bojenje starih prozora i vrata preko postojeće boje, kvalitetnije bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Bojiti uljanom bojom, drugi put. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+a.
+ U jednom tonu.
+  m2 4,75 €
+b.
+ U dva tona.
+  m2 5,25 €
+
+"id": 16,
+"naziv": "Bojenje starih prozora i vrata preko postojeće boje, prvorazredna izrada.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom prvi put. Brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 5,50 €
+b.
+ U dva tona.
+  m2 6,50 €
+
+"id": 18,
+"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 6,00 €
+b.
+ U dva tona.
+  m2 6,75 €
+
+20.
+Bojenje starih prozora i vrata, sa kojih je skinuta stara boja, kvalitetnije bojenje.
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Bojiti uljanom bojom, drugi put. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 7,00 €
+b.
+ U dva tona.
+  m2 7,75 €
+
+"id": 22,
+"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja, prvorazredno bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom prvi put. Brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ U jednom tonu.
+  m2 8,00 €
+b.
+ U dva tona.
+  m2 9,00 €
+
+"id": 24,
+"naziv": "Bojenje starih prozora i vrata lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+a.
+ Sa lakiranjem.
+  m2 3,25 €
+b.
+ Bez lakiranjem.
+  m2 2,75 €
+
+"id": 26,
+"naziv": "Lakiranje površina vrata i prozora, preko lazurne boje.",
+Sve površine lakirati mat ili sjajnim lakom, po izboru projektanta. Lakirati prvi put, posle 24 h preći najfinijom šmirglom, opajati i lakirati drugi put.
+Obračun po m2 lakirane površine.
+m2 2,00 €
+
+"id": 27,
+"naziv": "Bojenje osnovnom bojom metalnih prozora, sa prethodnim čišćenjem.",
+ Metalne prozore očistiti od korozije i prašine hemijskim i fizičkim sredstvima, brusiti i očistiti.
+  Naneti impregnaciju i obojiti osnovnom bojom.
+Obračun po m2 obrađene površine.
+a.
+ Prozora.
+  m2 1,25 €
+b.
+ Vrata.
+  m2 1,25 €
+
+"id": 29,
+"naziv": "",
+Bojenje osnovnom bojom metalne kapije, sa prethodnim čišćenjem.
+ Metalnu kapiju očistiti od korozije i prašine hemijskim i fizičkim sredstvima, brusiti i očistiti.
+  Naneti impregnaciju i obojiti osnovnom bojom.
+Obračun po m2 obrađene površine.
+a.
+ Kapije.
+  m2 1,75 €
+b.
+ Ograde.
+  m2 1,75 €
+
+"id": 31,
+"naziv": "Bojenje novih metalnih prozora, bojom za metal.",
+ Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti.
+  Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti. Posle nanošenja prvog sloja boje za metal, kitovati i brusiti.  Obojiti drugi put bojom za metal, u tonu po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Prozora.
+  m2 3,75 €
+b.
+ Vrata.
+  m2 3,50 €
+c.
+ Protivpožarnih vrata.
+  m2 3,25 €
+d.
+ Garažnih vrata.
+  m2 3,50 €
+
+"id": 35,
+"naziv": "Bojenje novih metalnih rešetki prozora, bojom za metal.",
+ Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti.
+  Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti. Posle nanošenja prvog sloja boje za metal, kitovati i brusiti.  Obojiti drugi put bojom za metal, u tonu po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Rešetki prozora.
+  m2 3,00 €
+b.
+ Rešetki vrata.
+  m2 3,50 €
+c.
+ Metalnih roletni.
+  m2 4,00 €
+
+"id": 38,
+"naziv": "",
+Bojenje starih metalnih prozora, bojom za metal, sa prethodnim skidanjem stare boje.
+ Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti.
+  Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti. Posle nanošenja prvog sloja boje za metal, kitovati i brusiti.  Obojiti drugi put bojom za metal, u tonu po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Prozora.
+  m2 3,50 €
+b.
+ Vrata.
+  m2 4,50 €
+c.
+ Protivpožarnih vrata.
+  m2 4,25 €
+d Garažnih vrata.
+ m2 4,00 €
+
+"id": 42,
+"naziv": "",
+Bojenje starih metalnih rešetki prozora, bojom za metal, sa prethodnim skidanjem stare boje.
+ Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti.
+  Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti. Posle nanošenja prvog sloja boje za metal, kitovati i brusiti.  Obojiti drugi put bojom za metal, u tonu po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Rešetki prozora.
+  m2 3,00 €
+b.
+ Metalnih roletni.
+  m2 4,50 €
+c.
+ Rešetki vrata.
+  m2 4,00 €
+
+
+
+
+"id": 3,
+"naziv": " Zidovi i plafoni",
+
+"id": 1,
+"naziv": "",
+Gletovanje fino malterisanih zidova i plafona, disperzivnim kitom.
+ Površine obrusiti, očistiti i izvršiti neutralizovanje.
+  Pregledati i kitovati manja oštećenja i pukotine. Impregnirati i prevući disperzivni kit tri puta.
+Obračun po m2 gletovane površine.
+m2 1,20 €
+
+"id": 2,
+"naziv": "",
+Gletovanje grubo malterisanih zidova i plafona, disperzivnim kitom.
+ Površine obrusiti, očistiti i
+izvršiti neutralizovanje.
+ Pregledati i kitovati manja oštećenja i pukotine.
+  Impregnirati i prevući disperzivni kit tri puta.
+Obračun po m2 gletovane površine.
+m2 1,50 €
+
+"id": 3,
+"naziv": "",
+Gletovanje starih ostruganih zidova i plafona, emulzionim kitom.
+ Sve površine obrusiti, očistiti i
+izvršiti impregnaciju.
+ Pregledati i kitovati manja oštećenja i pukotine.
+  Kitovati i gletovati emulzionim
+kitom prvi put.
+ Sve površine fino prebrusiti pa kitovati i gletovati emulzionim kitom drugi put.
+Obračun po m2 gletovane površine.
+m2 1,20 €
+
+"id": 4,
+"naziv": "",
+Struganje i gletovanje starih zidova i plafona, emulzionim kitom.
+ Sve površine ostrugati i oprati, a
+zatim obrusiti, očistiti i izvršiti impregnaciju.
+ Pregledati i kitovati manja oštećenja i pukotine.
+  Kitovati i
+gletovati emulzionim kitom prvi put.
+ Sve površine fino prebrusiti pa kitovati i gletovati emulzionim kitom drugi put.
+Obračun po m2 gletovane površine.
+m2 1,40 €
+
+"id": 5,
+"naziv": "",
+Struganje uljane boje sa zidova.
+ Sve površine ostrugati i oprati.
+Obračun po m2 ostrugane površine.
+m2 2,00 €
+759
+
+"id": 6,
+"naziv": "",
+Skidanje postojeće uljane boje sa zidova, paljenjem.
+ Površine obojene uljanom bojom pomoću plina
+i brenera zagrejati i špahtlama i drugim prigodnim alatkama skinuti.
+ Postupak ponavljati dok se boja ne skine.
+Obračun po m2 ostrugane površine.
+m2 3,00 €
+
+"id": 7,
+"naziv": "",
+Lečenje fleka na zidovima i plafonima, bojama na bazi akrilata.
+ Površine sa flekama ostrugati,
+oprati i gletovati.
+ Bojiti bojama na bazi akrilata više puta.
+Obračun po m2 lečene površine.
+m2 3,00 €
+
+"id": 8,
+"naziv": "Bojenje gletovanih zidova i plafona, poludisperzivnim bojama, po izboru projektanta.",
+ Sve površine
+brusiti, impregnirati i kitovati manja oštećenja.
+ Predbojiti i ispraviti toniranim disperzionim kitom, a zatim bojiti poludisperzivnom bojom prvi i drugi put.
+Obračun po m2 obojene površine.
+a.
+ Poludisperzivnim bojama.
+  m2 0,90 €
+b.
+ Dispererzivnim bojama.
+  m2 1,20 €
+
+"id": 10,
+"naziv": "Bojenje fino malterisanih zidova i plafona, poludisperzivnim bojama, bez gletovanja.",
+ Sve površine
+brusiti, gipsovati, neutralizovati i impregnirati.
+ Predbojiti poludisperzionom bojom prvi put i ispraviti
+toniranim disperzionim kitom.
+ Bojiti poludisperzivnom bojom prvi i drugi put.
+  Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Poludisperzivnim bojama.
+  m2 0,90 €
+b.
+ Dispererzivnim bojama.
+  m2 1,20 €
+
+"id": 12,
+"naziv": "Bojenje grubo malterisanih zidova i plafona, poludisperzivnim bojama, bez gletovanja.",
+Sve površine brusiti, gipsovati, neutralizovati i impregnirati. Predbojiti poludisperzionom bojom prvi put i ispraviti toniranim disperzionim kitom. Bojiti poludisperzivnom bojom prvi i drugi put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Poludisperzivnim bojama.
+  m2 1,10 €
+b.
+ Dispererzivnim bojama.
+  m2 1,40 €
+
+"id": 14,
+"naziv": "Bojenje sa gletovanjem zidova, poludisperzivnim bojama.",
+Malterisane zidove i plafone gletovati disperzivnim kitom. Površine obrusiti, očistiti i izvršiti neutralizovanje. Pregledati i kitovati manja oštećenja i pukotine. Impregnirati i prevući disperzivni kit tri puta. Sve površine brusiti, impregnirati i kitovati manja oštećenja. Predbojiti i ispraviti toniranim disperzionim kitom, a zatim bojiti poludisperzivnom bojom prvi i drugi put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Poludisperzivnim bojama.
+  m2 2,00 €
+b.
+ Dispererzivnim bojama.
+  m2 2,20 €
+
+"id": 16,
+"naziv": "Struganje stare boje i bojenje zidova i plafona, poludisperzivnim bojama.",
+Sve površine ostrugati i oprati od boje i kita. Brusiti, predimpregnirati, kitovati plastičnim kitom manja oštećenja i kitovati emulzionim kitom. Brusiti, impregnirati i bojiti prvi put, a zatim ispraviti disperzionim kitom manja oštećenja. Bojiti poludisperzivnom bojom prvi i drugi put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Poludispererzivnim bojama.
+  m2 2,25 €
+b.
+ Dispererzivnim bojama.
+  m2 2,50 €
+
+"id": 18,
+"naziv": "Bojenje gips kartonskih zidova i plafona, poludisperzivnim bojama.",
+Glave holšrfova ili eksera minizirati, površine natopiti firnisom i kitovati fuge disperzionim kitom. Bojiti poludisperzivnom bojom prvi put. Ispraviti toniranim disperzionim kitom. Bojiti poludisperzivnom bojom drugi i treći put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+a.
+ Poludisperzivnim bojama.
+  m2 1,00 €
+b.
+ Dispererzivnim bojama.
+  m2 1,25 €
+
+20.
+Krečenje zidova i plafona četkom, rastvorenim odležalim gašenim krečom.
+Sve površine okrečiti četkom prvi put, brusiti i gipsovati manja oštećenja i pukotine, a zatim okrečiti drugi put.
+Obračun po m2 obojene površine.
+m2 0,70 €
+
+"id": 21,
+"naziv": "Krečenje zidova i plafona, rastvorenim odležalim krečom, četkom i pumpom.",
+Sve površine okrečiti četkom prvi put, brusiti i gipsovati manja oštećenja i pukotine, a zatim okrečiti drugi put. Pumpom prskati prvi i drugi put.
+Obračun po m2 obojene površine.
+m2 0,90 €
+
+"id": 22,
+"naziv": "Krečenje sa prskanjem pumpom zidova i plafona, rastvorenim odležalim gašenim krečom, sa dodatkom zemljane boje u prahu, za toniranje.",
+Sve površine okrečiti četkom prvi put, brusiti i gipsovati manja oštećenja i pukotine, a zatim okrečiti drugi put. Brusiti i ispraviti gipsom manja oštećenja i pumpom prskati krečnom bojom prvi i drugi put.
+Obračun po m2 obojene površine.
+m2 1,00 €
+
+"id": 23,
+"naziv": "",
+Struganje stare boje i krečenje zidova i plafona četkom, rastvorenim odležalim gašenim krečom.
+Staru krečnu boju ostrugati i površine brusiti. Sve površine okrečiti četkom prvi put, brusiti i gipsovati manja oštećenja i pukotine, a zatim okrečiti drugi put.
+Obračun po m2 obojene površine.
+m2 0,90 €
+
+"id": 24,
+"naziv": "",
+Struganje stare boje i krečenje zidova i plafona četkom i prskanjem, rastvorenim odležalim gašenim krečom.
+Staru krečnu boju ostrugati i površine brusiti. Sve površine okrečiti četkom prvi put, brusiti i gipsovati manja oštećenja i pukotine. Pumpom prskati prvi i drugi put.
+Obračun po m2 obojene površine.
+m2 1,20 €
+
+"id": 25,
+"naziv": "",
+Struganje stare boje i krečenje zidova i plafona pumpom, rastvorenim odležalim gašenim krečom, sa dodatkom zemljane boje u prahu, za toniranje.
+Staru krečnu boju ostrugati. Sve površine brusiti i krečiti krečnim mlekom. Gipsovati manja oštećenja i pukotine i izvršiti osnovno bojenje. Oštećenja ispraviti gipsom i pokrivno bojiti. Prskati pumpom prvi i drugi put.
+Obračun po m2 obojene površine.
+m2 1,30 €
+
+"id": 26,
+"naziv": "Bojenje zidova uljanom bojom.",
+Izvršiti osnovno krečenje, gletovanje i natapanje firnisom. Kitovati i prevući kitom, brusiti, nadkitovati i bojiti uljanom bojom prvi put. Bojiti uljanom bojom drugi put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 3,00 €
+
+"id": 27,
+"naziv": "Bojenje zidova uljanom bojom, sa lakiranjem.",
+Izvršiti osnovno krečenje, gletovanje i natapanje firnisom. Kitovati i prevući kitom, brusiti, nadkitovati i bojiti uljanom bojom prvi put. Bojiti uljanom bojom drugi put, brusiti i lakirati. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 4,00 €
+
+"id": 28,
+"naziv": "Bojenje starih zidova uljanom bojom, sa kojih je skinuta uljana boja.",
+Oštećenja i pukotine brusiti, kitovati i natopiti firnisom. Predkitovati, kitovati, prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom prvi i drugi put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 3,50 €
+
+"id": 29,
+"naziv": "Bojenje starih zidova uljanom bojom, sa lakiranjem, sa kojih je skinuta uljana boja.",
+Oštećenja i pukotine brusiti, kitovati i natopiti firnisom. Predkitovati, kitovati, prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom prvi i drugi put. Nadkitovati i lakirati. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 4,25 €
+
+30.
+Bojenje starih zidova uljanom bojom, preko stare uljane boje.
+Zidove očistiti i oprati deterdžentom. Brusiti, kitovati oštećenja i pukotine, predbojiti i zakitovati podlogu. Nadkitovati uljanim kitom. Brusiti i bojiti drugi put uljanom bojom. Bojiti uljanom bojom treći put. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 3,75 €
+
+"id": 31,
+"naziv": "Bojenje starih zidova uljanom bojom, preko stare uljane boje sa lakom.",
+Zidove očistiti i oprati deterdžentom. Brusiti, kitovati oštećenja i pukotine, predbojiti i zakitovati podlogu. Kitovati i prevući kit. Bojiti uljanom bojom prvi i drugi put. Brusiti i nadkitovati lak kitom i lakirati. Boja i ton po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 4,00 €
+
+"id": 32,
+"naziv": "Obrada unutrašnjih zidova dekorativnim materijalom, španski zid, "Prvi maj" Čačak.",
+Podloga mora da bude čvrsta i čista bez prašine i masnoća. Podlogu impregnirati Podlogom-A Pripremljen materijal naneti na zid metalnom glet hoblom u debljini do 5 mm.  Nanetu masu dekorativno obraditi gumenim ili sunđerastim valjkom, strukture po izboru projektanta.
+Obračun po m2 obrađene površine.
+m2 3,50 €
+
+"id": 33,
+"naziv": "Obrada unutrašnjih zidova dekorativnim malterom, Termogal, "Galenika - Magmasil".",
+Podloga mora da bude čvrsta, bez trošnih delova, čista bez prašine i masnoća. Pripremljen materijal naneti na zid valjkom, strukture po izboru projektanta.
+Obračun po m2 obrađene površine.
+m2 3,50 €
+
+"id": 34,
+"naziv": "Izrada linkrusta, "španskog zida", sitnijeg, tehnikom po izboru projektanta.",
+Sve površine brusiti i impregnirati, predkitovati disperzivnim kitom. Prevući disperzivnim kitom i reljefno, rustično, obraditi površine po izboru projektanta (četkom, valjkom, oblom, itd). Linskrust završno obojiti i impregnirati.
+Obračun po m2 obrađene površine.
+a.
+ Sitniji.
+  m2 2,50 €
+b.
+ Srednji.
+  m2 3,75 €
+c.
+ Krupniji.
+  m2 5,00 €
+
+"id": 35,
+"naziv": "Obrada zidova plastičnim malterom (Bavalit)prskanjem.",
+Vrsta i boje po izboru projektanta. Zidna podloga mora biti zdrava i suva. Podlogu očistiti i impregnirati izolacionom masom radi bolje veze. Naneti molerskom četkom u jednom sloju, a ako podloga jako upija premazati dva puta. Na osušenu podlogu naneti malter, napravljen i dobro izmešan da se dobije jednolična i konzistentna masa. Plastični malter se nanosi pomoću ježa ili kompresora sa pištoljem. Prskanje se vrši 2-3 puta, odnosno da plastični malter ravnomerno pokrije površinu i da dobije jednoličan izgled u tonu i strukturi. Otvore i drugo zaštititi PVC folijom što ulazi u cenu, ali se otvori ne odbijaju od površine zidova.
+Obračun po m2 obrađene površine.
+m2 3,50 €
+
+"id": 36,
+"naziv": "Obrada zidova plastičnim malterom (Bavalit) valjanjem.",
+Vrsta i boje po izboru projektanta. Zidna podloga mora biti zdrava i suva. Podlogu očistiti i impregnirati izolacionom masom, radi bolje veze. Naneti molerskom četkom u jednom sloju, a ako podloga jako upija premazati dva puta. Na osušenu podlogu naneti malter, napravljen i dobro izmešan da se dobije jednolična i konzistentna masa. Plastični malter naneti gletelicom i strukturu izvući valjkom. Debljina nanetog sloja mora biti jednaka debljini, odnosno veličini zrna u plastičnom malteru. Otvore i drugo zaštititi PVC folijom što ulazi u cenu, ali se otvori ne odbijaju od površine zidova.
+Obračun po m2 obrađene površine.
+m2 4,00 €
+
+"id": 37,
+"naziv": "Obrada zidova plastičnim malterom (Bavalit) sa zaribavanjem.",
+Vrsta i boje po izboru projektanta. Zidna podloga mora biti zdrava i suva. Podlogu očistiti i impregnirati izolacionom masom, radi bolje veze. Naneti molerskom četkom u jednom sloju, a ako podloga jako upija premazati dva puta. Na osušenu podlogu naneti malter, napravljen i dobro izmešan da se dobije jednolična i konzistentna masa. Pripremljen materijal naneti glet hoblom u debljini sloja do maksimalne veličine zrna. Strukturu maltera izvući kružnim zaribavanjem gumenom glet hoblom ili vertikalnim ili horizontalnim zaribavanjem Stiroporom. Otvore i drugo zaštititi PVC folijom što ulazi u cenu, ali se otvori ne odbijaju od površine zidova.
+Obračun po m2 obrađene površine.
+m2 4,50 €
+
+"id": 4,
+"naziv": " Tapete",
+
+"id": 1,
+"naziv": "Pažljivo skidanje postojećih svilenih tapeta sa zidova.",
+Tapete pažljivo skinuti uz konsultaciju sa projektantom. Tapete obeležiti, za ponovnu upotrebu, hemijski očistiti i odložiti.
+Obračun po m2 površine tapeta.
+m2 0,50 €
+
+"id": 2,
+"naziv": "Pažljiva demontaža postojećih lajsni tapeta sa zidova.",
+Lajsne tapeta pažljivo demontirati. Lajsne tapeta obeležiti, pažljivo demontirati, očistiti i odložiti za ponovnu upotrebu.
+Obračun po m1 lajsni.
+m1 0,75 €
+
+"id": 3,
+"naziv": "Nabavka i postavljanje zidnih papirnih tapeta, po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Zalepiti obodne trake. Lepak sa poda, vrata, prozora odmah ukloniti.
+Obračun po m2 obložene površine.
+a.
+ Papirne tapete.
+  m2 2,50 €
+b.
+ Teške papirne tapete.
+  m2 3,00 €
+c.
+ Poluplastificirane tapete.
+  m2 2,50 €
+d.
+ Plastificirane tapete.
+  m2 2,75 €
+
+"id": 7,
+"naziv": "Nabavka i postavljanje zidnih velur tapeta (sloj vlakana nanet na težak papir), po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Postaviti lajsne, sastave gerovati. Lepak sa poda, vrata, prozora odmah ukloniti.
+Obračun po m2 obložene površine.
+m2 4,00 €
+
+"id": 8,
+"naziv": "Nabavka i postavljanje zidnih pamučnih tapeta, po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Zidove obeležiti, pamučni materijal iskrojiti i sašiti sa pažljivim uklapanjem šara. Šavove na poleđini izravnati. Niti materijala postaviti vertikalno, vodoravno ili paralelno sa šavovima. Tapete španovati da se ne primete linije, a materijal ravnomerno zategnuti. Postaviti lajsne, sastave gerovati.
+Obračun po m2 obložene površine.
+a.
+ Pamučne tapete.
+  m2 15,00 €
+b.
+ Platnene tapete.
+  m2 10,00 €
+c.
+ Jutane tapete.
+  m2 9,00 €
+
+"id": 11,
+"naziv": "Nabavka i postavljanje zidnih svilenih tapeta, po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Zidove obeležiti, svilu iskrojiti i sašiti sa pažljivim uklapanjem šara. Šavove na poleđini izravnati. Niti materijala postaviti vertikalno, vodoravno ili paralelno sa šavovima. Tapete španovati da se ne primete linije, a materijal ravnomerno zategnuti. Postaviti lajsne, sastave gerovati.
+Obračun po m2 obložene površine.
+m2 30,00 €
+
+"id": 12,
+"naziv": "Nabavka i postavljanje jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica.
+Obračun po m2 obložene površine.
+a.
+ Jednoslojne tapete.
+  m2 12,50 €
+b.
+ Dvoslojne tapete.
+  m2 16,00 €
+
+"id": 14,
+"naziv": "Nabavka, postavljanje i bojenje lazurnim bojama jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica. Pluto tapete bojiti lazurnim bojama po izboru projektanta. Bojiti dva puta sa razmakom za sušenje od 24 h, preći lagano najfinijom šmirglom i bojiti treći put.
+Obračun po m2 obložene površine.
+a.
+ Jednoslojne tapete.
+  m2 18,00 €
+b.
+ Dvoslojne tapete.
+  m2 22,00 €
+
+
+"id": 16,
+"naziv": "Nabavka, postavljanje i lakiranje jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta.",
+Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica. Pluto tapete bojiti lazurnim bojama po izboru projektanta. Lakirati sa dovoljnim razmakom za sušenje, preći lagano najfinijom šmirglom i lakirati drugi put.
+Obračun po m2 obložene površine.
+a.
+ Jednoslojne tapete.
+  m2 15,00 €
+b.
+ Dvoslojne tapete.
+  m2 19,00 €
+
+"id": 5,
+"naziv": "",
+Lamperije
+
+"id": 1,
+"naziv": "Skidanje boje sa lamperije, hemijskim putem.",
+Postojeće slojeve boje skinuti nanošenjem hemijskog rastvarača i skidanjem slojeva boje špahtlama i odgovarajućim alatkama. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije.
+Obračun po m2 očišćene površine.
+m2 3,50 €
+
+"id": 2,
+"naziv": "Skidanje boje sa lamperije, upotrebom specijalnog fena za skidanje boje.",
+Postojeće slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 4,00 €
+
+"id": 3,
+"naziv": "Skidanje boje sa lamperije, paljenjem.",
+Postojeće slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 5,00 €
+
+"id": 4,
+"naziv": "Bojenje nove zidne lamperije, lazurnim bojama.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom i bojiti po treći put.
+Obračun po m2 obojene površine.
+a.
+ Na zidovima.
+  m2 3,00 €
+b.
+ Na plafonima.
+  m2 3,50 €
+c.
+ Na plafonima i zidovima.
+  m2 3,25 €
+
+"id": 7,
+"naziv": "",
+Lakiranje zidne lamperije, prethodno obojene lazurnim bojama.
+Sve površine lakirati dva puta mat ili sjajnim lakom, po izboru projektanta, sa razmakom od 24 h.
+Obračun po m2 lakirane površine.
+a.
+ Na zidovima.
+  m2 2,00 €
+b.
+ Na plafonima.
+  m2 2,50 €
+c.
+ Na plafonima i zidovima.
+  m2 2,25 €
+
+"id": 10,
+"naziv": "Bojenje nove zidne lamperije, lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+a.
+ Na zidovima.
+  m2 4,00 €
+b.
+ Na plafonima.
+  m2 5,00 €
+c.
+ Na plafonima i zidovima.
+  m2 4,50 €
+
+"id": 13,
+"naziv": "Bojenje nove lamperije.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Lamperiju očistiti od prašine i natopiti razređenim firnisom. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno kitovati. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 4,50 €
+
+"id": 14,
+"naziv": "Bojenje nove lamperije, kvalitetnije bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Lamperiju očistiti od prašine i natopiti razređenim firnisom. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno kitovati. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Bojiti uljanom bojom, drugi put. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 5,50 €
+
+"id": 15,
+"naziv": "Bojenje lamperije, prvorazredno bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Lamperiju očistiti od prašine i natopiti razređenim firnisom. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno prevući uljani kit, drugi put. Brusiti i ponovo kitovati. Bojiti uljanom bojom prvi put. Brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 6,50 €
+
+"id": 16,
+"naziv": "Bojenje stare lamperije, preko postojeće boje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 4,00 €
+
+"id": 17,
+"naziv": "Bojenje stare lamperije, preko postojeće boje, kvalitetnije bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Bojiti uljanom bojom, drugi put. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 5,00 €
+
+"id": 18,
+"naziv": "Bojenje stare lamperije, preko postojeće boje, prvorazredno bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom prvi put. Brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 6,00 €
+
+"id": 19,
+"naziv": "Bojenje stare lamperije, sa koje je boja skinuta.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 4,50 €
+
+20.
+Bojenje stare lamperije, sa koje je boja skinuta, kvalitetnije bojenje.
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom. Bojiti uljanom bojom, drugi put. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 5,50 €
+
+"id": 21,
+"naziv": "Bojenje stare lamperije, sa koje je boja skinuta, prvorazredno bojenje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom prvi put. Brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakome.
+m2 6,50 €
+
+"id": 6,
+"naziv": " Strehe",
+
+"id": 1,
+"naziv": "Skidanje boje sa strehe, hemijskim putem.",
+Postojeće slojeve boje skinuti nanošenjem hemijskog rastvarača i skidanjem slojeva boje špahtlama i odgovarajućim alatkama. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije.
+Obračun po m2 očišćene površine.
+m2 3,50 €
+
+"id": 2,
+"naziv": "Skidanje boje sa strehe, paljenjem.",
+Postojeće slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 5,00 €
+
+"id": 3,
+"naziv": "Skidanje boje sa strehe, upotrebom specijalnog fena za skidanje boje.",
+Postojeće slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 4,00 €
+
+"id": 4,
+"naziv": "Bojenje nove strehe.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo očistiti od maltera i prašine, a zatim natopiti razređenim firnisom. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno kitovati. Bojiti uljanom bojom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 5,00 €
+
+"id": 5,
+"naziv": "Bojenje stare strehe, preko postojeće boje.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 4,25 €
+
+"id": 6,
+"naziv": "Bojenje stare strehe, sa koje je boja skinuta.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+m2 5,50 €
+
+"id": 7,
+"naziv": "Bojenje drvenih krovnih opšivki, lazurnim bojama.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, po potrebi bojiti i treći put.
+Obračun po m2 obojene površine.
+a.
+ Drvenih krovnih opšivki.
+  m2 3,50 €
+b.
+ Krovne strehe.
+  m2 3,50 €
+
+"id": 9,
+"naziv": "Bojenje streha lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+m2 4,50 €
+
+"id": 10,
+"naziv": "Lakiranje strehe, prethodno obrađene lazurnom bojom, sadolinom ili sličnim sredstvima.",
+Sve površine lakirati dva puta mat ili sjajnim lakom, po izboru projektanta, sa razmakom od 24 h.
+Obračun po m2 lakirane površine.
+m2 2,00 €
+
+
+
+
+"id": 7,
+"naziv": " Stepeništa",
+
+"id": 1,
+"naziv": "Skidanje boje sa stepeništa, hemijskim putem.",
+Postojeće slojeve boje skinuti nanošenjem hemijskog rastvarača i skidanjem slojeva boje špahtlama i odgovarajućim alatkama. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije.
+Obračun po m2 očišćene površine.
+m2 3,50 €
+
+"id": 2,
+"naziv": "Skidanje boje sa stepeništa, upotrebom specijalnog fena za skidanje boje.",
+Postojeće slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 4,00 €
+
+"id": 3,
+"naziv": "Skidanje boje sa stepeništa, paljenjem.",
+Postojeće slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.
+Obračun po m2 očišćene površine.
+m2 5,00 €
+
+"id": 4,
+"naziv": "Čišćenje i bojenje osnovne boje, podloge stepenišne čelične konstrukcije.",
+Stepenišnu konstrukciju očistiti od korozije i prašine hemijskim i fizičkim sredstvima, brusiti i očistiti. Naneti impregnaciju i obojiti osnovnom bojom.
+Obračun po m2 obrađene površine.
+m2 2,00 €
+
+"id": 5,
+"naziv": "Bojenje stepenišne čelične konstrukcije, bojom za metal.",
+Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Naneti impregnaciju i obojiti osnovnom bojom. Bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+m2 4,25 €
+
+"id": 6,
+"naziv": "Bojenje novog stepeništa od drveta.",
+Impregnirati stepenište polifirnisom, kitovati spojeve, pukotine i čvorove. Pod prevući brusnim kitom, brusiti i nadkitovati. Stepenište b bojiti u dva puta emajl lakom, po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 6,00 €
+
+"id": 7,
+"naziv": "Bojenje postojećeg stepeništa od drveta, preko postojeće boje.",
+Pre bojenja sve površine brusiti, očistiti i kitovati spojeve, pukotine i čvorove. Prevući brusnim kitom, brusiti i nadkitovati. Stepenište bojiti u dva puta emajl lakom, po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 5,50 €
+
+"id": 8,
+"naziv": "Bojenje postojećeg stepeništa od drveta, sa skidanjem boje.",
+Postojeću boju skinuti hemijskim ili mehaničkim putem. Kitovati spojeve, pukotine i čvorove, prevući brusnim kitom, brusiti i nadkitovati. Stepenište bojiti u dva puta emajl lakom, po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 8,50 €
+
+"id": 9,
+"naziv": "Bojenje drvenog stepeništa, lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+m2 6,00 €
+
+"id": 10,
+"naziv": "Bojenje drvenog stepeništa, lazurnim bojama.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom i bojiti po treći put.
+Obračun po m2 obojene površine.
+m2 4,25 €
+
+"id": 11,
+"naziv": "Lakiranje stepeništa, prethodno obrađeno lazurnom bojom, sadolinom ili sličnim sredstvom.",
+Sve površine lakirati dva puta mat ili sjajnim lakom, po izboru projektanta, sa razmakom od 24 h.
+Obračun po m2 lakirane površine.
+m2 2,00 €
+
+"id": 8,
+"naziv": "Podovi",
+
+"id": 1,
+"naziv": "Lakiranje parketa lakom po izboru projektanta.",
+Parket lakirati tri puta. Otvorene fuge parketa kitovati smesom fine strugotine i laka. Po sušenju preći finom šmirglom, opajati pod i lakirati prvi put. Posle 24 časa parket kitovati, preći finom šmirglom, opajati pod i lakirati drugi put. Potpuno osušeni drugi sloj laka fino brusiti, opajati pod i lakirati treći put. Prilikom lakiranja voditi računa da četka bude natopljena lakom.
+Obračun po m2 lakirane površine.
+a.
+ Parketa.
+  m2 3,50 €
+b.
+ Lamel parketa.
+  m2 3,00 €
+c.
+ Brodskog poda.
+  m2 3,50 €
+
+"id": 4,
+"naziv": "Lakiranje drvenih sokli, lakom, po izboru projektanta.",
+Soklu lakirati dva puta. Soklu preći finom šmirglom, opajati i lakirati prvi put. Posle 24 časa fino brusiti soklu, opajati i lakirati drugi put. Prilikom lakiranja voditi računa da četka bude natopljena lakom.
+Obračun po m1 sokle.
+m1 0,50 €
+
+"id": 5,
+"naziv": "Bojenje brodskog poda, lazurnim bojama.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom i bojiti po treći put.
+Obračun po m2 poda.
+a.
+ Brodskog poda.
+  m2 3,00 €
+b.
+ Drvenih sokli.
+  m1 0,50 €
+
+"id": 7,
+"naziv": "Bojenje novog brodskog poda.",
+Pod očistiti i impregnirati polifirnisom, kitovati spojeve, pukotine i čvorove. Pod prevući brusnim kitom, brusiti i nadkitovati. Brodski pod bojiti dva puta, bojom po izboru projektanta.
+Obračun po m2 poda.
+m2 4,50 €
+
+"id": 8,
+"naziv": "Bojenje brodskog poda, sa skidanjem boje.",
+Postojeću boju skinuti hemijskim ili mehaničkim putem. Kitovati spojeve, pukotine i čvorove. Pod prevući brusnim kitom, brusiti i nadkitovati. Brodski pod bojiti dva puta, bojom po izboru projektanta.
+Obračun po m2 poda.
+m2 5,00 €
+
+"id": 9,
+"naziv": "Obrada fasada",
+
+"id": 1,
+"naziv": "Čišćenje slojeva stare boje sa ravnih površina fasade.",
+Pažljivo očistiti stare slojeve boje sa ravnih delova fasade, za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne ošteti podloga.
+Obračun po m2 očišćene površine.
+m2 2,00 €
+
+"id": 2,
+"naziv": "Obrada fasade plastičnim malterom (Bavalit)prskanjem.",
+Vrsta i boje po izboru projektanta. Podloga fasade mora biti zdrava i suva. Podlogu očistiti i impregnirati izolacionom masom radi bolje veze. Naneti molerskom četkom u jednom sloju, a ako podloga jako upija premazati dva puta. Na osušenu podlogu naneti malter, napravljen i dobro izmešan da se dobije jednolična i konzistentna masa. Plastični malter se nanosi pomoću ježa ili kompresora sa pištoljem. Prskanje se vrši 2-3 puta, odnosno da plastični malter ravnomerno pokrije površinu i da dobije jednoličan izgled u tonu i strukturi. Otvore i drugo zaštititi PVC folijom što ulazi u cenu, ali se otvori ne odbijaju od površine fasade.
+Obračun po m2 ortogonalne površine fasade.
+m2 4,00 €
+
+"id": 3,
+"naziv": "Obrada fasade plastičnim malterom (Bavalit) valjanjem.",
+Vrsta i boje po izboru projektanta. Podloga fasade mora biti zdrava i suva. Podlogu očistiti i impregnirati izolacionom masom, radi bolje veze. Naneti molerskom četkom u jednom sloju, a ako podloga jako upija premazati dva puta. Na osušenu podlogu naneti malter, napravljen i dobro izmešan da se dobije jednolična i konzistentna masa. Plastični malter naneti gletelicom i strukturu izvući valjkom. Debljina nanetog sloja mora biti jednaka debljini, odnosno veličini zrna u plastičnom malteru. Otvore i drugo zaštititi PVC folijom što ulazi u cenu, ali se otvori ne odbijaju od površine fasade.
+Obračun po m2 ortogonalne površine fasade.
+m2 4,50 €
+
+"id": 4,
+"naziv": "Obrada fasade plastičnim malterom (Bavalit) sa zaribavanjem.",
+Vrsta i boje po izboru projektanta. Podloga fasade mora biti zdrava i suva. Podlogu očistiti i impregnirati izolacionom masom, radi bolje veze. Naneti molerskom četkom u jednom sloju, a ako podloga jako upija premazati dva puta. Na osušenu podlogu naneti malter, napravljen i dobro izmešan da se dobije jednolična i konzistentna masa. Pripremljen materijal naneti glet hoblom u debljini sloja do maksimalne veličine zrna. Strukturu maltera izvući kružnim zaribavanjem gumenom glet hoblom ili vertikalnim ili horizontalnim zaribavanjem Stiroporom. Otvore i drugo zaštititi PVC folijom što ulazi u cenu, ali se otvori ne odbijaju od površine fasade.
+Obračun po m2 ortogonalne površine fasade.
+m2 5,00 €
+
+"id": 5,
+"naziv": "Obrada fasade špricanim plastičnim malterom, Unifas PMŠ, "Prvi maj" Čačak.",
+Unifas PMŠ je fasadni dekorativni špricani plastični malter pripremljen za upotrebu, na bazi posebne polimerne emulzije, sa mermernim agregatom i dodacima. Fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u 1-2 premaza. Unifas PMŠ, za celu fasadu, pre upotrebe, međusobno pomešati, da bi se izbegle različite nijanse fasadnog maltera. Unifas PMŠ po potrebi razrediti do 5% sa vodom, a zatim naneti u 2-3 sloja pomoću kompresora i pištolja. Razmak između nanošenja slojeva je 2-3 časa. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 5,50 €
+
+"id": 6,
+"naziv": "Obrada stare fasade špricanim plastičnim malterom, Unifas PMŠ, "Prvi maj" Čačak.",
+Unifas PMŠ je fasadni dekorativni špricani plastični malter pripremljen za upotrebu, na bazi posebne polimerne emulzije, sa mermernim agregatom i dodacima. Sa fasadnih površina odstraniti sve stare premaze, preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u 1-2 premaza. Unifas PMŠ, za celu fasadu, pre upotrebe, međusobno pomešati, da bi se izbegle različite nijanse fasadnog maltera. Unifas PMŠ po potrebi razrediti do 5% sa vodom, a zatim naneti u 2-3 sloja pomoću kompresora i pištolja. Razmak između nanošenja slojeva je 2-3 časa. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 6,50 €
+
+"id": 7,
+"naziv": "Obrada fasade valjanim plastičnim malterom, Unifas PMG 0,4 mm, "Prvi maj" Čačak.",
+Unifas PMG 0,4 je jednokomponentni plastični fasadni malter, fabrički napravljen, na bazi specijalne polimerne emulzije, sa mermernim agregatom i dodacima. Fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u 1-2 premaza i gletovati glet masom Unifix S. Unifas PMG 0,4, za celu fasadu, pre upotrebe, međusobno pomešati, da bi se izbegle različite nijanse fasadnog maltera. Unifas PMG 0,4 po potrebi razrediti do 5% sa vodom, a zatim naneti glet hoblom u debljini sloja 2-2,5 mm i strukturu izvući valjkom. Razmak između nanošenja slojeva je 2-3 časa. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 3,50 €
+
+"id": 8,
+"naziv": "Obrada fasade valjanim plastičnim malterom, Unifas PMG 0,8 mm, "Prvi maj" Čačak.",
+Unifas PMG 0,8 je jednokomponentni plastični fasadni malter, fabrički napravljen, na bazi specijalne polimerne emulzije, sa mermernim agregatom i dodacima. Fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u 1-2 premaza. Unifas PMG 0,8, za celu fasadu, pre upotrebe, međusobno pomešati, da bi se izbegle različite nijanse fasadnog maltera. Unifas PMG 0,8 po potrebi razrediti do 5% sa vodom, a zatim naneti glet hoblom u debljini sloja 2-2,5 mm i strukturu izvući valjkom. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 4,00 €
+
+"id": 9,
+"naziv": "Obrada fasade zaribanim plastičnim malterom, Unifas PMG 1,6 mm, "Prvi maj" Čačak.",
+Unifas PMG 1,6 je jednokomponentni plastični fasadni malter, fabrički napravljen, na bazi specijalne polimerne emulzije, sa mermernim agregatom i dodacima. Fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u 1-2 premaza. Unifas PMG 1,6, za celu fasadu, pre upotrebe, međusobno pomešati, da bi se izbegle različite nijanse fasadnog maltera. Unifas PMG 1,6 po potrebi razrediti do 5% sa vodom, a zatim naneti glet hoblom u debljini sloja 2-2,5 mm i strukturu izvući kružnim zaribavanjem gumenom glet hoblom ili vertikalnim zaribavanjem Stiroporom. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 4,50 €
+
+"id": 10,
+"naziv": "Obrada fasade zaribanim plastičnim malterom, Unifas PMZ, "Prvi maj" Čačak.",
+Unifas PMZ je plastični fasadni zaribani malter, napravljen od hidrauličkih veziva, mermernih punioca i aditiva. Fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u 1-2 premaza. Unifas PMZ dvokomponentni malter pripremiti: pomešati 5 kg emulzije sa 5 kg vode pa dodati 40 kg praškaste komponente, masu mešati ručnim mikserom 3-5 minuta i ostaviti da odstoji 10 minuta. Pre primene dodati vodu do potrebne konzistencije maltera i upotrebiti u roku od 1 časa. Pripremljen materijal naneti glet hoblom u debljini sloja do maksimalne veličine zrna. Strukturu maltera izvući kružnim zaribavanjem gumenom glet hoblom ili vertikalnim ili horizontalnim zaribavanjem Stiroporom. Unifas PMZ naneti i obraditi bez prekida od jedne ivice zida do druge. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 5,50 €
+
+"id": 11,
+"naziv": "Obrada fasade zaribanim plastičnim malterom, Unifas MZ, "Prvi maj" Čačak.",
+Unifas MZ je jednokomponentni dekorativni fasadni malter. Fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u 1-2 premaza. Jednokomponentni malter Unifas MZ pripremiti: pakovanje od 35 kg pomešati sa 5 litara vode neposredno pre upotrebe, mešati ručnim mikserom 3-5 minuta i ostaviti da odstoji 10 minuta. Malter upotrebiti u roku od jednog časa. Pripremljen materijal naneti glet hoblom u debljini sloja do maksimalne veličine zrna. Strukturu maltera izvući kružnim zaribavanjem gumenom glet hoblom ili vertikalnim ili horizontalnim zaribavanjem Stiroporom. Unifas MZ naneti i obraditi bez prekida od jedne ivice zida do druge. Nakon obrade fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 3,50 €
+
+"id": 12,
+"naziv": "Obrada fasade dekorativnim malterom, Termogal, "Galenika - Magmasil".",
+Podloga mora da bude čvrsta, bez trošnih delova, čista bez prašine i masnoća. Pripremljen materijal naneti na zid valjkom, boje i strukture po izboru projektanta.
+Obračun po m2 obrađene površine.
+m2 4,50 €
+
+"id": 13,
+"naziv": "Obrada fasade zaribanim jednokomponetnim poliakrilnim materijalom Izolit ACRYLPLAST,",
+"Dramin" Zemun. Fasadna podloga mora biti čvrsta, stabilna i bez masnih mrlja. Fasadne površine preći šmirglom i opajati. Na prethodno navlaženu podlogu metalnom gletelicom naneti pripremljen materijal, debljine sloja oko 3 mm. Nekoliko minuta nakon nanošenja strukturu izvući zaribavanjem gumenom glet hoblom, drvenom daščicom ili komadom Stiropora. Nakon ugradnje fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 5,00 €
+
+"id": 14,
+"naziv": "Obrada postojeće fasade zaribanim jednokomponetnim poliakrilnim materijalom Izolit ACRYLPLAST, "Dramin" Zemun.",
+Fasadna podloga mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze i druge mehanički neotporne delove. Fasadne površine preći šmirglom i opajati. Na prethodno navlaženu podlogu metalnom gletelicom naneti pripremljen materijal, debljine sloja oko 3 mm. Nekoliko minuta nakon nanošenja strukturu izvući zaribavanjem gumenom glet hoblom, drvenom daščicom ili komadom Stiropora. Nakon ugradnje fasadu štititi najmanje 24 časa od uticaja atmosferilija. Pre početka nanošenja u saradnji sa projektantom odrediti boju i uraditi probne uzorke.
+Obračun po m2 obrađene fasade.
+m2 5,50 €
+
+"id": 15,
+"naziv": "Obrada malterisane fasade perlitnim ukrasnim malterom Perlitfas, "Termika" Zrenjanin.",
+Izrađen je na bazi mineralnih veziva i punioca od neorganskih materijala, a specijalni dodaci mu obezbeđuju da je vodoodbojan i paropropustan. Podloga na koju se nanosi Perlitfas mora biti čvrsta, čista, otprašena o odmašćena. Perlitfas je gotov fasadni malter kome treba dodati samo vodu. Sveži malter pripremiti ručno ili u mešalici, tako što se sadržaj vreće od 25 kg meša sa oko 7-8 lit. vode u trajanju od 3 do 4 minuta, pri čemu se dobija lako obradiva masa za nanošenje metalnom gletericom. Prilikom mešanja odjednom dozirati potrebnu količinu vode. Ovako pripremljen malter je obradiv u narednih 6 sati. Neposredno pre nanošenja pripremljenog maltera podlogu treba nakvasiti vodom. Nanošenje maltera se vrši metalnom gletericom u sloju ne tanjem od 4 mm. Završnu obradu nanetog sloja uraditi valjanjem ili zaribavanjem, po izboru projektanta. Gotovu fasadu treba orošavati vodom prva 3 dana, a naročito ako se radi po toplijem vremenu. Fasadu obrađivati na temperaturi od +5°C do +30°C, ali ne po jako vetrovitom vremenu. nije dozvoljeno dodavanje drugih maltera ili bilo kakvih dodataka.
+Obračun po m2 fasade.
+a.
+ Malterisane fasade.
+  m2 4,50 €
+b.
+ Termoizolovane fasade.
+  m2 4,00 €
+c.
+ Betonske fasade.
+  m2 5,00 €
+
+
+
+"id": 10,
+"naziv": " Bojenja fasada",
+
+"id": 1,
+"naziv": "Čišćenje slojeva stare boje sa ravnih površina fasade.",
+Pažljivo očistiti stare slojeve boje sa ravnih delova fasade, za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne ošteti podloga.
+Obračun po m2 očišćene površine.
+m2 2,00 €
+
+"id": 2,
+"naziv": "Čišćenje slojeva stare boje sa ravnih površina fasade i vučenih profila.",
+Pažljivo očistiti stare slojeve boje sa ravnih delova fasade i vučenih profila (venaca, šambrana, samarica i dr.), za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne oštete podloga i vučeni profili.
+Obračun po m2 očišćene površine, ortogonalne projekcije.
+m2 3,50 €
+
+"id": 3,
+"naziv": "Čišćenje slojeva stare boje sa fasade sa ornamentima i vučenim profilima.",
+Pažljivo očistiti stare slojeve boje sa ravnih delova fasade, ornamenata i vučenih profila (venaca, šambrana, samarica i dr.), za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne ošteti podloga, ornamentalna plastika i vučeni profili.
+Obračun po m2 očišćene površine, ortogonalne projekcije.
+m2 4,50 €
+
+"id": 4,
+"naziv": "Gletovanje fasade glet masom.",
+Sve površine fasade očistiti od naslaga. Impregnirati podlogu.  Fasadu gletovati glet masom za spoljno gletovanje. Sve površine prebrusiti i opajati. Voditi računa da je glet masa na istoj bazi kao boja za fasadu.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+m2 1,20 €
+
+"id": 5,
+"naziv": "Gletovanje fasade glet masom, sa sanacijom pukotina.",
+Sve površine fasade očistiti od naslaga. Impregnirati podlogu i izvršiti sanaciju pukotina. Sanaciju izvršiti otvaranjem pukotina, kitovanjem i lepljenje staklene mreže preko saniranih pukotina. Fasadu gletovati glet masom za spoljno gletovanje. Sve površine prebrusiti i opajati. Voditi računa da je glet masa na istoj bazi kao boja za fasadu.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+m2 1,50 €
+
+"id": 6,
+"naziv": "Bojenje malterisane fasade disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Pre bojenja fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 3,00 €
+b.
+ Bojenje u dva tona.
+  m2 3,50 €
+
+"id": 8,
+"naziv": "Bojenje malterisane fasade akrilnom bojom, Fasakril.",
+Pre bojenja površine fasade preći šmirglom i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,00 €
+b.
+ Bojenje u dva tona.
+  m2 4,50 €
+
+"id": 10,
+"naziv": "Bojenje malterisane fasade silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,00 €
+b.
+ Bojenje u dva tonu.
+  m2 4,50 €
+c.
+ Bojenje u plavim tonovima.
+  m2 5,50 €
+
+"id": 13,
+"naziv": "Bojenje novih fasadnih površina silokoniziranom bojom Izolit SILICA ART, "Dramin" Zemun.",
+Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Fasadne površine preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h.Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,00 €
+b.
+ Bojenje u dva tonu.
+  m2 4,50 €
+
+"id": 15,
+"naziv": "Bojenje sa gletovanjem malterisane fasade disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Fasadne površine preći šmirglom i opajati, a zatim gletovati glet masom Unifix S. Pre bojenja fasadne površine brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,00 €
+b.
+ Bojenje u dva tona.
+  m2 4,50 €
+
+"id": 17,
+"naziv": "Bojenje sa gletovanjem malterisane fasade akrilnom bojom, Fasakril.",
+Pre gletovanja površine fasade preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 5,00 €
+b.
+ Bojenje u dva tona.
+  m2 5,50 €
+
+"id": 19,
+"naziv": "Bojenje sa gletovanjem malterisane fasade silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Sve površine fasade preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 5,00 €
+b.
+ Bojenje u dva tonu.
+  m2 5,50 €
+c.
+ Bojenje u plavim tonovima.
+  m2 6,50 €
+
+"id": 22,
+"naziv": "Bojenje malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Pre bojenja ravne fasadne površine, plastike i vučenih profila preći šmirglom i opajati, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 5,00 €
+b.
+ Bojenje u dva tona.
+  m2 5,50 €
+
+"id": 24,
+"naziv": "Bojenje malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril.",
+Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 6,00 €
+b.
+ Bojenje u dva tona.
+  m2 6,50 €
+
+"id": 26,
+"naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Silikatnu boju Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 6,00 €
+b.
+ Bojenje u dva tonu.
+  m2 6,50 €
+c.
+ Bojenje u plavim tonovima.
+  m2 7,50 €
+
+"id": 29,
+"naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silokoniziranom bojom Izolit SILICA ART, "Dramin" Zemun.",
+Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24 h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 5,00 €
+b.
+ Bojenje u dva tonu.
+  m2 5,50 €
+
+"id": 31,
+"naziv": "Bojenje sa gletovanjem malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Ravne fasadne površine, plastike i vučenih profila preći šmirglom i opajati, a zatim gletovati glet masom Unifix S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne fasadne površine, plastike i vučenih profila brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 7,00 €
+b.
+ Bojenje u dva tona.
+  m2 7,50 €
+
+"id": 33,
+"naziv": "Bojenje sa gletovanjem malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril.",
+Pre gletovanja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 8,50 €
+b.
+ Bojenje u dva tona.
+  m2 9,00 €
+
+"id": 35,
+"naziv": "Bojenje sa gletovanjem malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 8,50 €
+b.
+ Bojenje u dva tonu.
+  m2 9,00 €
+c.
+ Bojenje u plavim tonovima.
+  m2 10,00 €
+
+"id": 38,
+"naziv": "Bojenje postojeće fasade disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Sa fasadnih površina odstraniti sve stare premaze. Sve fasadne površine preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 3,50 €
+b.
+ Bojenje u dva tona.
+  m2 4,00 €
+
+40.
+Bojenje postojeće fasade akrilnom bojom, Fasakril.
+Sa površina fasade odstraniti sve stare premaze i fasadne površine preći šmirglom i opajati. Na fasadu naneti premaz za impregnaciju. Nakon sušenja naneti prvi i drugi premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,50 €
+b.
+ Bojenje u dva tona.
+  m2 5,00 €
+
+"id": 42,
+"naziv": "Bojenje postojeće fasade silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,50 €
+b.
+ Bojenje u dva tonu.
+  m2 5,00 €
+c.
+ Bojenje u plavim tonovima.
+  m2 6,00 €
+
+"id": 45,
+"naziv": "Bojenje postojećih fasadnih površina silokoniziranom bojom Izolit SILICA ART, "Dramin" Zemun.",
+Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze i druge mehanički neotporne delove. Fasadne površine preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,50 €
+b.
+ Bojenje u dva tonu.
+  m2 5,00 €
+
+"id": 47,
+"naziv": "Bojenje sa gletovanjem postojeće fasade disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Sa fasadnih površina odstraniti sve stare premaze. Sve fasadne površine preći šmirglom i oprati vodom, a zatim gletovati glet masom Unifix S. Pre bojenja fasadne površine brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 4,50 €
+b.
+ Bojenje u dva tona.
+  m2 5,00 €
+
+"id": 49,
+"naziv": "Bojenje sa gletovanjem postojeće fasade akrilnom bojom, Fasakril.",
+Sa površina fasade odstraniti sve stare premaze i fasadne površine preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 5,50 €
+b.
+ Bojenje u dva tona.
+  m2 6,00 €
+
+"id": 51,
+"naziv": "Bojenje sa gletovanjem postojeće fasade silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S.  Pre bojenja fasadne površine preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10- 20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 obojene fasade.
+a.
+ Bojenje u jednom tonu.
+  m2 5,50 €
+b.
+ Bojenje u dva tonu.
+  m2 6,00 €
+c.
+ Bojenje u plavim tonovima.
+  m2 7,00 €
+
+"id": 54,
+"naziv": "Bojenje postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Sa fasadnih površina odstraniti sve stare premaze. Ravne fasadne površine, plastike i vučenih profila preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 5,50 €
+b.
+ Bojenje u dva tona.
+  m2 6,00 €
+
+"id": 56,
+"naziv": "Bojenje postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril.",
+Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na fasadu naneti premaz za impregnaciju. Nakon sušenja naneti prvi i drugi premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 6,50 €
+b.
+ Bojenje u dva tona.
+  m2 7,00 €
+
+"id": 58,
+"naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 6,50 €
+b.
+ Bojenje u dva tonu.
+  m2 7,00 €
+c.
+ Bojenje u plavim tonovima.
+  m2 8,00 €
+
+"id": 61,
+"naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silokoniziranom",
+bojom Izolit SILICA ART, "Dramin" Zemun. Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 5,00 €
+b.
+ Bojenje u dva tonu.
+  m2 5,50 €
+
+"id": 63,
+"naziv": "Bojenje sa gletovanjem postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, "Prvi maj" Čačak.",
+Sa fasadnih površina odstraniti sve stare premaze. Ravne fasadne površine, plastike i vučenih profila preći šmirglom i oprati vodom, a zatim gletovati glet masom Unifix S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne fasadne površine, plastike i vučenih profila brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 7,50 €
+b.
+ Bojenje u dva tona.
+  m2 8,00 €
+
+"id": 65,
+"naziv": "Bojenje sa gletovanjem postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril.",
+Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 9,00 €
+b.
+ Bojenje u dva tona.
+  m2 9,50 €
+
+"id": 67,
+"naziv": "Bojenje sa gletovanjem postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, "Galenika - Magmasil".",
+Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.
+Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.
+a.
+ Bojenje u jednom tonu.
+  m2 9,00 €
+b.
+ Bojenje u dva tonu.
+  m2 9,50 €
+c.
+ Bojenje u plavim tonovima.
+  m2 10,50 €
+
+70.
+Toniranje delova fasade izrađenih od plemenitog maltera tonom dobijenim pomoću cementnog mleka i oksidne boje.
+Ton mora odgovarati boji postojećeg maltera sa završnom obradom po uzoru na postojeće površine. Po završetku toniranja izvršiti fiksiranje tona pomoću ekoimpregnita.
+Obračun po m2 tonirane površine.
+m2 7,50 €
+
+"id": 11,
+"naziv": "Zaštita fasada",
+
+"id": 1,
+"naziv": "Zaštita bojenih fasadnih površina od uticaja atmosferilija silikatnim premazom, Hidrofobus S, "Prvi maj" Čačak.",
+Na čistu površinu fasade naneti dva transparentna silikatna premaza Hidrofobusa S.
+Obračun po m2 ortogonalne projekcije fasade.
+a.
+ Ravna fasada.
+  m2 4,00 €
+b.
+ Fasada sa ornamentima.
+  m2 6,00 €
+
+"id": 3,
+"naziv": "Zaštita bojenih fasadnih površina od uticaja vlage i atmosferilija silikonskim premazom, Fobogal, "Galenika - Magmasil".",
+Na čistu i suvu površinu fasade naneti dva bezbojna silikatna premaza Fobogala.
+Obračun po m2 ortogonalne projekcije fasade.
+a.
+ Ravna fasada.
+  m2 4,00 €
+b.
+ Fasada sa ornamentima.
+  m2 6,00 €
+
+"id": 5,
+"naziv": "Zaštita fasadnih zidova od fasadne opeke od uticaja vlage i atmosferilija silikonskim premazom Fobogal, "Galenika - Magmasil".",
+Na čistu površinu kamena naneti dva transparentna silikatna premaza Fobogala.
+Obračun po m2 površine kamena.
+a.
+ Od fasadne opeke.
+  m2 5,00 €
+b Od kamena.
+ m2 5,00 €
+c.
+ Od veštačkog kamena.
+  m2 5,50 €
+
+"id": 8,
+"naziv": "Zaštita fasadnih zidova od fasadne opeke siloksanskim vodoodbojnim bezbojnim premazom, Izolit HIDROFOB R, "Dramin" Zemun.",
+Na čistu i suvu površinu fasade naneti dva sloja Hidrofob R četkom ili valjkom. Vremenski razmak između nanošenja slojeva je 1-2 časa.
+Obračun po m2 ortogonalne projekcije fasade.
+a.
+ Od fasadne opeke.
+  m2 5,00 €
+b.
+ Od betona.
+  m2 5,50 €
+c Od kamena.
+ m2 5,00 €
+d.
+ Od veštačkog kamena.
+  m2 5,50 €
+
+"id": 12,
+"naziv": "Zaštita površina sokle od kamena silikatnim premazom, Hidrofobus S, Prvi maj" Čačak, od uticaja vlage i atmosferilija.",
+Na čistu površinu sokle naneti dva transparentna silikatna premaza Hidrofobusa S.
+Obračun po m2 površine sokle.
+a Od kamena.
+ m2 5,00 €
+b.
+ Od veštačkog kamena.
+  m2 5,50 €
+c.
+ Od fasadne opeke.
+  m2 6,00 €
+
+"id": 15,
+"naziv": "Zaštita sokle fasade od uticaja vlage i atmosferilija silikonskim premazom Fobogal, "Galenika - Magmasil".",
+Na čistu i suvu površinu sokle naneti dva bezbojna silikatna premaza Fobogala.
+Obračun po m2 površine sokle.
+a Od kamena.
+ m2 5,00 €
+b.
+ Od veštačkog kamena.
+  m2 5,50 €
+c.
+ Od fasadne opeke.
+  m2 6,00 €
+
+"id": 12,
+"naziv": " Limarija",
+
+"id": 1,
+"naziv": "Bojenje novih oluka i olučnih vertikala, bojom za metal.",
+Pre bojenja lim odmastiti i podlogu oprati organskim rastvaračima. Na lim naneti antikorozivni premaz voš prajmer. Posle sušenja oluke i olučne vertikale obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m1 obojenog lima.
+a.
+ "id": Po m1,
+"naziv": "  m1 1,50 €",
+b.
+ "id": Po m2,
+"naziv": "  m2 4,50 €",
+
+"id": 3,
+"naziv": "Bojenje postojećih oluka i olučnih vertikala, bojom za metal.",
+Pre bojenja lim očisti fizičkim i hemijskim sredstvima, a podlogu oprati organskim rastvaračima. Na očišćene površine naneti antikorozivni premaz voš prajmer, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojenog lima.
+a.
+ "id": Po m1,
+"naziv": "  m1 2,50 €",
+b.
+ "id": Po m2,
+"naziv": "  m2 6,50 €",
+
+"id": 5,
+"naziv": "Bojenje limene opšivke venca, bojom za metal.",
+Pre bojenja lim odmastiti i podlogu oprati organskim rastvaračima. Na lim venca naneti antikorozivni premaz voš prajmer. Posle sušenja limariju obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojenog lima.
+m2 4,00 €
+
+"id": 6,
+"naziv": "Bojenje postojeće limene opšivke venca, bojom za metal.",
+Pre bojenja lim očisti fizičkim i hemijskim sredstvima, a podlogu oprati organskim rastvaračima. Na očišćene površine naneti antikorozivni premaz voš prajmer, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojenog lima.
+m2 6,00 €
+
+"id": 7,
+"naziv": "Bojenje limene opšivke solbanka, samarica i drugo, bojom za metal.",
+Pre bojenja lim odmastiti i podlogu oprati organskim rastvaračima. Na limene opšivke naneti antikorozivni premaz voš prajmer, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m1 opšivke.
+m1 1,25 €
+
+"id": 8,
+"naziv": "Bojenje postojeće limene opšivke solbanka, samarica i drugo, bojom za metal.",
+Pre bojenja lim očisti fizičkim i hemijskim sredstvima, a podlogu oprati organskim rastvaračima. Na očišćene površine naneti antikorozivni premaz voš prajmer, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m1 obojenog lima.
+m1 1,75 €
+
+"id": 9,
+"naziv": "Bojenje krovnog pokrivača i opšivki od lima, bojom za metal.",
+Pre bojenja lim odmastiti i podlogu oprati organskim rastvaračima. Na krovni pokrivač naneti antikorozivni premaz voš prajmer, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojenog lima.
+m2 3,50 €
+
+"id": 10,
+"naziv": "Bojenje starog krovnog pokrivača i opšivki od lima, bojom za metal.",
+Pre bojenja lim očisti fizičkim i hemijskim sredstvima, a podlogu oprati organskim rastvaračima. Na očišćene površine naneti antikorozivni premaz cinkolit u dva sloja, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojenog lima.
+m2 4,00 €
+
+"id": 11,
+"naziv": "Premazivanje krovnog pokrivača od lima, cinkolitom i bitulitom.",
+Pre bojenja lim odmastiti i podlogu oprati organskim rastvaračima. Na krovni pokrivač naneti antikorozivni premaz cinkolit u dva sloja, a posle sušenja premazati dva puta bitulitom, sa dovoljnim razmakom za sušenje.
+Obračun po m2 površine lima.
+m2 4,50 €
+
+"id": 12,
+"naziv": "Bojenje krovnih opšivki od lima, bojom za metal.",
+Pre bojenja lim odmastiti i podlogu oprati organskim rastvaračima. Na opšivke naneti antikorozivni premaz voš prajmer, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojenog lima.
+a.
+ Krovnih opšivki.
+  m2 4,00 €
+b.
+ Raznih opšivki.
+  m2 4,25 €
+
+"id": 14,
+"naziv": "Bojenje snegobrana, bojom za metal.",
+Pre bojenja odmastiti metal i oprati podlogu organskim rastvaračima. Na snegobrane naneti antikorozivni premaz minijum dva puta, a posle sušenja obojiti bojom za metal dva puta, u tonu po izboru projektanta.
+Obračun po m2 obojene površine.
+m2 1,00 €
+
+
+"id": 13,
+"naziv": "Ograde",
+"id": 1,
+"naziv": "Bojenje metalne ograde bojom, za metal.",
+Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Na ogradu naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+a.
+ Ograde.
+  m2 3,25 €
+b.
+ Stepenišne ograde.
+  m2 3,75 €
+c.
+ Balkonske ograde.
+  m2 3,00 €
+d.
+ Kapije.
+  m2 3,25 €
+e.
+ Kapije i ograde.
+  m2 3,25 €
+
+"id": 6,
+"naziv": "Skidanje stare boje i bojenje metalne ograde, bojom za metal.",
+Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti. Na ogradu naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+a.
+ Ograde.
+  m2 3,00 €
+b.
+ Stepenišne ograde.
+  m2 3,50 €
+c.
+ Balkonske ograde.
+  m2 4,00 €
+d.
+ Kapije.
+  m2 3,50 €
+e.
+ Kapije i ograde.
+  m2 3,50 €
+
+"id": 11,
+"naziv": "Bojenje drvene ograde, lazurnim bojama.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom i bojiti po treći put.
+Obračun po m2 obojene površine.
+a.
+ Ograde.
+  m2 4,00 €
+b.
+ Stepenišne ograde.
+  m2 4,50 €
+c.
+ Kapije.
+  m2 3,00 €
+d.
+ Kapije i ograde.
+  m2 3,25 €
+
+"id": 15,
+"naziv": "Bojenje drvene ograde, lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+a.
+ Ograde.
+  m2 5,00 €
+b.
+ Stepenišne ograde.
+  m2 5,50 €
+c.
+ Kapije.
+  m2 4,00 €
+d.
+ Kapije i ograde.
+  m2 4,25 €
+
+"id": 14,
+"naziv": "Instalacije",
+
+"id": 1,
+"naziv": "Bojenje radijatora, bojom za metal.",
+Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Na radijatore naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m2 obojenih radijatora.
+a.
+ Radijatora.
+  m2 2,50 €
+b.
+ Kanala za ventilaciju.
+  m2 3,75 €
+
+"id": 3,
+"naziv": "Skidanje stare boje i bojenje radijatora, bojom za metal.",
+Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti. Na radijatore naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m2 obojenih radijatora.
+m2 3,50 €
+
+"id": 4,
+"naziv": "Bojenje cevi za grejanje, bojom za metal.",
+Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Na cevi naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m1 obojenih cevi.
+a.
+ Cevi za grejanje.
+  m1 0,50 €
+b.
+ Vodovodnih cevi.
+  m1 0,50 €
+c.
+ Kanalizacionih cevi.
+  m1 1,00 €
+
+"id": 7,
+"naziv": "Skidanje stare boje i bojenje cevi za grejanje, bojom za metal.",
+Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti. Na cevi naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m1 obojenih cevi.
+a.
+ Cevi za grejanje.
+  m1 0,80 €
+b.
+ Vodovodnih cevi.
+  m1 0,80 €
+c.
+ Kanalizacionih cevi.
+  m1 1,40 €
+
+"id": 10,
+"naziv": "Bojenje trake za gromobran, bojom za metal.",
+Pre bojenja trake odmastiti. Na trake gromobrana naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m1 trake za gromobran.
+m1 0,50 €
+
+"id": 11,
+"naziv": "Skidanje stare boje i bojenje trake za gromobran, bojom za metal.",
+Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti. Na traku gromobrana naneti impregnaciju i osnovnu boju, a zatim bojiti dva puta bojom za metal.
+Obračun po m1 trake za gromobran.
+m1 0,75 €
+
+
+"id": 15,
+"naziv": " Mobilijar",
+
+"id": 1,
+"naziv": "Bojenje plakara, lazurnim bojama, sa lakiranjem.",
+Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.
+Obračun po m2 obojene površine.
+a.
+ Sa lakiranjem.
+  m2 5,25 €
+b.
+ Bez lakiranja.
+  m2 4,25 €
+
+"id": 3,
+"naziv": "Bojenje plakara.",
+Vrsta boje, proizvođač i ton po izboru projektanta. Izvršiti brušenje i predkitovanje uljanim kitom i prevlačenje uljanim kitom prvi put. Brusiti i prevući uljanim kitom drugi put. Brusiti i ponovo kitovati. Bojiti uljanom bojom prvi put. Po sušenju brusiti i bojiti emajl lakom. Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom.
+Obračun po m2 obojene površine.
+a.
+ Plakara.
+  m2 5,00 €
+b.
+ Nameštaja.
+  m2 6,00 €
+
+"id": 16,
+"naziv": "Ostali molersko - farbarski radovi",
+
+"id": 1,
+"naziv": "Zaštita površina kamena peščara od uticaja atmosferilija silikatnim premazom, Hidrofobus S, "Prvi maj" Čačak.",
+Na čistu površinu kamena naneti dva transparentna silikatna premaza Hidrofobusa S.
+Obračun po m2 površine kamena.
+a Od peščara.
+ m2 5,00 €
+b.
+ Od krečnjaka.
+  m2 6,50 €
+
+"id": 3,
+"naziv": "Zaštita površina kamena peščara od uticaja vlage i atmosferilija silikatnim premazom, Fobogal, "Galenika - Magmasil".",
+ Na čistu površinu kamena naneti dva transparentna silikatna premaza Fobogala.
+Obračun po m2 površine kamena.
+a Od peščara.
+ m2 5,00 €
+b.
+ Od krečnjaka.
+  m2 6,50 €
+
+"id": 5,
+"naziv": "Zaštita površina kamena peščara siloksanskim vodoodbojnim bezbojnim premazom, Izolit HIDROFOB R, "Dramin" Zemun.",
+Na čistu i suvu površinu kamena naneti dva sloja Hidrofob R četkom ili valjkom. Vremenski razmak između nanošenja slojeva je 1-2 časa.
+Obračun po m2 površine kamena.
+a Od peščara.
+ m2 5,00 €
+b.
+ Od krečnjaka.
+  m2 6,50 €
+
+"id": 7,
+"naziv": "Zaštitni premaz drvenih elemenata.",
+Drvene elemente konstrukcije krova, tavanice, tavanjače i drugo zaštititi od insekata, algi, gljivica i truljenja sa dva do tri premaza, hemijskim sredstvom, po izboru projektanta.
+Obračun po m2 obrađene površine.
+m2 4,00 €
+
+"id": 8,
+"naziv": "Zaštitno prskanje drvene krovne konstrukcije, sredstvom protiv požara i crvotočine.",
+Celokupnu krovnu konstrukciju očistiti od prašine, a zatim je prskati sredstvom protiv požara i crvotočine dva puta.
+Obračun po m2 zaštićene površine.
+a.
+ Drvene krovne konstrukcije.
+  m2 2,00 €
+b.
+ Drvene tavanjače.
+  m2 1,75 €
+c.
+ Drvene bondručne konstrukcije.
+  m2 1,50 €
+
+"id": 11,
+"naziv": "Skidanje stare boje i bojenje podne metalne rešetke sa nosačem, bojom za metal.",
+Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti. Na rešetku i nosač naneti osnovnu boju i bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+m2 3,25 €
+
+"id": 12,
+"naziv": "Čišćenje i bojenje čeličnih nosača, osnovnom bojom.",
+Čelične nosače očistiti od korozije i prašine hemijskim i fizičkim sredstvima, brusiti i očistiti. Naneti impregnaciju i obojiti osnovnom bojom.
+Obračun po m2 obrađene površine.
+a.
+ Čeličnih nosača.
+  m2 1,50 €
+b.
+ Čeličnih konstrukcija.
+  m2 1,75 €
+c.
+ Čelične krovne konstrukcije.
+  m2 2,00 €
+
+"id": 15,
+"naziv": "Bojenje čeličnih nosača, bojom za metal.",
+Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Na čelične nosače naneti osnovnu boju i bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+a.
+ Čeličnih nosača.
+  m2 2,50 €
+b.
+ Čelične krovne konstrukcije.
+  m2 3,00 €
+c.
+ Metalne rešetke sa nosačem.
+  m2 3,25 €
+
+"id": 18,
+"naziv": "Skidanje stare boje i bojenje čeličnih nosača, bojom za metal.",
+Pre bojenja skinuti staru boju i koroziju hemijskim i fizičkim sredstvima, brusiti i očistiti. Na čelične nosače naneti osnovnu boju i bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+a.
+ Čeličnih nosača.
+  m2 3,25 €
+b Čeličnih konstrukcija.
+ m2 3,50 €
+c.
+ Čelične krovne konstrukcije.
+  m2 3,75 €
+
+"id": 21,
+"naziv": "Bojenje podne metalne rešetke sa nosačem, bojom za metal.",
+Pre bojenja sa metala skinuti koroziju hemijskim i fizičkim sredstvima, a zatim sve površine brusiti i očistiti. Na rešetku i nosač naneti osnovnu boju i bojiti dva puta bojom za metal.
+Obračun po m2 obojene površine.
+m2 2,50 €
+
+"id": 22,
+"naziv": "Obrada betonskih podova trokomponentnim epoksidnim premazom Izolit EPOXY ART, "Dramin" Zemun.",
+Izolit EPOXY ART je premaz za estetsku i kiselootpornu zaštitu balkona, garaža, parkirališta, bazena za kupanje, itd. Premaz naneti u tri sloja na čistu, stabilnu i suvu betonsku podlogu staru najmanje 21 dan, pri optimalnoj temperaturi vazduha 15-20˚C. Premazati u tri sloja vodeći računa o razmeri mešanja komponenti za svaki sloj. Prvi sloj naneti nešto ređi, tako da penetrira u beton, stabilizuje ga i čini idealnim za premazivanje druga dva sloja. Izolit EPOXY ART prati teksturu poda, tako da rapave površine i dalje ostaju rapave i protivklizne, ali zaštićene od habanja, upijanja vode i sl. Boja po izboru projektanta.
+Obračun po m2 poda.
+m2 5,50 €
+
+"id": 23,
+"naziv": "Obrada betonskih zidova trokomponentnim epoksidnim premazom Izolit EPOXY ART, "Dramin" Zemun.",
+Izolit EPOXY ART je premaz za estetsku i kiselootpornu zaštitu zidova balkona, garaža, bazena za kupanje, itd. Premaz naneti u tri sloja na čist, stabilan i suv betonski zid ili malterisan cementnim malterom, star najmanje 21 dan, pri optimalnoj temperaturi vazduha 15-20˚C. Premazati u tri sloja vodeći računa o razmeri mešanja komponenti za svaki sloj. Prvi sloj naneti nešto ređi, tako da penetrira u zid, stabilizuje ga i čini idealnim za premazivanje druga dva sloja. Izolit EPOXY ART prati teksturu zida, tako da rapave površine i dalje ostaju rapave i zaštićene od upijanja vode i sl.  Boja po izboru projektanta.
+Obračun po m2 zida.
+m2 6,50 €

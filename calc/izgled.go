@@ -40,7 +40,6 @@ func (w *WingCal) IzborVrsteRadova() func() {
 						layout.UniformInset(unit.Dp(0)).Layout(w.Context, func() {
 							layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 								layout.Rigid(func() {
-
 									btn := w.Tema.Button(vrstarada.Naziv)
 									btn.CornerRadius = unit.Dp(0)
 									//btn.FullWidth = true
@@ -49,22 +48,18 @@ func (w *WingCal) IzborVrsteRadova() func() {
 									//btn.Align = layout.W
 									for w.LinkoviIzboraVrsteRadova[i].Clicked(w.Context) {
 										w.Putanja = append(w.Putanja, &vrstarada)
-
 										if vrstarada.Baza {
 											elementi := w.Db.DbRead(w.IzbornikRadova.Slug, vrstarada.Slug)
 											vrstarada.PodvrsteRadova = elementi.PodvrsteRadova
-
 										}
 										//if vrstarada.PodvrsteRadova != nil {
 										w.Podvrsta(&vrstarada)
-
 										w.EditPolja.Id.SetText(fmt.Sprint(w.PrikazaniElement.Id))
 										w.EditPolja.Naziv.SetText(w.PrikazaniElement.Naziv)
 										w.EditPolja.Opis.SetText(w.PrikazaniElement.Opis)
 										w.EditPolja.Obracun.SetText(w.PrikazaniElement.Obracun)
 										w.EditPolja.Jedinica.SetText(fmt.Sprint(w.PrikazaniElement.Jedinica))
 										w.EditPolja.Cena.SetText(fmt.Sprint(w.PrikazaniElement.Cena))
-
 										for _, neophodanMaterijal := range w.PrikazaniElement.NeophodanMaterijal {
 											w.EditPolja.Materijal[neophodanMaterijal.Id].SetText("0")
 											w.EditPolja.Materijal[neophodanMaterijal.Id].SetText(fmt.Sprint(neophodanMaterijal.Kolicina))
@@ -73,7 +68,7 @@ func (w *WingCal) IzborVrsteRadova() func() {
 									}
 									btn.Layout(w.Context, w.LinkoviIzboraVrsteRadova[i])
 								}),
-								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 0, "Dark")),
+								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 0, w.Tema.Colors["Gray"])),
 							)
 						})
 						//}
@@ -85,31 +80,43 @@ func (w *WingCal) IzborVrsteRadova() func() {
 
 func (w *WingCal) Nazad() func() {
 	return func() {
-		if len(w.Putanja) > 0 {
-			btnNazad := w.Tema.Button("NAZAD")
-			btnNazad.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
-			for nazadDugme.Clicked(w.Context) {
-				w.IzbornikRadova = w.Putanja[len(w.Putanja)-1]
-				w.GenerisanjeLinkova(w.Putanja[len(w.Putanja)-1].PodvrsteRadova)
-				w.Putanja = w.Putanja[:len(w.Putanja)-1]
-				w.Roditelj()
-				fmt.Println("IzbornikroditeL::" + w.IzbornikRadova.Slug)
-				//fmt.Println("roditeL::" + w.IzbornikRadova.Roditelj.Slug)
-			}
-			btnNazad.Layout(w.Context, nazadDugme)
-		}
+		//if len(w.Putanja) > 0 {
+		//btnNazad := w.Tema.Button("NAZAD")
+		//btnNazad.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
+		//for nazadDugme.Clicked(w.Context) {
+		//w.IzbornikRadova = w.Putanja[len(w.Putanja)-1]
+		//w.GenerisanjeLinkova(w.Putanja[len(w.Putanja)-1].PodvrsteRadova)
+		//w.Putanja = w.Putanja[:len(w.Putanja)-1]
+		//w.Roditelj()
+		//fmt.Println("IzbornikroditeL::" + w.IzbornikRadova.Slug)
+		//fmt.Println("roditeL::" + w.IzbornikRadova.Roditelj.Slug)
+		//}
+		//btnNazad.Layout(w.Context, nazadDugme)
+		//}
 	}
 }
 
-func (w *WingCal) NeophodanMaterijal(l *layout.List, n map[int]model.WingNeophodanMaterijal) func() {
+func (w *WingCal) NeophodanMaterijal(l *layout.List, n map[int]model.WingNeophodanMaterijal, s bool) func() {
 	return func() {
+		var materijal model.WingNeophodanMaterijal
 		width := w.Context.Constraints.Width.Max
 		l.Layout(w.Context, len(n), func(i int) {
-			materijal := n[i-1]
+			if s {
+				materijal = n[i]
+			} else {
+				materijal = n[i-1]
+				materijal.Koeficijent = n[i].Koeficijent
+			}
+
 			materijal.Materijal = w.Materijal[materijal.Id]
-			materijal.UkupnaCena = materijal.Materijal.Cena * materijal.Materijal.Potrosnja
-			materijal.UkupnoPakovanja = materijal.Kolicina / materijal.Materijal.Pakovanje
+			if materijal.Koeficijent > 0 {
+				materijal.Kolicina = materijal.Materijal.Potrosnja * float64(kolicina.Value) * materijal.Koeficijent
+			}
+			materijal.UkupnaCena = materijal.Materijal.Cena * float64(materijal.Kolicina)
+			materijal.UkupnoPakovanja = int(materijal.Kolicina / float64(materijal.Materijal.Pakovanje))
+
 			w.Context.Constraints.Width.Min = width
+
 			layout.Flex{
 				Axis: layout.Vertical,
 			}.Layout(w.Context,
@@ -118,31 +125,27 @@ func (w *WingCal) NeophodanMaterijal(l *layout.List, n map[int]model.WingNeophod
 						Axis:    layout.Horizontal,
 						Spacing: layout.SpaceBetween,
 					}.Layout(w.Context,
-						layout.Rigid(func() {
+						layout.Flexed(0.2, func() {
 							w.Tema.Body1(materijal.Materijal.Naziv).Layout(w.Context)
 						}),
-						layout.Rigid(func() {
-							w.Tema.Caption(fmt.Sprint(materijal.Materijal.Obracun)).Layout(w.Context)
+						layout.Flexed(0.2, func() {
+							w.Tema.Body1(fmt.Sprintf("%.2f", materijal.Materijal.Potrosnja)).Layout(w.Context)
 						}),
-					)
-				}),
-				layout.Rigid(func() {
-					layout.Flex{
-						Axis:    layout.Horizontal,
-						Spacing: layout.SpaceBetween,
-					}.Layout(w.Context,
-						layout.Rigid(func() {
-							w.Tema.Body1(fmt.Sprint(materijal.Kolicina)).Layout(w.Context)
+						layout.Flexed(0.15, func() {
+							w.Tema.Body1(fmt.Sprint(materijal.Koeficijent)).Layout(w.Context)
 						}),
-						layout.Rigid(func() {
+						layout.Flexed(0.15, func() {
+							w.Tema.Body1(fmt.Sprintf("%.2f", materijal.Kolicina)).Layout(w.Context)
+						}),
+						layout.Flexed(0.15, func() {
 							w.Tema.Body1(fmt.Sprint(materijal.UkupnoPakovanja)).Layout(w.Context)
 						}),
-						layout.Rigid(func() {
-							w.Tema.Body1("Ukupna cena:" + fmt.Sprint(materijal.UkupnaCena)).Layout(w.Context)
+						layout.Flexed(0.15, func() {
+							w.Tema.Body1(fmt.Sprintf("%.2f", materijal.UkupnaCena)).Layout(w.Context)
 						}),
 					)
 				}),
-				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 8, "Gray")),
+				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 1, w.Tema.Colors["Gray"])),
 			)
 		})
 	}

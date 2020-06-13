@@ -1,0 +1,96 @@
+{
+  "id": "6",
+  "slug": "Strehe",
+  "PodvrsteRadova": {
+    "0": {
+      "id": 1,
+      "naziv": "Skidanje boje sa strehe, hemijskim putem.",
+      "opis": "Postojeće slojeve boje skinuti nanošenjem hemijskog rastvarača i skidanjem slojeva boje špahtlama i odgovarajućim alatkama. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "1": {
+      "id": 2,
+      "naziv": "Skidanje boje sa strehe, paljenjem.",
+      "opis": "Postojeće slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "2": {
+      "id": 3,
+      "naziv": "Skidanje boje sa strehe, upotrebom specijalnog fena za skidanje boje.",
+      "opis": "Postojeće slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajućih alatki. Postupak ponavljati dok se ne skinu svi slojevi boje i ne dođe do zdravog i čistog drveta. Naročitu pažnju obratiti da ne dođe do oštećenja ivica i profilacije. Po izvršenom skidanju boje drvo prebrusiti finom šmirglom.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "3": {
+      "id": 4,
+      "naziv": "Bojenje nove strehe.",
+      "opis": "Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo očistiti od maltera i prašine, a zatim natopiti razređenim firnisom. Izvršiti brušenje i predkitovanje uljanim kitom. Prevući uljanim kitom prvi put, brusiti i ponovno kitovati. Bojiti uljanom bojom. Fino brusiti i bojiti emajl lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "4": {
+      "id": 5,
+      "naziv": "Bojenje stare strehe, preko postojeće boje.",
+      "opis": "Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja sve površine brusiti, očistiti i kitovati oštećenja i pukotine. Prevući uljanim kitom, brusiti i nadkitovati. Bojiti uljanom bojom. Fino brusiti i bojiti emajl lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 4.25,
+      "element": true
+    },
+    "5": {
+      "id": 6,
+      "naziv": "Bojenje stare strehe, sa koje je boja skinuta.",
+      "opis": "Vrsta boje, proizvođač i ton po izboru projektanta. Pre bojenja drvo brusiti i očistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje. Izvršiti predkitovanje i prevlačenje uljanim kitom, brušenje i nadkitovanje. Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom. Fino brusiti i bojiti emajl lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "6": {
+      "id": 7,
+      "naziv": "Bojenje drvenih krovnih opšivki, lazurnim bojama. - Drvenih krovnih opšivki.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, po potrebi bojiti i treći put.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "7": {
+      "id": 8,
+      "naziv": "Bojenje drvenih krovnih opšivki, lazurnim bojama. - Krovne strehe.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, po potrebi bojiti i treći put.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "8": {
+      "id": 9,
+      "naziv": "Bojenje streha lazurnim bojama, sa lakiranjem.",
+      "opis": "Bojiti sadolinom ili nekim sličnim sredstvom po izboru projektanta. Pre bojenja sve površine preći finom šmirglom, da ostane glatka površina. Bojiti dva puta sa razmakom za sušenje od 24 h, preći najfinijom šmirglom, pa bojiti treći put i lakirati lakom.",
+      "obracun": "Obračun po m2 obojene površine.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "9": {
+      "id": 10,
+      "naziv": "Lakiranje strehe, prethodno obrađene lazurnom bojom, sadolinom ili sličnim sredstvima.",
+      "opis": "Sve površine lakirati dva puta mat ili sjajnim lakom, po izboru projektanta, sa razmakom od 24 h.",
+      "obracun": "Obračun po m2 lakirane površine.",
+      "jedinica": "m2",
+      "cena": 2.00,
+      "element": true
+    }
+  }
+}

@@ -1,0 +1,512 @@
+{
+	"id": 1,
+	"slug": "pripremni",
+	"PodvrsteRadova": {
+		"0": {
+			"id": 1,
+			"naziv": "Skidanje boje sa vrata i prozora hemijskim putem",
+			"opis": "Postojece slojeve boje skinuti nanošenjem hemijskog rastvaraca i skidanjem slojeva boje špahtlama i odgovarajucim alatkama \nPostupak ponavljati dok se ne skinu svi slojevi boje i ne dode do zdravog i cistog drveta \nNarocitu pažnju obratiti da ne dode do oštecenja ivica i profilacije",
+			"obracun": "Obracun po m2 ocišcene površine",
+			"jedinica": "m2",
+			"cena": 3.50,
+			"slug": "",
+			"element": true,
+			"neophodanmaterijal": {
+				"0": {
+					"id": 7,
+					"kolicina": 88
+				},
+				"1": {
+					"id": 2,
+					"kolicina": 5
+				},
+				"2": {
+					"id": 5,
+					"kolicina": 3
+				}
+			}
+		},
+		"1": {
+			"id": 2,
+			"naziv": "Skidanje boje sa vrata i prozora upotrebom specijalnog fena za skidanje boje",
+			"opis": "Postojece slojeve boje skinuti grejanjem fenom i upotrebom špahtli i odgovarajucih alatki Postupak ponavljati dok se ne skinu svi slojevi boje i ne dode do zdravog i cistog drveta \nPo izvršenom skidanju boje drvo prebrusiti finom šmirglom",
+			"obracun": "Obracun po m2 ocišcene površine",
+			"jedinica": "m2",
+			"cena": 4.00,
+			"slug": "",
+			"element": true,
+			"neophodanmaterijal": {
+				"0": {
+					"id": 17,
+					"kolicina": 88
+				},
+				"1": {
+					"id": 21,
+					"kolicina": 50
+				},
+				"2": {
+					"id": 15,
+					"kolicina": 30
+				}
+			}
+		},
+		"2": {
+			"id": 3,
+			"naziv": "Skidanje boje sa vrata i prozora paljenjem",
+			"opis": "Postojece slojeve boje skinuti paljenjem brenerom sa plinom i upotrebom špahtli i odgovarajucih alatki Postupak ponavljati dok se ne skinu svi slojevi boje i ne dode do zdravog i cistog drveta \nPo izvršenom skidanju boje drvo prebrusiti finom šmirglom",
+			"obracun": "Obracun po m2 ocišcene površine",
+			"jedinica": "m2",
+			"cena": 5.00,
+			"slug": "",
+			"element": true,
+			"neophodanmaterijal": {
+				"0": {
+					"id": 11,
+					"kolicina": 8
+				},
+				"1": {
+					"id": 2,
+					"kolicina": 22
+				},
+				"2": {
+					"id": 4,
+					"kolicina": 5
+				}
+			}
+		},
+		"3": {
+			"id": 4,
+			"naziv": "Bojenje novih prozora i vrata u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta \nPre bojenja drvo ocistiti od maltera i prašine, natopiti razredenim firnisom i minizirati gvozdeni okov \nPrevuci uljanim kitom prvi put, brusiti i ponovno kitovati \nBojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Fino brusiti i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 5.00,
+			"slug": "",
+			"element": true,
+			"neophodanmaterijal": {
+				"0": {
+					"id": 8,
+					"kolicina": 98
+				},
+				"1": {
+					"id": 9,
+					"kolicina": 550
+				},
+				"2": {
+					"id": 15,
+					"kolicina": 30
+				},
+				"3": {
+					"id": 18,
+					"kolicina": 150
+				},
+				"4": {
+					"id": 2,
+					"kolicina":  330
+				}
+			}
+		},
+		"4": {
+			"id": 5,
+			"naziv": "Bojenje novih prozora i vrata u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta \nPre bojenja drvo ocistiti od maltera i prašine, natopiti razredenim firnisom i minizirati gvozdeni okov \nPrevuci uljanim kitom prvi put, brusiti i ponovno kitovati \nBojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Fino brusiti i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 5.75,
+			"slug": "",
+			"element": true
+		},
+		"5": {
+			"id": 6,
+			"naziv": "Bojenje novih prozora i vrata, kvalitetnije bojenje u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo ocistiti od maltera i prašine, natopiti razredenim firnisom i minizirati gvozdeni okov Prevuci uljanim kitom prvi put, brusiti i ponovno kitovati Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Bojiti uljanom bojom, drugi put Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 6.00,
+			"slug": "",
+			"element": true
+		},
+		"6": {
+			"id": 7,
+			"naziv": "Bojenje novih prozora i vrata, kvalitetnije bojenje u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta \nPre bojenja drvo ocistiti od maltera i prašine, natopiti razredenim firnisom i minizirati gvozdeni okov Prevuci uljanim kitom prvi put, brusiti i ponovno kitovati Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Bojiti uljanom bojom, drugi put Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 6.75,
+			"slug": "",
+			"element": true
+		},
+		"7": {
+			"id": 8,
+			"naziv": "Bojenje novih prozora i vrata, prvorazredno bojenje  u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo ocistiti od maltera i prašine, natopiti razredenim firnisom i minizirati gvozdeni okov Prevuci uljanim kitom prvi put, brusiti i ponovno prevuci uljani kit, drugi put Brusiti i ponovo kitovati Bojiti uljanom bojom prvi put Brusiti i bojiti emajl lakom Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 8.00,
+			"slug": "",
+			"element": true
+		},
+		"8": {
+			"id": 9,
+			"naziv": "Bojenje novih prozora i vrata, prvorazredno bojenje  u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo ocistiti od maltera i prašine, natopiti razredenim firnisom i minizirati gvozdeni okov Prevuci uljanim kitom prvi put, brusiti i ponovno prevuci uljani kit, drugi put Brusiti i ponovo kitovati Bojiti uljanom bojom prvi put Brusiti i bojiti emajl lakom Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 9.00,
+			"slug": "",
+			"element": true
+		},
+		"9": {
+			"id": 10,
+			"naziv": "Bojenje novih prozora i vrata lazurnim bojama, sa lakiranjem",
+			"opis": "Bojiti sadolinom ili nekim slicnim sredstvom po izboru projektanta Pre bojenja sve površine preci finom šmirglom, da ostane glatka površina",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.50,
+			"slug": "",
+			"element": true
+		},
+		"10": {
+			"id": 11,
+			"naziv": "Bojenje novih prozora i vrata lazurnim bojama, bez lakiranja",
+			"opis": "Bojiti sadolinom ili nekim slicnim sredstvom po izboru projektanta Pre bojenja sve površine preci finom šmirglom, da ostane glatka površina",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.00,
+			"slug": "",
+			"element": true
+		},
+		"11": {
+			"id": 12,
+			"naziv": "Bojenje starih prozora i vrata preko postojece boje u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja sve površine brusiti, ocistiti i kitovati oštecenja i pukotine Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom Fino brusiti i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.25,
+			"slug": "",
+			"element": true
+		},
+		"12": {
+			"id": 13,
+			"naziv": "Bojenje starih prozora i vrata preko postojece boje u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja sve površine brusiti, ocistiti i kitovati oštecenja i pukotine Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom Fino brusiti i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.75,
+			"slug": "",
+			"element": true
+		},
+		"13": {
+			"id": 14,
+			"naziv": "Bojenje starih prozora i vrata preko postojece boje, kvalitetnije bojenje u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja sve površine brusiti, ocistiti i kitovati oštecenja i pukotine Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Bojiti uljanom bojom, drugi put Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.75,
+			"slug": "",
+			"element": true
+		},
+		"14": {
+			"id": 15,
+			"naziv": "Bojenje starih prozora i vrata preko postojece boje, kvalitetnije bojenje u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja sve površine brusiti, ocistiti i kitovati oštecenja i pukotine Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Bojiti uljanom bojom, drugi put Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 5.25,
+			"slug": "",
+			"element": true
+		},
+		"15": {
+			"id": 16,
+			"naziv": "Bojenje starih prozora i vrata preko postojece boje, prvorazredna izrada u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja sve površine brusiti, ocistiti i kitovati oštecenja i pukotine Bojiti uljanom bojom prvi put Brusiti i bojiti emajl lakom Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 5.50,
+			"slug": "",
+			"element": true
+		},
+		"16": {
+			"id": 17,
+			"naziv": "Bojenje starih prozora i vrata preko postojece boje, prvorazredna izrada u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja sve površine brusiti, ocistiti i kitovati oštecenja i pukotine Bojiti uljanom bojom prvi put Brusiti i bojiti emajl lakom Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 6.50,
+			"slug": "",
+			"element": true
+		},
+		"17": {
+			"id": 18,
+			"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo brusiti i ocistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom Fino brusiti i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 6.00,
+			"slug": "",
+			"element": true
+		},
+		"18": {
+			"id": 19,
+			"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja u dva tona tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo brusiti i ocistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje Bojiti uljanom bojom, po sušenju brusiti i nadkitovati uljanim kitom Fino brusiti i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 6.75,
+			"slug": "",
+			"element": true
+		},
+		"19": {
+			"id": 20,
+			"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja, kvalitetnije bojenje u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo brusiti i ocistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Bojiti uljanom bojom, drugi put Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 7.00,
+			"slug": "",
+			"element": true
+		},
+		"20": {
+			"id": 21,
+			"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja, kvalitetnije bojenje u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo brusiti i ocistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje Bojiti uljanom bojom prvi put, po sušenju brusiti i nadkitovati uljanim kitom Bojiti uljanom bojom, drugi put Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 7.75,
+			"slug": "",
+			"element": true
+		},
+		"21": {
+			"id": 22,
+			"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja, prvorazredno bojenje u jednom tonu",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo brusiti i ocistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje Bojiti uljanom bojom prvi put Brusiti i bojiti emajl lakom Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 8.00,
+			"slug": "",
+			"element": true
+		},
+		"22": {
+			"id": 23,
+			"naziv": "Bojenje starih prozora i vrata, sa kojih je skinuta stara boja, prvorazredno bojenje u dva tona",
+			"opis": "Vrsta boje, proizvodac i ton po izboru projektanta Pre bojenja drvo brusiti i ocistiti, a zatim naneti podlogu od firnisa sa dodatkom uljane boje Bojiti uljanom bojom prvi put Brusiti i bojiti emajl lakom Fino brusiti, ispraviti emajl kitom i bojiti emajl lakom",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 9.00,
+			"slug": "",
+			"element": true
+		},
+		"23": {
+			"id": 24,
+			"naziv": "Bojenje starih prozora i vrata lazurnim bojama, sa lakiranjem",
+			"opis": "Bojiti sadolinom ili nekim slicnim sredstvom po izboru projektanta Pre bojenja sve površine preci finom šmirglom, da ostane glatka površina",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.25,
+			"slug": "",
+			"element": true
+		},
+		"24": {
+			"id": 25,
+			"naziv": "Bojenje starih prozora i vrata lazurnim bojama, sa lakiranja",
+			"opis": "Bojiti sadolinom ili nekim slicnim sredstvom po izboru projektanta Pre bojenja sve površine preci finom šmirglom, da ostane glatka površina",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 2.75,
+			"slug": "",
+			"element": true
+		},
+		"25": {
+			"id": 26,
+			"naziv": "Lakiranje površina vrata i prozora, preko lazurne boje",
+			"opis": "Sve površine lakirati mat ili sjajnim lakom, po izboru projektanta Lakirati prvi put, posle 24 h preci najfinijom šmirglom, opajati i lakirati drugi put",
+			"obracun": "Obracun po m2 lakirane površine",
+			"jedinica": "m2",
+			"cena": 2.00,
+			"slug": "",
+			"element": true
+		},
+		"26": {
+			"id": 27,
+			"naziv": "Bojenje osnovnom bojom metalnih prozora, sa prethodnim cišcenjem prozora",
+			"opis": "Metalne prozore ocistiti od korozije i prašine hemijskim i fizickim sredstvima, brusiti i ocistiti Naneti impregnaciju i obojiti osnovnom bojom",
+			"obracun": "Obracun po m2 obradene površine",
+			"jedinica": "m2",
+			"cena": 1.25,
+			"slug": "",
+			"element": true
+		},
+		"27": {
+			"id": 28,
+			"naziv": "Bojenje osnovnom bojom metalnih prozora, sa prethodnim cišcenjem vrata",
+			"opis": "Metalne prozore ocistiti od korozije i prašine hemijskim i fizickim sredstvima, brusiti i ocistiti Naneti impregnaciju i obojiti osnovnom bojom",
+			"obracun": "Obracun po m2 obradene površine",
+			"jedinica": "m2",
+			"cena": 1.25,
+			"slug": "",
+			"element": true
+		},
+		"28": {
+			"id": 29,
+			"naziv": "Bojenje osnovnom bojom metalne kapije, sa prethodnim cišcenjem kapije",
+			"opis": "Metalnu kapiju ocistiti od korozije i prašine hemijskim i fizickim sredstvima, brusiti i ocistiti Naneti impregnaciju i obojiti osnovnom bojom",
+			"obracun": "Obracun po m2 obradene površine",
+			"jedinica": "m2",
+			"cena": 1.75,
+			"slug": "",
+			"element": true
+		},
+		"29": {
+			"id": 30,
+			"naziv": "Bojenje osnovnom bojom metalne kapije, sa prethodnim cišcenjem ograde",
+			"opis": "Metalnu kapiju ocistiti od korozije i prašine hemijskim i fizickim sredstvima, brusiti i ocistiti Naneti impregnaciju i obojiti osnovnom bojom",
+			"obracun": "Obracun po m2 obradene površine",
+			"jedinica": "m2",
+			"cena": 1.75,
+			"slug": "",
+			"element": true
+		},
+		"30": {
+			"id": 31,
+			"naziv": "Bojenje novih metalnih prozora, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.75,
+			"slug": "",
+			"element": true
+		},
+		"31": {
+			"id": 32,
+			"naziv": "Bojenje novih metalnih vrata, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.50,
+			"slug": "",
+			"element": true
+		},
+		"32": {
+			"id": 33,
+			"naziv": "Bojenje novih metalnih protivpožarnih vrata, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.25,
+			"slug": "",
+			"element": true
+		},
+		"33": {
+			"id": 34,
+			"naziv": "Bojenje novih garažnih vrata, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.50,
+			"slug": "",
+			"element": true
+		},
+		"34": {
+			"id": 35,
+			"naziv": "Bojenje novih metalnih rešetki prozora, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.00,
+			"slug": "",
+			"element": true
+		},
+		"35": {
+			"id": 36,
+			"naziv": "Bojenje novih metalnih rešetki vrata, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.50,
+			"slug": "",
+			"element": true
+		},
+		"36": {
+			"id": 37,
+			"naziv": "Bojenje novih metalnihroletni, bojom za metal",
+			"opis": "Pre bojenja sa metala skinuti koroziju hemijskim i fizickim sredstvima, a zatim sve površine brusiti i ocistiti Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.00,
+			"slug": "",
+			"element": true
+		},
+		"37": {
+			"id": 38,
+			"naziv": "Bojenje starih metalnih prozora, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.50,
+			"slug": "",
+			"element": true
+		},
+		"38": {
+			"id": 39,
+			"naziv": "Bojenje starih metalnih vrata, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.50,
+			"slug": "",
+			"element": true
+		},
+		"39": {
+			"id": 40,
+			"naziv": "Bojenje starih protivpožarnih vrata, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.25,
+			"slug": "",
+			"element": true
+		},
+		"40": {
+			"id": 41,
+			"naziv": "Bojenje starih garažnih vrata, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na prozore naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.00,
+			"slug": "",
+			"element": true
+		},
+		"41": {
+			"id": 42,
+			"naziv": "Bojenje starih metalnih rešetki prozora, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 3.00,
+			"slug": "",
+			"element": true
+		},
+		"42": {
+			"id": 43,
+			"naziv": "Bojenje starih metalnih roletni, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.50,
+			"slug": "",
+			"element": true
+		},
+		"43": {
+			"id": 44,
+			"naziv": "Bojenje starih metalnih rešetki vrata, bojom za metal, sa prethodnim skidanjem stare boje",
+			"opis": "Pre bojenja skinuti staru boju i koroziju hemijskim i fizickim sredstvima, brusiti i ocistiti Na rešetke naneti impregnaciju i osnovnu boju, a zatim predkitovati i brusiti Obojiti drugi put bojom za metal, u tonu po izboru projektanta",
+			"obracun": "Obracun po m2 obojene površine",
+			"jedinica": "m2",
+			"cena": 4.00,
+			"slug": "",
+			"element": true
+		}
+	}
+}
+
+

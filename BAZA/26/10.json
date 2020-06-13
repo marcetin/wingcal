@@ -1,0 +1,636 @@
+{
+  "id": "10",
+  "slug": "Bojenje fasada",
+  "PodvrsteRadova": {
+    "0": {
+      "id": 1,
+      "naziv": "Čišćenje slojeva stare boje sa ravnih površina fasade.",
+      "opis": "Pažljivo očistiti stare slojeve boje sa ravnih delova fasade, za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne ošteti podloga.",
+      "obracun": "Obračun po m2 očišćene površine.",
+      "jedinica": "m2",
+      "cena": 2.00,
+      "element": true
+    },
+    "1": {
+      "id": 2,
+      "naziv": "Čišćenje slojeva stare boje sa ravnih površina fasade i vučenih profila.",
+      "opis": "Pažljivo očistiti stare slojeve boje sa ravnih delova fasade i vučenih profila (venaca, šambrana, samarica i dr.), za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne oštete podloga i vučeni profili.",
+      "obracun": "Obračun po m2 očišćene površine, ortogonalne projekcije.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "2": {
+      "id": 3,
+      "naziv": "Čišćenje slojeva stare boje sa fasade sa ornamentima i vučenim profilima.",
+      "opis": "Pažljivo očistiti stare slojeve boje sa ravnih delova fasade, ornamenata i vučenih profila (venaca, šambrana, samarica i dr.), za ponovno bojenje fasade. Čišćenje izvršiti mehaničkim i hemijskim putem. Prilikom čišćenja voditi računa da se ne ošteti podloga, ornamentalna plastika i vučeni profili.",
+      "obracun": "Obračun po m2 očišćene površine, ortogonalne projekcije.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "3": {
+      "id": 4,
+      "naziv": "Gletovanje fasade glet masom.",
+      "opis": "Sve površine fasade očistiti od naslaga. Impregnirati podlogu.  Fasadu gletovati glet masom za spoljno gletovanje. Sve površine prebrusiti i opajati. Voditi računa da je glet masa na istoj bazi kao boja za fasadu.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 1.20,
+      "element": true
+    },
+    "4": {
+      "id": 5,
+      "naziv": "Gletovanje fasade glet masom, sa sanacijom pukotina.",
+      "opis": "Sve površine fasade očistiti od naslaga. Impregnirati podlogu i izvršiti sanaciju pukotina. Sanaciju izvršiti otvaranjem pukotina, kitovanjem i lepljenje staklene mreže preko saniranih pukotina. Fasadu gletovati glet masom za spoljno gletovanje. Sve površine prebrusiti i opajati. Voditi računa da je glet masa na istoj bazi kao boja za fasadu.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 1.50,
+      "element": true
+    },
+    "5": {
+      "id": 6,
+      "naziv": "Bojenje malterisane fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Pre bojenja fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 3.00,
+      "element": true
+    },
+    "6": {
+      "id": 7,
+      "naziv": "Bojenje malterisane fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Pre bojenja fasadne površine preći šmirglom i opajati, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "7": {
+      "id": 8,
+      "naziv": "Bojenje malterisane fasade akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Pre bojenja površine fasade preći šmirglom i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "8": {
+      "id": 9,
+      "naziv": "Bojenje malterisane fasade akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Pre bojenja površine fasade preći šmirglom i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "9": {
+      "id": 10,
+      "naziv": "Bojenje malterisane fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "10": {
+      "id": 11,
+      "naziv": "Bojenje malterisane fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "11": {
+      "id": 12,
+      "naziv": "Bojenje malterisane fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "12": {
+      "id": 13,
+      "naziv": "Bojenje novih fasadnih površina silokoniziranom bojom Izolit SILICA ART, \"Dramin\" Zemun. - Bojenje u jednom tonu.",
+      "opis": "Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Fasadne površine preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h.Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "13": {
+      "id": 14,
+      "naziv": "Bojenje novih fasadnih površina silokoniziranom bojom Izolit SILICA ART, \"Dramin\" Zemun. - Bojenje u dva tonu.",
+      "opis": "Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Fasadne površine preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h.Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "14": {
+      "id": 15,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. -  Bojenje u jednom tonu.",
+      "opis": "Fasadne površine preći šmirglom i opajati, a zatim gletovati glet masom Unifix S. Pre bojenja fasadne površine brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "15": {
+      "id": 16,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Fasadne površine preći šmirglom i opajati, a zatim gletovati glet masom Unifix S. Pre bojenja fasadne površine brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "16": {
+      "id": 17,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade akrilnom bojom, Fasakril. -  Bojenje u jednom tonu.",
+      "opis": "Pre gletovanja površine fasade preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "17": {
+      "id": 18,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Pre gletovanja površine fasade preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "18": {
+      "id": 19,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". -  Bojenje u jednom tonu.",
+      "opis": "Sve površine fasade preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "19": {
+      "id": 20,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Sve površine fasade preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "20": {
+      "id": 21,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Sve površine fasade preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Pre bojenja površine fasade preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 6.50,
+      "element": true
+    },
+    "21": {
+      "id": 22,
+      "naziv": "Bojenje malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Pre bojenja ravne fasadne površine, plastike i vučenih profila preći šmirglom i opajati, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "22": {
+      "id": 23,
+      "naziv": "Bojenje malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Pre bojenja ravne fasadne površine, plastike i vučenih profila preći šmirglom i opajati, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "23": {
+      "id": 24,
+      "naziv": "Bojenje malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "24": {
+      "id": 25,
+      "naziv": "Bojenje malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.50,
+      "element": true
+    },
+    "25": {
+      "id": 26,
+      "naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Silikatnu boju Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "26": {
+      "id": 27,
+      "naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Silikatnu boju Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.50,
+      "element": true
+    },
+    "27": {
+      "id": 28,
+      "naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Silikatnu boju Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 7.50,
+      "element": true
+    },
+    "28": {
+      "id": 29,
+      "naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silokoniziranom bojom Izolit SILICA ART, \"Dramin\" Zemun. - Bojenje u jednom tonu.",
+      "opis": "Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24 h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "29": {
+      "id": 30,
+      "naziv": "Bojenje malterisane fasade sa ornamentalnom plastikom i vučenim profilima silokoniziranom bojom Izolit SILICA ART, \"Dramin\" Zemun. - Bojenje u dva tonu.",
+      "opis": "Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24 h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "30": {
+      "id": 31,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Ravne fasadne površine, plastike i vučenih profila preći šmirglom i opajati, a zatim gletovati glet masom Unifix S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne fasadne površine, plastike i vučenih profila brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 7.00,
+      "element": true
+    },
+    "31": {
+      "id": 32,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Ravne fasadne površine, plastike i vučenih profila preći šmirglom i opajati, a zatim gletovati glet masom Unifix S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne fasadne površine, plastike i vučenih profila brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 7.50,
+      "element": true
+    },
+    "32": {
+      "id": 33,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Pre gletovanja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 8.50,
+      "element": true
+    },
+    "33": {
+      "id": 34,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Pre gletovanja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 9.00,
+      "element": true
+    },
+    "34": {
+      "id": 35,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 8.50,
+      "element": true
+    },
+    "35": {
+      "id": 36,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 9.00,
+      "element": true
+    },
+    "36": {
+      "id": 37,
+      "naziv": "Bojenje sa gletovanjem malterisane fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati, a zatim impregnirati RK razređivačem i gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 10.00,
+      "element": true
+    },
+    "37": {
+      "id": 38,
+      "naziv": "Bojenje postojeće fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Sve fasadne površine preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 3.50,
+      "element": true
+    },
+    "38": {
+      "id": 39,
+      "naziv": "Bojenje postojeće fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Sve fasadne površine preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "39": {
+      "id": 40,
+      "naziv": "Bojenje postojeće fasade akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze i fasadne površine preći šmirglom i opajati. Na fasadu naneti premaz za impregnaciju. Nakon sušenja naneti prvi i drugi premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "40": {
+      "id": 41,
+      "naziv": "Bojenje postojeće fasade akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze i fasadne površine preći šmirglom i opajati. Na fasadu naneti premaz za impregnaciju. Nakon sušenja naneti prvi i drugi premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "41": {
+      "id": 42,
+      "naziv": "Bojenje postojeće fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "42": {
+      "id": 43,
+      "naziv": "Bojenje postojeće fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "43": {
+      "id": 44,
+      "naziv": "Bojenje postojeće fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "44": {
+      "id": 45,
+      "naziv": "Bojenje postojećih fasadnih površina silokoniziranom bojom Izolit SILICA ART, \"Dramin\" Zemun. - Bojenje u jednom tonu.",
+      "opis": "Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze i druge mehanički neotporne delove. Fasadne površine preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.50,
+      "element": true
+    },
+    "45": {
+      "id": 46,
+      "naziv": "Bojenje postojećih fasadnih površina silokoniziranom bojom Izolit SILICA ART, \"Dramin\" Zemun. - Bojenje u dva tonu.",
+      "opis": "Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze i druge mehanički neotporne delove. Fasadne površine preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "46": {
+      "id": 47,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Sve fasadne površine preći šmirglom i oprati vodom, a zatim gletovati glet masom Unifix S. Pre bojenja fasadne površine brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "47": {
+      "id": 48,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Sve fasadne površine preći šmirglom i oprati vodom, a zatim gletovati glet masom Unifix S. Pre bojenja fasadne površine brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "48": {
+      "id": 49,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze i fasadne površine preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "49": {
+      "id": 50,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze i fasadne površine preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "50": {
+      "id": 51,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S.  Pre bojenja fasadne površine preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10- 20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "51": {
+      "id": 52,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S.  Pre bojenja fasadne površine preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10- 20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "52": {
+      "id": 53,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S.  Pre bojenja fasadne površine preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10- 20% RK razređivača. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 obojene fasade.",
+      "jedinica": "m2",
+      "cena": 7.00,
+      "element": true
+    },
+    "53": {
+      "id": 54,
+      "naziv": "Bojenje postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Ravne fasadne površine, plastike i vučenih profila preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "54": {
+      "id": 55,
+      "naziv": "Bojenje postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Ravne fasadne površine, plastike i vučenih profila preći šmirglom i oprati vodom, a zatim grundirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.00,
+      "element": true
+    },
+    "55": {
+      "id": 56,
+      "naziv": "Bojenje postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na fasadu naneti premaz za impregnaciju. Nakon sušenja naneti prvi i drugi premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.50,
+      "element": true
+    },
+    "56": {
+      "id": 57,
+      "naziv": "Bojenje postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na fasadu naneti premaz za impregnaciju. Nakon sušenja naneti prvi i drugi premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 7.00,
+      "element": true
+    },
+    "57": {
+      "id": 58,
+      "naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 6.50,
+      "element": true
+    },
+    "58": {
+      "id": 59,
+      "naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 7.00,
+      "element": true
+    },
+    "59": {
+      "id": 60,
+      "naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, naneti prvi premaz Fasagala razređen sa 20-30% RK razređivača. Preko suvog prvog premaza naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 8.00,
+      "element": true
+    },
+    "60": {
+      "id": 61,
+      "naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silokoniziranom - Bojenje u jednom tonu.",
+      "opis": "bojom Izolit SILICA ART, \"Dramin\" Zemun. Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.00,
+      "element": true
+    },
+    "61": {
+      "id": 62,
+      "naziv": "Bojenje postojeće fasade sa ornamentalnom plastikom i vučenim profilima silokoniziranom - Bojenje u dva tonu.",
+      "opis": "bojom Izolit SILICA ART, \"Dramin\" Zemun. Izolit SILICA ART je jednokomponentni silokonizirani fasadni premaz, vodoneupojan i paropropustan. Podloga fasade mora biti čvrsta, stabilna i bez masnih mrlja. Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Izolit SILICA ART naneti na ovlaženu podlogu u dva sloja valjkom ili četkom, sa razmakom 12-24h. Prilikom bojenja izvršiti zaštitu od direktnog uticaja sunčevih zraka. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 5.50,
+      "element": true
+    },
+    "62": {
+      "id": 63,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u jednom tonu.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Ravne fasadne površine, plastike i vučenih profila preći šmirglom i oprati vodom, a zatim gletovati glet masom Unifix S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne fasadne površine, plastike i vučenih profila brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 7.50,
+      "element": true
+    },
+    "63": {
+      "id": 64,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, disperzionom bojom, Unikolor S, \"Prvi maj\" Čačak. - Bojenje u dva tona.",
+      "opis": "Sa fasadnih površina odstraniti sve stare premaze. Ravne fasadne površine, plastike i vučenih profila preći šmirglom i oprati vodom, a zatim gletovati glet masom Unifix S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne fasadne površine, plastike i vučenih profila brusiti i opajati, a zatim impregnirati Podlogom A u dva premaza. Unikolor S po potrebi razrediti do 5% sa vodom i naneti u dva premaza na fasadu. Razmak između prvog i drugog premaza je 2-4 časa. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 8.00,
+      "element": true
+    },
+    "64": {
+      "id": 65,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 9.00,
+      "element": true
+    },
+    "65": {
+      "id": 66,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade, sa ornamentalnom plastikom i vučenim profilima, akrilnom bojom, Fasakril. - Bojenje u dva tona.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasadu gletovati glet masom, iste baze kao i boja, za spoljno gletovanje i suve površine prebrusiti i opajati. Fasakril za prvi premaz razrediti sa 10% fasakril razređivača i kao podlogu naneti četkom. Nakon sušenja naneti drugi i treći premaz Fasakrila, sa razmakom za sušenje od najmanje 10-12 sati. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 9.50,
+      "element": true
+    },
+    "66": {
+      "id": 67,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u jednom tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 9.00,
+      "element": true
+    },
+    "67": {
+      "id": 68,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u dva tonu.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 9.50,
+      "element": true
+    },
+    "68": {
+      "id": 69,
+      "naziv": "Bojenje sa gletovanjem postojeće fasade sa ornamentalnom plastikom i vučenim profilima silikatnom bojom Fasagal, \"Galenika - Magmasil\". - Bojenje u plavim tonovima.",
+      "opis": "Sa površina fasade odstraniti sve stare premaze. Ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Na pripremljene površine naneti Fluogal za neutralizacija štetnih soli, impregnaciju svih površina koje neravnomerno upijaju boju i dezinfekciju podloge. Nakon sušenja, minimum 12 h, gletovati glet masom Gletogal-S. Gletovanje izvesti preko ravnih delova fasade i vučenih profila, a ornamentalnu plastiku ne gletovati. Pre bojenja ravne površine fasade, plastike i vučenih profila preći šmirglom i opajati. Fasagal za prvi premaz razrediti sa 20-30% RK razređivača i naneti na fasadu. Nakon sušenja naneti drugi premaz Fasagala razređen sa 10-20% RK razređivača. Ivice različitih tonova izvući precizno. Malterisane površine moraju biti potpuno suve pre bojenja. Pre početka bojenja u saradnji sa projektantom uraditi probne uzorke.",
+      "obracun": "Obračun po m2 ortogonalne projekcije, bez razvijanja, a otvori se ne odbijaju.",
+      "jedinica": "m2",
+      "cena": 10.50,
+      "element": true
+    },
+    "69": {
+      "id": 70,
+      "naziv": "Toniranje delova fasade izrađenih od plemenitog maltera tonom dobijenim pomoću cementnog mleka i oksidne boje.",
+      "opis": "Ton mora odgovarati boji postojećeg maltera sa završnom obradom po uzoru na postojeće površine. Po završetku toniranja izvršiti fiksiranje tona pomoću ekoimpregnita.",
+      "obracun": "Obračun po m2 tonirane površine.",
+      "jedinica": "m2",
+      "cena": 7.50,
+      "element": true
+    }
+  }
+}

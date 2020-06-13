@@ -65,7 +65,7 @@ func material(w *calc.WingCal) func() {
 						}),
 					)
 				}),
-				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 4, "Dark")),
+				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 1, w.Tema.Colors["Gray"])),
 			)
 		})
 	}

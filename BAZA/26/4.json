@@ -1,0 +1,159 @@
+{
+  "id": "4",
+  "slug": "Tapete",
+  "PodvrsteRadova": {
+    "0": {
+      "id": 1,
+      "naziv": "Pažljivo skidanje postojećih svilenih tapeta sa zidova.",
+      "opis": "Tapete pažljivo skinuti uz konsultaciju sa projektantom. Tapete obeležiti, za ponovnu upotrebu, hemijski očistiti i odložiti.",
+      "obracun": "Obračun po m2 površine tapeta.",
+      "jedinica": "m2",
+      "cena": 0.50,
+      "element": true
+    },
+    "1": {
+      "id": 2,
+      "naziv": "Pažljiva demontaža postojećih lajsni tapeta sa zidova.",
+      "opis": "Lajsne tapeta pažljivo demontirati. Lajsne tapeta obeležiti, pažljivo demontirati, očistiti i odložiti za ponovnu upotrebu.",
+      "obracun": "Obračun po m1 lajsni.",
+      "jedinica": "m2",
+      "cena": 0.75,
+      "element": true
+    },
+    "2": {
+      "id": 3,
+      "naziv": "Nabavka i postavljanje zidnih papirnih tapeta, po izboru projektanta. - Papirne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Zalepiti obodne trake. Lepak sa poda, vrata, prozora odmah ukloniti.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 2.50,
+      "element": true
+    },
+    "3": {
+      "id": 4,
+      "naziv": "Nabavka i postavljanje zidnih papirnih tapeta, po izboru projektanta. - Teške papirne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Zalepiti obodne trake. Lepak sa poda, vrata, prozora odmah ukloniti.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 3.00,
+      "element": true
+    },
+    "4": {
+      "id": 5,
+      "naziv": "Nabavka i postavljanje zidnih papirnih tapeta, po izboru projektanta. - Poluplastificirane tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Zalepiti obodne trake. Lepak sa poda, vrata, prozora odmah ukloniti.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 2.50,
+      "element": true
+    },
+    "5": {
+      "id": 6,
+      "naziv": "Nabavka i postavljanje zidnih papirnih tapeta, po izboru projektanta. - Plastificirane tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Zalepiti obodne trake. Lepak sa poda, vrata, prozora odmah ukloniti.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 2.75,
+      "element": true
+    },
+    "6": {
+      "id": 7,
+      "naziv": "Nabavka i postavljanje zidnih velur tapeta (sloj vlakana nanet na težak papir), po izboru projektanta.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Tapete iskrojiti sa uklapanjem šara i zalepiti ih, bez nabora. Sastavi ne smeju biti vidljivi. Spojeve na vratima, prozorima i slično izvesti bez preklopa, na dodir. Postaviti lajsne, sastave gerovati. Lepak sa poda, vrata, prozora odmah ukloniti.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 4.00,
+      "element": true
+    },
+    "7": {
+      "id": 8,
+      "naziv": "Nabavka i postavljanje zidnih pamučnih tapeta, po izboru projektanta. - Pamučne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Zidove obeležiti, pamučni materijal iskrojiti i sašiti sa pažljivim uklapanjem šara. Šavove na poleđini izravnati. Niti materijala postaviti vertikalno, vodoravno ili paralelno sa šavovima. Tapete španovati da se ne primete linije, a materijal ravnomerno zategnuti. Postaviti lajsne, sastave gerovati.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 15.00,
+      "element": true
+    },
+    "8": {
+      "id": 9,
+      "naziv": "Nabavka i postavljanje zidnih pamučnih tapeta, po izboru projektanta. - Platnene tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Zidove obeležiti, pamučni materijal iskrojiti i sašiti sa pažljivim uklapanjem šara. Šavove na poleđini izravnati. Niti materijala postaviti vertikalno, vodoravno ili paralelno sa šavovima. Tapete španovati da se ne primete linije, a materijal ravnomerno zategnuti. Postaviti lajsne, sastave gerovati.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 10.00,
+      "element": true
+    },
+    "9": {
+      "id": 10,
+      "naziv": "Nabavka i postavljanje zidnih pamučnih tapeta, po izboru projektanta. - Jutane tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Zidove obeležiti, pamučni materijal iskrojiti i sašiti sa pažljivim uklapanjem šara. Šavove na poleđini izravnati. Niti materijala postaviti vertikalno, vodoravno ili paralelno sa šavovima. Tapete španovati da se ne primete linije, a materijal ravnomerno zategnuti. Postaviti lajsne, sastave gerovati.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 9.00,
+      "element": true
+    },
+    "10": {
+      "id": 11,
+      "naziv": "Nabavka i postavljanje zidnih svilenih tapeta, po izboru projektanta.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Zidove obeležiti, svilu iskrojiti i sašiti sa pažljivim uklapanjem šara. Šavove na poleđini izravnati. Niti materijala postaviti vertikalno, vodoravno ili paralelno sa šavovima. Tapete španovati da se ne primete linije, a materijal ravnomerno zategnuti. Postaviti lajsne, sastave gerovati.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 30.00,
+      "element": true
+    },
+    "11": {
+      "id": 12,
+      "naziv": "Nabavka i postavljanje jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta. - Jednoslojne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 12.50,
+      "element": true
+    },
+    "12": {
+      "id": 13,
+      "naziv": "Nabavka i postavljanje jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta. - Dvoslojne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 16.00,
+      "element": true
+    },
+    "13": {
+      "id": 14,
+      "naziv": "Nabavka, postavljanje i bojenje lazurnim bojama jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta. - Jednoslojne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica. Pluto tapete bojiti lazurnim bojama po izboru projektanta. Bojiti dva puta sa razmakom za sušenje od 24 h, preći lagano najfinijom šmirglom i bojiti treći put.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 18.00,
+      "element": true
+    },
+    "14": {
+      "id": 15,
+      "naziv": "Nabavka, postavljanje i bojenje lazurnim bojama jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta. - Dvoslojne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica. Pluto tapete bojiti lazurnim bojama po izboru projektanta. Bojiti dva puta sa razmakom za sušenje od 24 h, preći lagano najfinijom šmirglom i bojiti treći put.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 22.00,
+      "element": true
+    },
+    "15": {
+      "id": 16,
+      "naziv": "Nabavka, postavljanje i lakiranje jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta. - Jednoslojne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica. Pluto tapete bojiti lazurnim bojama po izboru projektanta. Lakirati sa dovoljnim razmakom za sušenje, preći lagano najfinijom šmirglom i lakirati drugi put.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 15.00,
+      "element": true
+    },
+    "16": {
+      "id": 17,
+      "naziv": "Nabavka, postavljanje i lakiranje jednoslojnih zidnih pluto tapeta, debljine 3 mm, po izboru projektanta. - Dvoslojne tapete.",
+      "opis": "Zidove pripremiti tako da budu ravni, bez ispupčenja, talasa i potpuno suvi. Ploče pluto tapeta uneti u prostorije, raspakovati i ostaviti 48 časova da se aklimatizuju. Lepak mora biti kvalitetan i stabilan iz grupe lepkova za drvo ili neoprenski. Radi pravilnog rasporeda, prvu ploču postaviti na sredini zida, na preseku podužne i poprečne vođice, a zatim pažljivo lepiti ostale ploče. Lepak nanositi ravnomerno, po uputstvu proizvođača, bez prljanja okolnih ili vidnih površina. Posebnu pažnju obratiti na oblaganje uglova i ivica. Pluto tapete bojiti lazurnim bojama po izboru projektanta. Lakirati sa dovoljnim razmakom za sušenje, preći lagano najfinijom šmirglom i lakirati drugi put.",
+      "obracun": "Obračun po m2 obložene površine.",
+      "jedinica": "m2",
+      "cena": 19.00,
+      "element": true
+    }
+  }
+}

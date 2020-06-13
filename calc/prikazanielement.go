@@ -20,6 +20,7 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 			layout.Flexed(1, func() {
 				w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.NW, func() {
 					//sumaCena := 111.33
+					width := w.Context.Constraints.Width.Max
 					layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 						layout.Rigid(func() {
 							w.Tema.Body1(w.PrikazaniElement.Opis).Layout(w.Context)
@@ -27,12 +28,37 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 						layout.Rigid(func() {
 							w.Tema.Caption(w.PrikazaniElement.Obracun).Layout(w.Context)
 						}),
-						layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 32, "Dark")),
+						layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 32, w.Tema.Colors["Gray"])),
 
 						layout.Rigid(func() {
 							w.Tema.H6("Neophodan materijal za izvrsenje radova").Layout(w.Context)
 						}),
-						layout.Rigid(w.NeophodanMaterijal(neophodanMaterijalList, w.PrikazaniElement.NeophodanMaterijal)),
+						layout.Rigid(func() {
+							w.Context.Constraints.Width.Min = width
+							layout.Flex{
+								Axis:    layout.Horizontal,
+								Spacing: layout.SpaceBetween,
+							}.Layout(w.Context,
+								layout.Flexed(0.2, func() {
+									w.Tema.Caption("Naziv").Layout(w.Context)
+								}),
+								layout.Flexed(0.2, func() {
+									w.Tema.Caption("Potrosnja").Layout(w.Context)
+								}),
+								layout.Flexed(0.15, func() {
+									w.Tema.Caption("Koeficijent:").Layout(w.Context)
+								}),
+								layout.Flexed(0.15, func() {
+									w.Tema.Caption("Merodavna potrosnja").Layout(w.Context)
+								}),
+								layout.Flexed(0.15, func() {
+									w.Tema.Caption("Pakovanja").Layout(w.Context)
+								}),
+								layout.Flexed(0.15, func() {
+									w.Tema.Caption("Cena materijala").Layout(w.Context)
+								}))
+						}),
+						layout.Rigid(w.NeophodanMaterijal(neophodanMaterijalList, w.PrikazaniElement.NeophodanMaterijal, false)),
 					)
 				})
 			}),
@@ -53,10 +79,10 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 										w.Tema.H6("Cena:" + fmt.Sprint(w.PrikazaniElement.Cena)).Layout(w.Context)
 									})
 								}),
-								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 0, "Dark")),
+								layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 0, w.Tema.Colors["Gray"])),
 								layout.Rigid(func() {
 									w.Tema.DuoUIcontainer(8, w.Tema.Colors["Primary"]).Layout(w.Context, layout.NW, func() {
-										w.Tema.H6("Suma:" + fmt.Sprint(sumaCena)).Layout(w.Context)
+										w.Tema.H6("Suma:" + fmt.Sprintf("%.2f", sumaCena)).Layout(w.Context)
 									})
 								}),
 							)
@@ -83,8 +109,9 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 										for _, n := range w.PrikazaniElement.NeophodanMaterijal {
 											w.Suma.UkupanNeophodanMaterijal[n.Id] = model.WingNeophodanMaterijal{
 												Id:       n.Id,
-												Kolicina: w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina + n.Kolicina*kolicina.Value,
+												Kolicina: w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina + float64(kolicina.Value),
 											}
+
 										}
 										//var neophodanmaterijal map[int]model.WingNeophodanMaterijal
 									}

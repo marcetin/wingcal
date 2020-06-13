@@ -29,11 +29,11 @@ func (w *WingCal) Podvrsta(vrstarada *model.WingVrstaRadova) {
 	w.GenerisanjeLinkova(vrstarada.PodvrsteRadova)
 	w.Roditelj()
 
-	if vrstarada.Element {
-		w.PrikazaniElement = vrstarada
-	} else {
-		w.IzbornikRadova = vrstarada
-	}
+	//if vrstarada.Element {
+	//	w.PrikazaniElement = vrstarada
+	//} else {
+	//	w.IzbornikRadova = vrstarada
+	//}
 	return
 }
 
