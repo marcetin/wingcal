@@ -21,7 +21,6 @@ type WingVrstaRadova struct {
 	Omogucen           bool                           `json:"omogucen"`
 	Baza               bool                           `json:"baza"`
 	Element            bool                           `json:"element"`
-	Roditelj           *WingVrstaRadova               `json:"roditelj"`
 	PodvrsteRadova     map[int]WingVrstaRadova        `json:"podvrsteradova"`
 	NeophodanMaterijal map[int]WingNeophodanMaterijal `json:"neophodanmaterijal"`
 }

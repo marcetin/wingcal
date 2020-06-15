@@ -1,17 +1,12 @@
 package calc
 
 import (
-	"encoding/json"
 	"fmt"
 	"gioui.org/layout"
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
 	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/model"
-	"io/ioutil"
-	"log"
-	"net/http"
-	"time"
 )
 
 var (
@@ -58,10 +53,12 @@ func (w *WingCal) IzborVrsteRadova() func() {
 										if len(w.Putanja) == 1 {
 											komanda = fmt.Sprint(i + 1)
 											podvrstaradova = fmt.Sprint(i + 1)
+											w.Roditelj = i + 1
 										}
 										if len(w.Putanja) == 2 {
 											komanda = podvrstaradova + "/" + fmt.Sprint(i+1)
 											elementi = fmt.Sprint(i + 1)
+											w.Roditelj = i + 1
 										}
 										if len(w.Putanja) == 3 {
 											komanda = podvrstaradova + "/" + elementi + "/" + fmt.Sprint(i+1)
@@ -111,16 +108,22 @@ func (w *WingCal) IzborVrsteRadova() func() {
 
 func (w *WingCal) Nazad() func() {
 	return func() {
-		if len(w.Putanja) > 0 {
+		if len(w.Putanja) > 1 {
 			btnNazad := w.Tema.Button("NAZAD")
 			btnNazad.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
 			for nazadDugme.Clicked(w.Context) {
-				//w.IzbornikRadova = w.Putanja[len(w.Putanja)-1]
-				//w.GenerisanjeLinkova(w.Putanja[len(w.Putanja)-1].PodvrsteRadova)
+				komanda := ""
+				if len(w.Putanja) == 3 {
+					komanda = "/" + fmt.Sprint(w.Roditelj)
+					//podvrstaradova = fmt.Sprint(w.Roditelj)
+					fmt.Println("roddddditeL111::", w.Roditelj)
+				}
+				if len(w.Putanja) == 4 {
+					komanda = "/" + podvrstaradova + "/" + fmt.Sprint(w.Roditelj)
+				}
+				w.APIpozivIzbornik("radovi" + komanda)
+				w.GenerisanjeLinkova(w.IzbornikRadova)
 				w.Putanja = w.Putanja[:len(w.Putanja)-1]
-				//w.Roditelj()
-				//fmt.Println("IzbornikroditeL::" + w.IzbornikRadova)
-				//fmt.Println("roditeL::" + w.IzbornikRadova.Roditelj.Slug)
 			}
 			btnNazad.Layout(w.Context, nazadDugme)
 		}
@@ -180,47 +183,4 @@ func (w *WingCal) NeophodanMaterijal(l *layout.List, n map[int]model.WingNeophod
 			)
 		})
 	}
-}
-
-func (w *WingCal) APIpozivIzbornik(komanda string) {
-	radovi := map[int]string{}
-	jsonErr := json.Unmarshal(APIpoziv(komanda), &radovi)
-	if jsonErr != nil {
-		log.Fatal(jsonErr)
-	}
-	w.IzbornikRadova = radovi
-}
-
-func (w *WingCal) APIpozivElement(komanda string) {
-	rad := &model.WingVrstaRadova{}
-	jsonErr := json.Unmarshal(APIpoziv(komanda), &rad)
-	if jsonErr != nil {
-		log.Fatal(jsonErr)
-	}
-	w.PrikazaniElement = rad
-}
-
-func APIpoziv(komanda string) []byte {
-	url := "http://212.62.35.158:9909/" + komanda
-	fmt.Println("url", url)
-	spaceClient := http.Client{
-		Timeout: time.Second * 2, // Maximum of 2 secs
-	}
-	req, err := http.NewRequest(http.MethodGet, url, nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-	req.Header.Set("User-Agent", "wing")
-	res, getErr := spaceClient.Do(req)
-	if getErr != nil {
-		log.Fatal(getErr)
-	}
-	body, readErr := ioutil.ReadAll(res.Body)
-	if readErr != nil {
-		log.Fatal(readErr)
-	}
-	if body != nil {
-		//defer body.Close()
-	}
-	return body
 }

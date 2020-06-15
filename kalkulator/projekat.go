@@ -2,7 +2,7 @@ package kalkulator
 
 import (
 	"gioui.org/layout"
-	"github.com/marcetin/wingcal/calc"
+	"github.com/marcetin/wingcal/NOVOGUI/calc"
 	"github.com/marcetin/wingcal/model"
 )
 

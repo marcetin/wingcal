@@ -5,7 +5,7 @@ import (
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
 	"github.com/gioapp/gelook"
-	"github.com/marcetin/wingcal/calc"
+	"github.com/marcetin/wingcal/NOVOGUI/calc"
 )
 
 var (
@@ -119,7 +119,7 @@ func header(w *calc.WingCal) func() {
 			},
 			func() {
 				putanjaList.Layout(w.Context, len(w.Putanja), func(i int) {
-					w.Tema.Caption(w.Putanja[i].Naziv).Layout(w.Context)
+					w.Tema.Caption(w.Putanja[i]).Layout(w.Context)
 				})
 
 			},

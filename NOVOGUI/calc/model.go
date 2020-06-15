@@ -58,4 +58,5 @@ type WingCal struct {
 	Client                   *model.Client
 	PrikazaniElement         *model.WingVrstaRadova
 	Suma                     *model.WingIzabraniElementi
+	Roditelj                 int
 }

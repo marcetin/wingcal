@@ -1,7 +1,14 @@
 package calc
 
 import (
+	"encoding/json"
+	"fmt"
 	"github.com/gioapp/gel"
+	"github.com/marcetin/wingcal/model"
+	"io/ioutil"
+	"log"
+	"net/http"
+	"time"
 )
 
 func (w *WingCal) GenerisanjeLinkova(radovi map[int]string) {
@@ -11,34 +18,45 @@ func (w *WingCal) GenerisanjeLinkova(radovi map[int]string) {
 	return
 }
 
-////func  (w *WingCal)Roditelj(roditelj *model.WingVrstaRadova,radovi map[int]model.WingVrstaRadova) {
-//func (w *WingCal) Roditelj() {
-//	for _, rad := range w.IzbornikRadova.PodvrsteRadova {
-//		rad.Roditelj = w.IzbornikRadova
-//		fmt.Println(rad.Naziv)
-//		fmt.Println(w.IzbornikRadova.Naziv)
-//	}
-//	return
-//}
-
-func (w *WingCal) Podvrsta(podvrsteRadova map[int]string) {
-	//vrstarada.Roditelj = w.IzbornikRadova
-
-	w.GenerisanjeLinkova(podvrsteRadova)
-	//w.Roditelj()
-
-	//if vrstarada.Element {
-	//	w.PrikazaniElement = vrstarada
-	//} else {
-	//	//w.IzbornikRadova = vrstarada
-	//}
-	return
+func (w *WingCal) APIpozivIzbornik(komanda string) {
+	radovi := map[int]string{}
+	jsonErr := json.Unmarshal(APIpoziv(komanda), &radovi)
+	if jsonErr != nil {
+		log.Fatal(jsonErr)
+	}
+	w.IzbornikRadova = radovi
 }
 
-//func (w *WingCal) NazivRoditelja() func() {
-//	return func() {
-//		if w.IzbornikRadova.Roditelj != nil {
-//			w.Tema.H4(w.IzbornikRadova.Roditelj.Naziv)
-//		}
-//	}
-//}
+func (w *WingCal) APIpozivElement(komanda string) {
+	rad := &model.WingVrstaRadova{}
+	jsonErr := json.Unmarshal(APIpoziv(komanda), &rad)
+	if jsonErr != nil {
+		log.Fatal(jsonErr)
+	}
+	w.PrikazaniElement = rad
+}
+
+func APIpoziv(komanda string) []byte {
+	url := "http://212.62.35.158:9909/" + komanda
+	fmt.Println("url", url)
+	spaceClient := http.Client{
+		Timeout: time.Second * 2, // Maximum of 2 secs
+	}
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	req.Header.Set("User-Agent", "wing")
+	res, getErr := spaceClient.Do(req)
+	if getErr != nil {
+		log.Fatal(getErr)
+	}
+	body, readErr := ioutil.ReadAll(res.Body)
+	if readErr != nil {
+		log.Fatal(readErr)
+	}
+	if body != nil {
+		//defer body.Close()
+	}
+	return body
+}

@@ -2,7 +2,7 @@ package kalkulator
 
 import (
 	"gioui.org/layout"
-	"github.com/marcetin/wingcal/calc"
+	"github.com/marcetin/wingcal/NOVOGUI/calc"
 )
 
 func kalkulator(w *calc.WingCal) func() {
