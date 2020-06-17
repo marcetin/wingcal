@@ -3,16 +3,17 @@
 package gelook
 
 import (
+	"image"
+
 	"gioui.org/f32"
 	"gioui.org/io/pointer"
 	"gioui.org/layout"
 	"gioui.org/op/clip"
 	"gioui.org/text"
 	"gioui.org/unit"
-	"image"
 )
 
-type DuoUIitem struct {
+type DuoUIcontainer struct {
 	// Color is the text color.
 	Color         string
 	Font          text.Font
@@ -25,7 +26,7 @@ type DuoUIitem struct {
 	FullWidth     bool
 	Width         int
 	Height        int
-	CornerRadius  unit.Value
+	CornerRadius  int
 	PaddingTop    int
 	PaddingRight  int
 	PaddingBottom int
@@ -35,12 +36,12 @@ type DuoUIitem struct {
 	hover         bool
 }
 
-func (t *DuoUItheme) DuoUIitem(padding int, background string) DuoUIitem {
-	return DuoUIitem{
+func (t *DuoUItheme) DuoUIcontainer(padding int, background string) DuoUIcontainer {
+	return DuoUIcontainer{
 		Font: text.Font{
 			Typeface: t.Fonts["Primary"],
 		},
-		//Color:      rgb(0xffffff),
+		// Color:      rgb(0xffffff),
 		PaddingTop:    padding,
 		PaddingRight:  padding,
 		PaddingBottom: padding,
@@ -51,15 +52,15 @@ func (t *DuoUItheme) DuoUIitem(padding int, background string) DuoUIitem {
 	}
 }
 
-func (d DuoUIitem) Layout(gtx *layout.Context, direction layout.Direction, itemContent func()) {
+func (d DuoUIcontainer) Layout(gtx *layout.Context, direction layout.Direction, itemContent func()) {
 	hmin := gtx.Constraints.Width.Min
+	vmin := gtx.Constraints.Height.Min
 	if d.FullWidth {
 		hmin = gtx.Constraints.Width.Max
 	}
-	vmin := gtx.Constraints.Height.Min
 	layout.Stack{Alignment: layout.W}.Layout(gtx,
 		layout.Expanded(func() {
-			rr := float32(gtx.Px(unit.Dp(0)))
+			rr := float32(gtx.Px(unit.Dp(float32(d.CornerRadius))))
 			clip.Rect{
 				Rect: f32.Rectangle{Max: f32.Point{
 					X: float32(gtx.Constraints.Width.Min),

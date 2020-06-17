@@ -5,9 +5,9 @@ import (
 	"gioui.org/font/gofont"
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
-	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/db"
 	"github.com/marcetin/wingcal/model"
+	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 func NewWingCal() *WingCal {
@@ -24,6 +24,16 @@ func NewWingCal() *WingCal {
 		PrikazaniElement: &model.WingVrstaRadova{},
 		Suma: &model.WingIzabraniElementi{
 			UkupanNeophodanMaterijal: map[int]model.WingNeophodanMaterijal{},
+		},
+		Raspored: &model.WingRaspored{
+			Kalkulator: model.RasporedKalkulator{
+				Izbor:  0.4,
+				Glavni: 0.6,
+			},
+			GlavniDeo: model.RasporedGlavniDeo{
+				PrikazaniElement: 0.6,
+				Suma:             0.4,
+			},
 		},
 	}
 	wing.NewMaterijal()

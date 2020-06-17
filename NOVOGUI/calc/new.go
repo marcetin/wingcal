@@ -2,20 +2,19 @@ package calc
 
 import (
 	"gioui.org/app"
-	"gioui.org/font/gofont"
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
-	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/db"
 	"github.com/marcetin/wingcal/model"
+	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 func NewWingCal() *WingCal {
-	gofont.Register()
+	//gofont.Register()
 	wing := &WingCal{
 		Naziv: "W-ing Solutions - Kalkulator",
 		Window: app.NewWindow(
-			app.Size(unit.Dp(999), unit.Dp(999)),
+			app.Size(unit.Dp(1280), unit.Dp(1024)),
 			app.Title("W-ing Solutions - Kalkulator"),
 		),
 		Tema:             gelook.NewDuoUItheme(),
@@ -23,8 +22,9 @@ func NewWingCal() *WingCal {
 		Db:               db.DuoUIdbInit("./BAZA"),
 		PrikazaniElement: &model.WingVrstaRadova{},
 		Suma: &model.WingIzabraniElementi{
-			UkupanNeophodanMaterijal: map[int]model.WingNeophodanMaterijal{},
+			Elementi: make(map[int]model.WingIzabraniElement),
 		},
+		Cyr: true,
 	}
 	wing.NewMaterijal()
 	wing.Radovi = model.WingVrstaRadova{

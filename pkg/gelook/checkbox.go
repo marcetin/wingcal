@@ -6,7 +6,8 @@ import (
 	"gioui.org/layout"
 	"gioui.org/text"
 	"gioui.org/unit"
-	"github.com/marcetin/wingcal/pkg/gel"
+
+	"github.com/gioapp/gel"
 )
 
 type DuoUIcheckBox struct {
@@ -33,5 +34,10 @@ func (t *DuoUItheme) DuoUIcheckBox(label, color, iconColor string) DuoUIcheckBox
 
 func (c DuoUIcheckBox) Layout(gtx *layout.Context, checkBox *gel.CheckBox) {
 	c.layout(gtx, checkBox.Checked(gtx))
+	checkBox.Layout(gtx)
+}
+
+func (c DuoUIcheckBox) DrawLayout(gtx *layout.Context, checkBox *gel.CheckBox) {
+	c.drawLayout(gtx, checkBox.Checked(gtx))
 	checkBox.Layout(gtx)
 }

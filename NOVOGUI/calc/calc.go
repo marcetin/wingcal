@@ -18,6 +18,13 @@ func (w *WingCal) GenerisanjeLinkova(radovi map[int]string) {
 	return
 }
 
+func (w *WingCal) GenerisanjeDugmicaBrisanje(radovi map[int]string) {
+	for rad, _ := range radovi {
+		w.LinkoviIzboraVrsteRadova[rad] = new(gel.Button)
+	}
+	return
+}
+
 func (w *WingCal) APIpozivIzbornik(komanda string) {
 	radovi := map[int]string{}
 	jsonErr := json.Unmarshal(APIpoziv(komanda), &radovi)
@@ -37,7 +44,7 @@ func (w *WingCal) APIpozivElement(komanda string) {
 }
 
 func APIpoziv(komanda string) []byte {
-	url := "http://212.62.35.158:9909/" + komanda
+	url := "http://192.168.192.192:9909/" + komanda
 	fmt.Println("url", url)
 	spaceClient := http.Client{
 		Timeout: time.Second * 2, // Maximum of 2 secs

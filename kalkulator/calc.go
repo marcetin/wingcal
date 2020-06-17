@@ -4,8 +4,8 @@ import (
 	"gioui.org/layout"
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
-	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/NOVOGUI/calc"
+	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 var (

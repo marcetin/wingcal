@@ -27,8 +27,8 @@ func glavniDeo(w *calc.WingCal) func() {
 			layout.Flex{
 				Axis: layout.Horizontal,
 			}.Layout(w.Context,
-				layout.Flexed(0.4, w.PrikazaniElementIzgled()),
-				layout.Flexed(0.6, w.SumaIzgled()),
+				layout.Rigid(w.PrikazaniElementIzgled()),
+				layout.Flexed(1, w.SumaIzgled()),
 			)
 		}
 	}

@@ -5,9 +5,9 @@ import (
 	"gioui.org/layout"
 	"gioui.org/text"
 	"github.com/gioapp/gel"
-	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/db"
 	"github.com/marcetin/wingcal/model"
+	"github.com/marcetin/wingcal/pkg/gelook"
 )
 
 var (
@@ -58,4 +58,6 @@ type WingCal struct {
 	Client                   *model.Client
 	PrikazaniElement         *model.WingVrstaRadova
 	Suma                     *model.WingIzabraniElementi
+	Raspored                 *model.WingRaspored
+	Cyrilic                  bool
 }

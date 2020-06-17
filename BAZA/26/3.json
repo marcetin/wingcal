@@ -66,8 +66,23 @@
       "obracun": "Obračun po m2 gletovane površine.",
       "jedinica": "m2",
       "cena": 1.40,
-      "element": true
-    },
+      "element": true,
+      "neophodanmaterijal": {
+        "0": {
+          "id": 5,
+          "koeficijent": 1
+        },
+        "1": {
+          "id": 4,
+          "koeficijent": 4.7
+        },
+        "2": {
+          "id": 3,
+          "koeficijent": 1.7
+        }
+      }
+    }
+  },
     "4": {
       "id": 5,
       "naziv": "Struganje uljane boje sa zidova.",

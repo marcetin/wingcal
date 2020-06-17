@@ -6,6 +6,8 @@ import (
 	"image"
 	"image/color"
 
+	"github.com/gioapp/gelook/ico"
+
 	"gioui.org/f32"
 	"gioui.org/layout"
 	"gioui.org/op/paint"
@@ -21,6 +23,9 @@ func NewDuoUIicons() (i map[string]*DuoUIicon) {
 	i["iconCancel"] = mustIcon(NewDuoUIicon(icons.NavigationCancel))
 	i["iconOK"] = mustIcon(NewDuoUIicon(icons.NavigationCheck))
 	i["iconClose"] = mustIcon(NewDuoUIicon(icons.NavigationClose))
+	i["foldIn"] = mustIcon(NewDuoUIicon(icons.ContentRemove))
+	i["minimize"] = mustIcon(NewDuoUIicon(icons.NavigationExpandMore))
+	i["zoom"] = mustIcon(NewDuoUIicon(icons.NavigationExpandLess))
 	i["logo"] = mustIcon(NewDuoUIicon(ico.ParallelCoin))
 	i["overviewIcon"] = mustIcon(NewDuoUIicon(icons.ActionHome))
 	i["sendIcon"] = mustIcon(NewDuoUIicon(icons.ActionStarRate))
@@ -55,10 +60,42 @@ func NewDuoUIicons() (i map[string]*DuoUIicon) {
 	i["DeviceSignalCellular0Bar"] = mustIcon(NewDuoUIicon(icons.DeviceSignalCellular0Bar))
 	i["HardwareWatch"] = mustIcon(NewDuoUIicon(icons.HardwareWatch))
 	i["EditorMonetizationOn"] = mustIcon(NewDuoUIicon(icons.EditorMonetizationOn))
-
+	i["Run"] = mustIcon(NewDuoUIicon(icons.AVPlayArrow))
+	i["Stop"] = mustIcon(NewDuoUIicon(icons.AVStop))
+	i["Pause"] = mustIcon(NewDuoUIicon(icons.AVPause))
+	i["Kill"] = mustIcon(NewDuoUIicon(icons.NavigationCancel))
+	i["Restart"] = mustIcon(NewDuoUIicon(icons.NavigationRefresh))
+	i["Grab"] = mustIcon(NewDuoUIicon(icons.NavigationMenu))
+	i["Up"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropUp))
+	i["Down"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropDown))
 	i["iconGrab"] = mustIcon(NewDuoUIicon(icons.NavigationMenu))
 	i["iconUp"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropUp))
 	i["iconDown"] = mustIcon(NewDuoUIicon(icons.NavigationArrowDropDown))
+	i["Copy"] = mustIcon(NewDuoUIicon(icons.ContentContentCopy))
+	i["Paste"] = mustIcon(NewDuoUIicon(icons.ContentContentPaste))
+	i["Sidebar"] = mustIcon(NewDuoUIicon(icons.ActionChromeReaderMode))
+	i["Filter"] = mustIcon(NewDuoUIicon(icons.ContentFilterList))
+	i["FilterAll"] = mustIcon(NewDuoUIicon(icons.ActionDoneAll))
+	i["FilterNone"] = mustIcon(NewDuoUIicon(icons.ContentBlock))
+	i["Build"] = mustIcon(NewDuoUIicon(icons.ActionBuild))
+	i["Folded"] = mustIcon(NewDuoUIicon(icons.NavigationChevronRight))
+	i["Unfolded"] = mustIcon(NewDuoUIicon(icons.NavigationExpandMore))
+	i["HideAll"] = mustIcon(NewDuoUIicon(icons.NavigationUnfoldLess))
+	i["ShowAll"] = mustIcon(NewDuoUIicon(icons.NavigationUnfoldMore))
+	i["HideItem"] = mustIcon(NewDuoUIicon(icons.ActionVisibilityOff))
+	i["ShowItem"] = mustIcon(NewDuoUIicon(icons.ActionVisibility))
+	i["TRC"] = mustIcon(NewDuoUIicon(icons.ActionSearch))
+	i["DBG"] = mustIcon(NewDuoUIicon(icons.ActionBugReport))
+	i["INF"] = mustIcon(NewDuoUIicon(icons.ActionInfo))
+	i["WRN"] = mustIcon(NewDuoUIicon(icons.ActionHelp))
+	i["CHK"] = mustIcon(NewDuoUIicon(icons.AlertWarning))
+	i["ERR"] = mustIcon(NewDuoUIicon(icons.AlertError))
+	i["FTL"] = mustIcon(NewDuoUIicon(icons.ImageFlashOn))
+	i["Delete"] = mustIcon(NewDuoUIicon(icons.ActionDelete))
+	i["Send"] = mustIcon(NewDuoUIicon(icons.ContentSend))
+	i["Screenshot"] = mustIcon(NewDuoUIicon(icons.ContentSelectAll))
+	i["ToggleOn"] = mustIcon(NewDuoUIicon(icons.ToggleRadioButtonChecked))
+	i["ToggleOff"] = mustIcon(NewDuoUIicon(icons.ToggleRadioButtonUnchecked))
 	return i
 }
 

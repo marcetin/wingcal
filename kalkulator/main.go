@@ -7,8 +7,8 @@ import (
 	"gioui.org/io/system"
 	"gioui.org/layout"
 	"github.com/gioapp/gel"
-	"github.com/gioapp/gelook"
 	"github.com/marcetin/wingcal/NOVOGUI/calc"
+	"github.com/marcetin/wingcal/pkg/gelook"
 	"log"
 )
 

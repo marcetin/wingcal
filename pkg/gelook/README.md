@@ -1,2 +1,2 @@
 # gelook
-Gio elements ParallelCoin theme
+Gio elements look &amp; feel

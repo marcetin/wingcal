@@ -28,7 +28,7 @@ type WingVrstaRadova struct {
 type WingIzabraniElementi struct {
 	Id                       string
 	SumaCena                 float64
-	Elementi                 []WingIzabraniElement
+	Elementi                 map[int]WingIzabraniElement
 	UkupanNeophodanMaterijal map[int]WingNeophodanMaterijal `json:"neophodanmaterijal"`
 }
 
@@ -52,18 +52,19 @@ type WingMaterijal struct {
 }
 
 type WingNeophodanMaterijal struct {
-	Id              int            `json:"id"`
-	Kolicina        float64        `json:"kolicina"`
-	Koeficijent     float64        `json:"koeficijent"`
-	UkupnoPakovanja int            `json:"ukupnopakovanja"`
-	UkupnaCena      float64        `json:"ukupnacena"`
-	Materijal       *WingMaterijal `json:"materijal"`
+	Id              int           `json:"id"`
+	Kolicina        float64       `json:"kolicina"`
+	Koeficijent     float64       `json:"koeficijent"`
+	UkupnoPakovanja int           `json:"ukupnopakovanja"`
+	UkupnaCena      float64       `json:"ukupnacena"`
+	Materijal       WingMaterijal `json:"materijal"`
 }
 
 type WingIzabraniElement struct {
-	Kolicina int
-	SumaCena float64
-	Element  WingVrstaRadova
+	Kolicina      int
+	SumaCena      float64
+	Element       WingVrstaRadova
+	DugmeBrisanje *gel.Button
 }
 
 type WingCalGrupaRadova struct {
