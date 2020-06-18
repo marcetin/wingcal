@@ -51,12 +51,13 @@ type WingCal struct {
 	Materijal                map[int]*model.WingMaterijal
 	Radovi                   model.WingVrstaRadova
 	Putanja                  []string
-	IzbornikRadova           map[int]string
+	IzbornikRadova           map[int]model.ElementMenu
 	Transfered               model.WingCalGrupaRadova
 	Db                       *db.DuoUIdb
 	Client                   *model.Client
 	PrikazaniElement         *model.WingVrstaRadova
 	Suma                     *model.WingIzabraniElementi
+	Podvrsta                 int
 	Roditelj                 int
 	Cyr                      bool
 	Element                  bool

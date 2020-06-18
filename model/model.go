@@ -28,7 +28,7 @@ type WingVrstaRadova struct {
 type WingIzabraniElementi struct {
 	Id                       string
 	SumaCena                 float64
-	Elementi                 map[int]WingIzabraniElement
+	Elementi                 []*WingIzabraniElement
 	UkupanNeophodanMaterijal map[int]WingNeophodanMaterijal `json:"neophodanmaterijal"`
 }
 
@@ -61,6 +61,7 @@ type WingNeophodanMaterijal struct {
 }
 
 type WingIzabraniElement struct {
+	Sifra         string
 	Kolicina      int
 	SumaCena      float64
 	Element       WingVrstaRadova
@@ -95,4 +96,9 @@ type EditabilnaPoljaVrsteRadova struct {
 	Slug      *gel.Editor
 	Omogucen  *gel.CheckBox
 	Materijal map[int]*gel.Editor
+}
+
+type ElementMenu struct {
+	Title     string
+	Materijal bool
 }

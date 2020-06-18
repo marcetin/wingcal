@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-func (w *WingCal) GenerisanjeLinkova(radovi map[int]string) {
+func (w *WingCal) GenerisanjeLinkova(radovi map[int]model.ElementMenu) {
 	for rad, _ := range radovi {
 		w.LinkoviIzboraVrsteRadova[rad] = new(gel.Button)
 	}
@@ -26,7 +26,15 @@ func (w *WingCal) GenerisanjeDugmicaBrisanje(radovi map[int]string) {
 }
 
 func (w *WingCal) APIpozivIzbornik(komanda string) {
-	radovi := map[int]string{}
+	radovi := map[int]model.ElementMenu{}
+	jsonErr := json.Unmarshal(APIpoziv(komanda), &radovi)
+	if jsonErr != nil {
+		log.Fatal(jsonErr)
+	}
+	w.IzbornikRadova = radovi
+}
+func (w *WingCal) APIpozivElementi(komanda string) {
+	radovi := map[int]model.ElementMenu{}
 	jsonErr := json.Unmarshal(APIpoziv(komanda), &radovi)
 	if jsonErr != nil {
 		log.Fatal(jsonErr)

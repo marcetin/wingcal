@@ -99,7 +99,7 @@ func (w *WingCal) SumaIzgled() func() {
 func (w *WingCal) Stampa() func() {
 	return func() {
 
-		btn := w.Tema.Button("Stampaj")
+		btn := w.Tema.Button("Štampaj")
 		for stampajDugme.Clicked(w.Context) {
 			//	pdf := gofpdf.New("P", "mm", "A4", "")
 			//	pdf.AddPage()

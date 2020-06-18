@@ -43,10 +43,13 @@ func (w *WingCal) IzborVrsteRadova() func() {
 							layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 								layout.Rigid(func() {
 
-									btn := w.Tema.Button(latcyr.C(vrstarada, w.Cyr))
+									btn := w.Tema.Button(latcyr.C(vrstarada.Title, w.Cyr))
 
 									btn.CornerRadius = unit.Dp(0)
 									btn.Background = gelook.HexARGB(w.Tema.Colors["Gray"])
+									if vrstarada.Materijal {
+										btn.Background = gelook.HexARGB(w.Tema.Colors["DarkGray"])
+									}
 									for w.LinkoviIzboraVrsteRadova[i].Clicked(w.Context) {
 										fmt.Println(i)
 
@@ -55,7 +58,7 @@ func (w *WingCal) IzborVrsteRadova() func() {
 										if len(w.Putanja) == 1 {
 											komanda = fmt.Sprint(i + 1)
 											podvrstaradova = fmt.Sprint(i + 1)
-											w.Roditelj = i + 1
+											w.Podvrsta = i + 1
 										}
 										if len(w.Putanja) == 2 {
 											komanda = podvrstaradova + "/" + fmt.Sprint(i+1)
@@ -65,8 +68,11 @@ func (w *WingCal) IzborVrsteRadova() func() {
 										if len(w.Putanja) == 3 {
 											komanda = podvrstaradova + "/" + elementi + "/" + fmt.Sprint(i+1)
 										}
-										if len(w.Putanja) < 3 {
+										if len(w.Putanja) == 1 {
 											w.APIpozivIzbornik("radovi/" + komanda)
+										}
+										if len(w.Putanja) == 2 {
+											w.APIpozivElementi("radovi/" + komanda)
 										}
 										if len(w.Putanja) == 3 {
 											w.APIpozivElement("radovi/" + komanda)
@@ -74,7 +80,7 @@ func (w *WingCal) IzborVrsteRadova() func() {
 										}
 
 										if len(w.Putanja) < 3 {
-											w.Putanja = append(w.Putanja, vrstarada)
+											w.Putanja = append(w.Putanja, vrstarada.Title)
 										}
 										//if vrstarada.Baza {
 										//	elementi := w.Db.DbRead(w.IzbornikRadova.Slug, vrstarada.Slug)

@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/gorilla/mux"
+	"github.com/marcetin/wingcal/model"
 	"net/http"
 	"strconv"
 )
@@ -18,9 +18,11 @@ var posts []Post
 
 func (wc *WingCal) VrsteRadova(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-	radovi := make(map[int]string)
+	radovi := make(map[int]model.ElementMenu)
 	for vr, rd := range wc.Radovi.PodvrsteRadova {
-		radovi[vr] = rd.Naziv
+		radovi[vr] = model.ElementMenu{
+			Title: rd.Naziv,
+		}
 	}
 	json.NewEncoder(w).Encode(radovi)
 }
@@ -28,12 +30,14 @@ func (wc *WingCal) VrsteRadova(w http.ResponseWriter, r *http.Request) {
 func (wc *WingCal) PodvrsteRadova(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	params := mux.Vars(r)
-	radovi := make(map[int]string)
+	radovi := make(map[int]model.ElementMenu)
 	id, err := strconv.Atoi(params["id"])
 	if err != nil {
 	}
 	for vr, rd := range wc.Radovi.PodvrsteRadova[id+1].PodvrsteRadova {
-		radovi[vr] = rd.Naziv
+		radovi[vr] = model.ElementMenu{
+			Title: rd.Naziv,
+		}
 	}
 	json.NewEncoder(w).Encode(radovi)
 }
@@ -41,16 +45,17 @@ func (wc *WingCal) PodvrsteRadova(w http.ResponseWriter, r *http.Request) {
 func (wc *WingCal) Elementi(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	params := mux.Vars(r)
-	radovi := make(map[int]string)
-
-	fmt.Println("id", params["id"])
-	fmt.Println("el", params["el"])
-
+	radovi := make(map[int]model.ElementMenu)
 	elementi := wc.Db.DbRead(params["id"], params["el"])
-	//	vrstarada.PodvrsteRadova = elementi.PodvrsteRadova
-
 	for vr, rd := range elementi.PodvrsteRadova {
-		radovi[vr] = rd.Naziv
+		var m bool
+		if rd.NeophodanMaterijal != nil {
+			m = true
+		}
+		radovi[vr] = model.ElementMenu{
+			Title:     rd.Naziv,
+			Materijal: m,
+		}
 	}
 	json.NewEncoder(w).Encode(radovi)
 }

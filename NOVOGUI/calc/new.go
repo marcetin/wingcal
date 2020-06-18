@@ -22,9 +22,9 @@ func NewWingCal() *WingCal {
 		Db:               db.DuoUIdbInit("./BAZA"),
 		PrikazaniElement: &model.WingVrstaRadova{},
 		Suma: &model.WingIzabraniElementi{
-			Elementi: make(map[int]model.WingIzabraniElement),
+			Elementi:                 []*model.WingIzabraniElement{},
+			UkupanNeophodanMaterijal: make(map[int]model.WingNeophodanMaterijal),
 		},
-		Cyr: true,
 	}
 	wing.NewMaterijal()
 	wing.Radovi = model.WingVrstaRadova{

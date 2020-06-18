@@ -28,7 +28,7 @@ func (w *WingCal) PrikazaniElementIzgled() func() {
 			}),
 			layout.Rigid(func() {
 				w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.W, func() {
-					w.Tema.H5(latcyr.C(w.PrikazaniElement.Naziv, w.Cyr)).Layout(w.Context)
+					w.Tema.H5(fmt.Sprint(w.Podvrsta) + "." + fmt.Sprint(w.Roditelj) + "." + fmt.Sprint(w.PrikazaniElement.Id) + " " + latcyr.C(w.PrikazaniElement.Naziv, w.Cyr)).Layout(w.Context)
 				})
 			}),
 			layout.Flexed(1, w.PrikazaniElementOpis()),
@@ -67,16 +67,27 @@ func (w *WingCal) PrikazaniElementDugmeDodaj(sumaCena float64) func() {
 		//btn.FullWidth = true
 		//btn.FullHeight = true
 		btn.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
+		var varijacijaRada int
 
 		for dodajDugme.Clicked(w.Context) {
 			if kolicina.Value > 0 {
+				for _, s := range w.Suma.Elementi {
+					if s.Element.Id == w.PrikazaniElement.Id {
+						varijacijaRada = varijacijaRada + 1
+						fmt.Println("varijacijaRada:", varijacijaRada)
+					}
+					fmt.Println("elem:", s.Element.Id)
+				}
+				fmt.Println("varijacijaRadaIIIIIIIIIIIII:", varijacijaRada)
 				suma := model.WingIzabraniElement{
+					Sifra:         fmt.Sprint(w.Podvrsta) + "." + fmt.Sprint(w.Roditelj) + "." + fmt.Sprint(w.PrikazaniElement.Id) + "." + fmt.Sprint(varijacijaRada+1),
 					Kolicina:      kolicina.Value,
 					SumaCena:      sumaCena,
 					Element:       *w.PrikazaniElement,
 					DugmeBrisanje: new(gel.Button),
 				}
-				w.Suma.Elementi[len(w.Suma.Elementi)] = suma
+				w.Suma.Elementi = append(w.Suma.Elementi, &suma)
+				//w.Suma.Elementi[len(w.Suma.Elementi)] = suma
 				//for _, n := range w.PrikazaniElement.NeophodanMaterijal {
 				//	w.Suma.UkupanNeophodanMaterijal[n.Id] = model.WingNeophodanMaterijal{
 				//		Id:       n.Id,
@@ -85,7 +96,8 @@ func (w *WingCal) PrikazaniElementDugmeDodaj(sumaCena float64) func() {
 				//}
 			}
 			//var neophodanmaterijal map[int]model.WingNeophodanMaterijal
-			w.NeopodanMaterijal()
+			//w.NeopodanMaterijal()
+			w.SumaRacunica()
 		}
 		btn.Layout(w.Context, dodajDugme)
 	}

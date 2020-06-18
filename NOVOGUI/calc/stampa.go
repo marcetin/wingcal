@@ -2,8 +2,8 @@ package calc
 
 import (
 	"fmt"
-	"github.com/deelawn/gofpdf"
 	"github.com/gioapp/gel"
+	"github.com/jung-kurt/gofpdf"
 	"github.com/marcetin/wingcal/pkg/latcyr"
 	"github.com/skratchdot/open-golang/open"
 )
@@ -15,8 +15,9 @@ var (
 func (w *WingCal) Stampa() func() {
 	return func() {
 		if len(w.Suma.Elementi) != 0 {
-			btn := w.Tema.Button(latcyr.C("Stampaj", w.Cyr))
+			btn := w.Tema.Button(latcyr.C("Štampaj", w.Cyr))
 			for stampajDugme.Clicked(w.Context) {
+				///////////////////////////////////////////
 				//	pdf := gofpdf.New("P", "mm", "A4", "")
 				//	pdf.AddPage()
 				//	pdf.SetFont("Arial", "B", 12)
@@ -67,41 +68,70 @@ func (w *WingCal) Stampa() func() {
 				//pdf.Cell(40, 10, fmt.Sprint(w.Suma.SumaCena))
 				//
 
-				pdf := gofpdf.New("P", "mm", "A4", "")
-				//pdf.SetTopMargin(30)
+				/////////////////////////////
+				pdf := gofpdf.New("P", "", "", "")
+				pdf.SetTopMargin(30)
 
 				marginCell := 2. // margin of top/bottom of cell
 				pagew, pageh := pdf.GetPageSize()
 				mleft, mright, _, mbottom := pdf.GetMargins()
 
 				pdf.SetHeaderFuncMode(func() {
-					//pdf.Image(example.ImageFile("logo.png"), 10, 6, 30, 0, false, "", 0, "")
+					//pdf.Image("/usr/home/marcetin/Public/wingcal/NOVOGUI/pdfheader.png", 5, 5, 200, 25, false, "", 0, "")
+					//pdf.SetDrawColor(200,200,200)
+					pdf.SetFillColor(200, 200, 200)
+					pdf.Rect(5, 5, 200, 20, "F")
 					pdf.SetY(5)
-					pdf.SetFont("Arial", "B", 15)
-					pdf.Cell(80, 0, "")
-					pdf.CellFormat(30, 10, "W-ing Solutions", "1", 0, "C", false, 0, "")
-					pdf.Ln(20)
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 6, "MB:20701005", "0", 0, "L", false, 0, "")
+					pdf.SetFont("Arial", "B", 10)
+					pdf.CellFormat(47, 10, "W-ing Solutions D.o.o.", "0", 0, "R", false, 0, "")
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 8, "     SIFRA PROJEKTA", "0", 0, "L", false, 0, "")
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 8, "fhe38833", "0", 0, "R", false, 0, "")
+					pdf.Ln(5)
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 6, "PIB:106892584", "0", 0, "L", false, 0, "")
+					pdf.CellFormat(47, 8, "Bulevar Oslobodjenja 30A", "0", 0, "R", false, 0, "")
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 8, "     NAZIV PROJEKTA", "0", 0, "L", false, 0, "")
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 8, "projekat za evidentiranje", "0", 0, "R", false, 0, "")
+					pdf.Ln(5)
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 6, "tel:069/222-44-33", "0", 0, "L", false, 0, "")
+					pdf.CellFormat(47, 8, "21000 Novi Sad", "0", 0, "R", false, 0, "")
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 8, "     DATUM PROJEKTA", "0", 0, "L", false, 0, "")
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 10, "mart 2020", "0", 0, "R", false, 0, "")
+					pdf.Ln(5)
+					pdf.SetFont("Arial", "", 8)
+					pdf.CellFormat(47, 6, "email:vukobrat.cedomir@gmail.com", "0", 0, "L", false, 0, "")
+
 				}, true)
 				pdf.SetFooterFunc(func() {
 					pdf.SetY(-15)
 					pdf.SetFont("Arial", "I", 8)
-					pdf.CellFormat(0, 10, fmt.Sprintf("Page %d/{nb}", pdf.PageNo()),
+					pdf.CellFormat(0, 10, fmt.Sprintf("Strana %d/{nb}", pdf.PageNo()),
 						"", 0, "C", false, 0, "")
 				})
 				pdf.AliasNbPages("")
 
 				pdf.AddPage()
-				pdf.SetFont("Times", "", 12)
-				pdf.CellFormat(0, 10, latcyr.C("Specifikacija aktivnosti", w.Cyr), "", 1, "", false, 0, "")
-				pdf.Ln(8)
+				pdf.SetFont("Times", "B", 16)
+				pdf.CellFormat(0, 10, latcyr.C("Specifikacija aktivnosti", w.Cyr), "0", 0, "", false, 0, "")
+				pdf.Ln(20)
 
+				pdf.SetFont("Arial", "", 10)
 				for _, e := range w.Suma.Elementi {
-					cols := []float64{30, pagew - mleft - mright - 30}
+					cols := []float64{40, pagew - mleft - mright - 20}
 					//rows := [][]string{}
 
 					rows := [][]string{
 						[]string{
-							"sifra", "ssSSs",
+							"sifra", e.Sifra,
 						},
 						[]string{
 							"opis", e.Element.Opis,
@@ -138,8 +168,8 @@ func (w *WingCal) Stampa() func() {
 						}
 						for i, txt := range row {
 							width := cols[i]
-							pdf.Rect(x, y, width, height, "")
-							pdf.MultiCell(width, lineHt+marginCell, txt, "", "", false, 10)
+							//pdf.Rect(x, y, width, height, "")
+							pdf.MultiCell(width, lineHt+marginCell, txt, "", "", false)
 							x += width
 							pdf.SetXY(x, y)
 						}
@@ -148,7 +178,11 @@ func (w *WingCal) Stampa() func() {
 					pdf.Ln(8)
 				}
 
-				/////
+				pdf.SetFont("Times", "B", 16)
+				pdf.CellFormat(0, 10, latcyr.C("Suma: ", w.Cyr)+fmt.Sprint(w.Suma.SumaCena), "0", 0, "", false, 0, "")
+				pdf.Ln(20)
+
+				/////////////////////////
 				//for _, e := range w.Suma.Elementi {
 				//	pdf.CellFormat(0, 10, latcyr.C(e.Element.Naziv, w.Cyr), "", 1, "", false, 0, "")
 				//	pdf.Ln(8)
@@ -195,6 +229,8 @@ func (w *WingCal) Stampa() func() {
 				//fileStr := example.Filename("Fpdf_AddPage")
 				//err := pdf.OutputFileAndClose(fileStr)
 				//example.Summary(err, fileStr)
+
+				///////////////////////////////////
 
 				err := pdf.OutputFileAndClose("nalog.pdf")
 				if err != nil {
