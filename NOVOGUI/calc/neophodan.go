@@ -64,9 +64,9 @@ func (w *WingCal) UkupanNeophodanMaterijal(l *layout.List) func() {
 		l.Layout(w.Context, len(w.Suma.UkupanNeophodanMaterijal), func(i int) {
 
 			materijal := w.Suma.UkupanNeophodanMaterijalPrikaz[i]
-			materijal.Materijal = *w.Materijal[materijal.Id-1]
+			//materijal.Materijal = *w.Materijal[materijal.Id-1]
 			//fmt.Println(":::::NazivNazivNaziv", materijal.Materijal.Naziv)
-			fmt.Println(":::::IDidididi111", materijal.Id)
+			//fmt.Println(":::::IDidididi111", materijal.Id)
 			//fmt.Println(":::::IDidididi", materijal.Materijal.Id)
 			w.Context.Constraints.Width.Min = width
 
@@ -82,10 +82,7 @@ func (w *WingCal) UkupanNeophodanMaterijal(l *layout.List) func() {
 							w.Tema.Body1(latcyr.C(materijal.Materijal.Naziv, w.Cyr)).Layout(w.Context)
 						}),
 						layout.Flexed(0.15, func() {
-							w.Tema.Body1(fmt.Sprintf("%.2f", materijal.Materijal.Potrosnja)).Layout(w.Context)
-						}),
-						layout.Flexed(0.15, func() {
-							w.Tema.Body1(fmt.Sprint(materijal.Koeficijent)).Layout(w.Context)
+							w.Tema.Body1(fmt.Sprint(materijal.Materijal.Cena)).Layout(w.Context)
 						}),
 						layout.Flexed(0.15, func() {
 							w.Tema.Body1(fmt.Sprintf("%.2f", materijal.Kolicina)).Layout(w.Context)
@@ -98,5 +95,27 @@ func (w *WingCal) UkupanNeophodanMaterijal(l *layout.List) func() {
 				layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 1, w.Tema.Colors["Gray"])),
 			)
 		})
+	}
+}
+
+func (w *WingCal) SumaStavkeMaterijala(width int) func() {
+	return func() {
+		w.Context.Constraints.Width.Min = width
+		layout.Flex{
+			Axis:    layout.Horizontal,
+			Spacing: layout.SpaceBetween,
+		}.Layout(w.Context,
+			layout.Flexed(0.4, func() {
+				w.Tema.Caption(latcyr.C("Naziv", w.Cyr)).Layout(w.Context)
+			}),
+			layout.Flexed(0.15, func() {
+				w.Tema.Caption(latcyr.C("Pojedinacna cena", w.Cyr)).Layout(w.Context)
+			}),
+			layout.Flexed(0.15, func() {
+				w.Tema.Caption(latcyr.C("Kolicina", w.Cyr)).Layout(w.Context)
+			}),
+			layout.Flexed(0.15, func() {
+				w.Tema.Caption(latcyr.C("Ukupna cena", w.Cyr)).Layout(w.Context)
+			}))
 	}
 }

@@ -147,7 +147,6 @@ func (w *WingCal) Stampa() func() {
 			//	err := pdf.OutputFileAndClose("nalog.pdf")
 			//	if err != nil {
 			//	}
-			fmt.Println("Sume", w.Suma.UkupanNeophodanMaterijal)
 		}
 		btn.Layout(w.Context, stampajDugme)
 	}

@@ -131,22 +131,22 @@ func (w *WingCal) Stampa() func() {
 
 					rows := [][]string{
 						[]string{
-							"sifra", e.Sifra,
+							"Šifra", e.Sifra,
 						},
 						[]string{
-							"opis", e.Element.Opis,
+							"Opis", e.Element.Opis,
 						},
 						[]string{
-							"jedinica mere", e.Element.Jedinica,
+							"Jedinica mere", e.Element.Jedinica,
 						},
 						[]string{
-							"jedinicna cena", fmt.Sprint(e.Element.Cena),
+							"Jedinična cena", fmt.Sprint(e.Element.Cena),
 						},
 						[]string{
-							"kolicina", fmt.Sprint(e.Kolicina),
+							"Količina", fmt.Sprint(e.Kolicina),
 						},
 						[]string{
-							"vrednost rada", fmt.Sprint(e.SumaCena),
+							"Vrednost rada", fmt.Sprintf("%.2f", e.SumaCena),
 						},
 					}
 					for _, row := range rows {
@@ -179,8 +179,8 @@ func (w *WingCal) Stampa() func() {
 				}
 
 				pdf.SetFont("Times", "B", 16)
-				pdf.CellFormat(0, 10, latcyr.C("Suma: ", w.Cyr)+fmt.Sprint(w.Suma.SumaCena), "0", 0, "", false, 0, "")
-				pdf.Ln(20)
+				pdf.CellFormat(0, 10, latcyr.C("Suma: ", w.Cyr)+fmt.Sprintf("%.2f", w.Suma.SumaCena), "0", 0, "", false, 0, "")
+				pdf.Ln(40)
 
 				/////////////////////////
 				//for _, e := range w.Suma.Elementi {
@@ -230,12 +230,76 @@ func (w *WingCal) Stampa() func() {
 				//err := pdf.OutputFileAndClose(fileStr)
 				//example.Summary(err, fileStr)
 
+				pdf.SetFont("Times", "B", 16)
+				pdf.CellFormat(0, 10, latcyr.C("Specifikacija materijala", w.Cyr), "0", 0, "", false, 0, "")
+				pdf.Ln(20)
+
+				pdf.SetFont("Arial", "", 10)
+				for _, e := range w.Suma.UkupanNeophodanMaterijalPrikaz {
+					cols := []float64{40, pagew - mleft - mright - 20}
+					//rows := [][]string{}
+
+					rows := [][]string{
+						[]string{
+							"Šifra", fmt.Sprint(e.Id),
+						},
+						[]string{
+							"Naziv", e.Materijal.Naziv,
+						},
+						[]string{
+							"Osobine i namena", e.Materijal.OsobineNamena,
+						},
+						[]string{
+							"Jedinica mere", e.Materijal.JedinicaPotrosnje,
+						},
+						[]string{
+							"Jedinična cena", fmt.Sprint(e.Materijal.Cena),
+						},
+						[]string{
+							"Količina", fmt.Sprint(e.Kolicina),
+						},
+						[]string{
+							"Vrednost rada", fmt.Sprintf("%.2f", e.UkupnaCena),
+						},
+					}
+					for _, row := range rows {
+						curx, y := pdf.GetXY()
+						x := curx
+						height := 0.
+						_, lineHt := pdf.GetFontSize()
+						for i, txt := range row {
+							lines := pdf.SplitLines([]byte(txt), cols[i])
+							h := float64(len(lines))*lineHt + marginCell*float64(len(lines))
+							if h > height {
+								height = h
+							}
+						}
+						// add a new page if the height of the row doesn't fit on the page
+						if pdf.GetY()+height > pageh-mbottom {
+							pdf.AddPage()
+							y = pdf.GetY()
+						}
+						for i, txt := range row {
+							width := cols[i]
+							//pdf.Rect(x, y, width, height, "")
+							pdf.MultiCell(width, lineHt+marginCell, txt, "", "", false)
+							x += width
+							pdf.SetXY(x, y)
+						}
+						pdf.SetXY(curx, y+height)
+					}
+					pdf.Ln(8)
+				}
+
+				pdf.SetFont("Times", "B", 16)
+				pdf.CellFormat(0, 10, latcyr.C("Suma materijal: ", w.Cyr)+fmt.Sprintf("%.2f", w.Suma.SumaCenaMaterijal), "0", 0, "", false, 0, "")
+				pdf.Ln(20)
+
 				///////////////////////////////////
 
 				err := pdf.OutputFileAndClose("nalog.pdf")
 				if err != nil {
 				}
-				fmt.Println("Sume", w.Suma.UkupanNeophodanMaterijal)
 				open.Run("nalog.pdf")
 
 			}

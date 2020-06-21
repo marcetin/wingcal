@@ -28,6 +28,7 @@ type WingVrstaRadova struct {
 type WingIzabraniElementi struct {
 	Id                             string
 	SumaCena                       float64
+	SumaCenaMaterijal              float64
 	Elementi                       []*WingIzabraniElement
 	UkupanNeophodanMaterijal       map[int]WingNeophodanMaterijal
 	UkupanNeophodanMaterijalPrikaz map[int]WingNeophodanMaterijal

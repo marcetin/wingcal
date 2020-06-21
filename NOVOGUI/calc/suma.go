@@ -114,7 +114,7 @@ func (w *WingCal) SumaIzgled() func() {
 								}))
 						}),
 						layout.Rigid(func() {
-							suma := w.Tema.H5(latcyr.C("Suma: ", w.Cyr) + fmt.Sprint(w.Suma.SumaCena))
+							suma := w.Tema.H5(latcyr.C("Suma: ", w.Cyr) + fmt.Sprintf("%.2f", w.Suma.SumaCena))
 							suma.Alignment = text.End
 							suma.Layout(w.Context)
 						}),
@@ -133,21 +133,15 @@ func (w *WingCal) SumaIzgled() func() {
 								suma.Layout(w.Context)
 							})
 						}),
-						layout.Rigid(func() {
-							w.Context.Constraints.Width.Min = width
-							layout.Flex{
-								Axis:    layout.Horizontal,
-								Spacing: layout.SpaceBetween,
-							}.Layout(w.Context,
-								layout.Rigid(func() {
-									w.Tema.H6(latcyr.C("Količina:", w.Cyr)).Layout(w.Context)
-								}),
-								layout.Rigid(func() {
-									w.Tema.H6(latcyr.C("Ukupna cena:", w.Cyr)).Layout(w.Context)
-								}))
-						}),
+						layout.Rigid(w.SumaStavkeMaterijala(width)),
 						layout.Rigid(w.Tema.DuoUIline(w.Context, 0, 0, 2, w.Tema.Colors["Gray"])),
 						layout.Flexed(1, w.UkupanNeophodanMaterijal(ukupanNeophodanMaterijalList)),
+
+						layout.Rigid(func() {
+							suma := w.Tema.H5(latcyr.C("Suma materijal: ", w.Cyr) + fmt.Sprintf("%.2f", w.Suma.SumaCenaMaterijal))
+							suma.Alignment = text.End
+							suma.Layout(w.Context)
+						}),
 
 						layout.Rigid(w.Stampa()))
 				}),
@@ -159,25 +153,29 @@ func (w *WingCal) SumaIzgled() func() {
 func (w *WingCal) NeopodanMaterijal() {
 	u := make(map[int]model.WingNeophodanMaterijal)
 	unm := make(map[int]model.WingNeophodanMaterijal)
+	sumaCena := 0.0
 	for _, e := range w.Suma.Elementi {
 		for _, n := range e.Element.NeophodanMaterijal {
-			u[n.Id] = model.WingNeophodanMaterijal{
-				Id: n.Id,
-				//Materijal:  *w.Materijal[n.Id-1],
-				Kolicina: u[n.Id].Kolicina + float64(e.Kolicina),
+			uu := model.WingNeophodanMaterijal{
+				Id:        n.Id,
+				Materijal: *w.Materijal[n.Id-1],
 			}
-			fmt.Println(":::::nnnnnnID", n.Id)
+			k := uu.Materijal.Potrosnja * float64(e.Kolicina) * n.Koeficijent
+			uu.Kolicina = u[n.Id].Kolicina + k
+			ukupnaCena := uu.Kolicina * uu.Materijal.Cena
+			uu.UkupnaCena = ukupnaCena
+			uu.UkupnoPakovanja = int(k / float64(uu.Materijal.Pakovanje))
+			u[n.Id] = uu
+			sumaCena = sumaCena + ukupnaCena
 		}
 	}
 	w.Suma.UkupanNeophodanMaterijal = u
-
+	w.Suma.SumaCenaMaterijal = sumaCena
 	i := 0
-	for _, uu := range u {
-		unm[i] = uu
+	for _, uuu := range u {
+		unm[i] = uuu
 		i++
 	}
-	fmt.Println(":::::uuuuuuu", u)
-
 	w.Suma.UkupanNeophodanMaterijalPrikaz = unm
 }
 
@@ -201,54 +199,9 @@ func (w *WingCal) cell(tekst string) {
 
 func (w *WingCal) SumaRacunica() {
 	s := 0.0
-	//ukm := make(map[int]model.WingNeophodanMaterijal)
-	//materijal := make(map[int]model.WingNeophodanMaterijal)
-	fmt.Println(":::::::::::::::::")
-	fmt.Println(":::::::::::::::::")
-	fmt.Println(":::::::::::::::::")
 	for _, e := range w.Suma.Elementi {
 		s = s + e.SumaCena
-		//
-		//fmt.Println("Element::", e.Element.Naziv)
-		//for _, n := range e.Element.NeophodanMaterijal {
-		//	//materijal = w.Suma.UkupanNeophodanMaterijal[i-1]
-		//
-		//	w.Suma.UkupanNeophodanMaterijal[n.Id-1] = &model.WingNeophodanMaterijal{
-		//		Id: n.Id-1,
-		//		Materijal: *w.Materijal[n.Id-1],
-		//	}
-
-		//ukm[n.Materijal.Id]= nn
-
-		//nn.Id = n.Materijal.Id
-		//nn.Kolicina = w.Suma.UkupanNeophodanMaterijal[nn.Materijal.Id].Kolicina + float64(e.Kolicina)
-		//kolicina := 0.0
-		//if n.Koeficijent > 0 {
-		//k := nn.Materijal.Potrosnja * float64(e.Kolicina) * n.Koeficijent
-		//}
-		//nn.UkupnaCena = nn.Materijal.Cena * float64(k)
-		//nn.UkupnoPakovanja = int(k / float64(nn.Materijal.Pakovanje))
-
-		//w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina = w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina + float64(kolicina)
-
-		//w.Suma.UkupanNeophodanMaterijal[n.Id] = nn
-
-		//fmt.Println("nnnnnnnnnnnnnnn:", n.)
-		//fmt.Println("kkkn.Materijal.Id:", n.Id)
-		//fmt.Println("kkkn.Id-1:", n.Id)
-		//fmt.Println("NNNEmaterijalmaterijal:", n.Materijal.Naziv)
-		//fmt.Println("Potrosnja:", nn.Materijal.Potrosnja)
-		//fmt.Println("e:", e.Kolicina)
-		//fmt.Println("UkupnaCena:", nn.UkupnaCena)
-		//fmt.Println("Kolicina:", nn.Kolicina)
-		//fmt.Println("Koeficijent:", nn.Koeficijent)
-
-		//}
 	}
-
-	//fmt.Println("kkkn.Materijal.Id:", n)
-	//w.Suma.UkupanNeophodanMaterijal = ukm
-
 	w.Suma.SumaCena = s
 
 }
