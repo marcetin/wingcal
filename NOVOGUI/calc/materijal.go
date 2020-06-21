@@ -12,14 +12,14 @@ func (w *WingCal) NewMaterijal() {
 			Opis:              "Glet masa-gletokol",
 			Obracun:           "Obracun po kilogrammu",
 			Proizvodjac:       "maxima",
-			OsobineNamena:     "\"GLETOLIN G je pastozna masa na bazi akrilata, namenjena za no\ngletovanje unutrašnjih, cvrsto malterisanih zidnih površina, kao i gips kartonskih ploca. GLETOLIN G\nodlikuje izuzetna belina, lakoca nanošenja i obradivost. Izravnane površine, koje su potpuno suve,\nmogu se bojiti svim vrstama disperzionih boja.\"",
-			NacinRada:         "\" GLETOLIN G je pripremljen za ugradnju. Zidne površine moraju biti nosivo\nsposobne, ocišcene od prašine, masti i drugih necistoca. Pre nanošenja GLETOLIN-a G, površine\ngrundirati odgovarajucom MAXIKRIL podlogom, u zavisnosti od stanja površine. GLETOLIN\nG nanositi na zidne površine pomocu celicne gletarice ili nerajucom farbarskom lopaticom.\nMože se nanositi i mašinski, pri cemu ga treba razrediti sa malo vode. Nakon sušenja, svaki sloj\nnanosa treba dobro izbrusiti brusnim papirom. Vreme sušenja, pre nanošenja narednog sloja,\nodnosno brušenja, pri optimalnim uslovima, je min. 12 casova. Maksimalna preporucena ukupna\ndebljina sloja je do 3mm. Posle upotrebe, alat odmah oprati vodom\"",
+			OsobineNamena:     "GLETOLIN G je pastozna masa na bazi akrilata, namenjena za no gletovanje unutrašnjih, cvrsto malterisanih zidnih površina, kao i gips kartonskih ploca. GLETOLIN G odlikuje izuzetna belina, lakoca nanošenja i obradivost. Izravnane površine, koje su potpuno suve, mogu se bojiti svim vrstama disperzionih boja.",
+			NacinRada:         "GLETOLIN G je pripremljen za ugradnju. Zidne površine moraju biti nosivo sposobne, ocišcene od prašine, masti i drugih necistoca. Pre nanošenja GLETOLIN-a G, površine grundirati odgovarajucom MAXIKRIL podlogom, u zavisnosti od stanja površine. GLETOLIN G nanositi na zidne površine pomocu celicne gletarice ili nerajucom farbarskom lopaticom.\nMože se nanositi i mašinski, pri cemu ga treba razrediti sa malo vode. Nakon sušenja, svaki sloj nanosa treba dobro izbrusiti brusnim papirom. Vreme sušenja, pre nanošenja narednog sloja, odnosno brušenja, pri optimalnim uslovima, je min. 12 casova. Maksimalna preporucena ukupna debljina sloja je do 3mm. Posle upotrebe, alat odmah oprati vodom",
 			JedinicaPotrosnje: "kg/m², u zavisnosti od hrapavosti podloge",
 			Potrosnja:         2.0,
 			RokUpotrebe:       "\"12 meseci od datuma proizvodnje istaknutog na ambalaži. Cuvati\nu originalnoj, dobro zatvorenoj i neoštecenoj ambalaži, pri temperaturi od +5°C do +25\"",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              15.60,
+			Cena:              0.13,
 			Slug:              "glet_masa_gletokol",
 		},
 		1: &model.WingMaterijal{
@@ -35,7 +35,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\"12 meseci od datuma proizvodnje istaknutog na ambalaži. Cuvati\nu originalnoj, dobro zatvorenoj i neoštecenoj ambalaži, pri temperaturi od +5°C do +25\"",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              22.80,
+			Cena:              0.19,
 			Slug:              "masa_za_spanski_zid",
 		},
 		2: &model.WingMaterijal{
@@ -51,7 +51,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "Rok upotrebe je 12 meseci u orginalnoj ambalaži. ",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              19.80,
+			Cena:              0.165,
 			Slug:              "bavalit_fasada",
 		},
 		3: &model.WingMaterijal{
@@ -67,7 +67,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "Rok trajanja do 6 meseci u originalnom i neoštećenom pakovanju. Proizvod čuvati u originalnoj, zatvorenoj ambalaži na suvom mestu, zaštićenom od vlage.",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              18.00,
+			Cena:              0.15,
 			Slug:              "fasada_hirofa",
 		},
 		4: &model.WingMaterijal{
@@ -83,7 +83,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "Materijal ne treba nanositi pri temperaturama vazduha i podloge ispod +5°C i višim od 25°C. Sveže naneseni malter zaštiti od promaje, prebrzog sušenja i mraza.",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              11.40,
+			Cena:              0.095,
 			Slug:              "lepak_za_siporeks blokove",
 		},
 		5: &model.WingMaterijal{
@@ -99,7 +99,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "Materijal ne treba nanositi pri temperaturama vazduha i podloge ispod +5°C i višim od 25°C. Sveže naneseni malter zaštiti od promaje, prebrzog sušenja i mraza.",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              12.00,
+			Cena:              0.1,
 			Slug:              "lepak_za_keramicke_plocice_pk_111",
 		},
 		6: &model.WingMaterijal{
@@ -115,7 +115,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       " U suvom prostoru +5°C do +25°C",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              13.10,
+			Cena:              0.11,
 			Slug:              "lepak_za_stiropor",
 		},
 		7: &model.WingMaterijal{
@@ -131,7 +131,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "12 meseci od datuma proizvodnje istaknutog na ambalaži. Čuvati u zatvorenoj i neoštećenoj ambalaži, u suvoj i provetrenoj prostoriji",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              16.80,
+			Cena:              0.14,
 			Slug:              "lepak_za_kamenu_vunu",
 		},
 		8: &model.WingMaterijal{
@@ -147,7 +147,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\"Skladištiti na suvom mestu (ako je moguće na drvenim paletama). Datum proizvodnje odštampan na vreći. Rok upotrebe najmanje 12 meseci prema direktivi 1907/2006/EZ na 20 °C, 65 % r.v.v.\n\"",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              52.80,
+			Cena:              0.44,
 			Slug:              "lepak_za_kamen_vajt_beli",
 		},
 		9: &model.WingMaterijal{
@@ -163,7 +163,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\"Radove izvoditi u suvim uslovima pri temperaturama od +5°C do +25°C. Svi podaci su dobijeni pri temperaturi od 23°C i relativnoj vlažnosti od 50 %. Različiti uslovi mogu izazvati usporavanje ili ubrzavanje očvršćavanja. U slučaju polaganja pločica od kamena koji je podležan promenama boje obavezno je uzorkovanje kako bi se proverilo da li lepak izaziva promene na pločicama. Pored preporuka datih u ovom dokumentu, radovi bi trebalo da budu izvedeni u skladu sa građevinskim standardima i pravilima zaštite na radu. U slučaju bilo kakvih nedoumica, kontaktirajte tehničku podršku ili sprovedite proceduru uzorkovanja. Sadrži cement. Sa vlagom reaguje jako alkalno, tako da treba zaštititi kožu i oči. U slučaju kontakta sa očima,isprati oči vodom i obavezno se obratiti lekaru.\n\"",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              28.80,
+			Cena:              0.24,
 			Slug:              "lepak_za_keramiku_pk_116",
 		},
 		10: &model.WingMaterijal{
@@ -179,7 +179,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\" meseci od datuma proizvodnje istaknutog na ambalaži.\nCuvati u zatvorenoj i neoštecenoj ambalaži, u suvoj i provetrenoj prostoriji.\"",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              28.80,
+			Cena:              0.24,
 			Slug:              "glet_masa_spoljna",
 		},
 		11: &model.WingMaterijal{
@@ -195,7 +195,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "",
 			Jedinica:          "kg",
 			Pakovanje:         30,
-			Cena:              8.50,
+			Cena:              0.071,
 			Slug:              "masinski_malter_krecno_cementni",
 		},
 		12: &model.WingMaterijal{
@@ -211,7 +211,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\"12 meseci od datuma proizvodnje istaknutog na ambalaži. Cuvati\nu originalnoj, dobro zatvorenoj i neoštecenoj ambalaži, pri temperaturi od +5°C do +25\"",
 			Jedinica:          "kg",
 			Pakovanje:         5 / 1,
-			Cena:              21.60,
+			Cena:              0.18,
 			Slug:              "glet_masa",
 		},
 		13: &model.WingMaterijal{
@@ -227,7 +227,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "U suvom prostoru +5°C do +25°C",
 			Jedinica:          "kg",
 			Pakovanje:         5 / 1,
-			Cena:              21.60,
+			Cena:              0.18,
 			Slug:              "gradjevinski_lepak",
 		},
 		14: &model.WingMaterijal{
@@ -243,7 +243,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\"6 meseci od datuma proizvodnje istaknutog na ambalaži.\nCuvati u zatvorenoj i neoštecenoj ambalaži, u suvoj i provetrenoj prostoriji.\"",
 			Jedinica:          "kg",
 			Pakovanje:         30,
-			Cena:              10.20,
+			Cena:              0.085,
 			Slug:              "spoljni_masinski_malter_cementni",
 		},
 		15: &model.WingMaterijal{
@@ -259,7 +259,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "U suvom prostoru +5°C do +25°C",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              36.00,
+			Cena:              0.3,
 			Slug:              "pk_pol",
 		},
 		16: &model.WingMaterijal{
@@ -275,7 +275,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "U suvom prostoru +5°C do +25°C",
 			Jedinica:          "kg",
 			Pakovanje:         8,
-			Cena:              45.60,
+			Cena:              0.38,
 			Slug:              "pk_dsp",
 		},
 		17: &model.WingMaterijal{
@@ -291,7 +291,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "6 meseci od datuma proizvodnje istaknutog na ambalaži. Čuvati u zatvorenoj i neoštećenoj ambalaži, u suvoj i provetrenoj prostoriji.",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              7.70,
+			Cena:              0.064,
 			Slug:              "masinski_malter_rinfuz",
 		},
 		18: &model.WingMaterijal{
@@ -307,7 +307,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "Rok trajanja do 12 meseci u originalnom i neoštećenom pakovanju. Proizvod čuvati u originalnoj, zatvorenoj ambalaži na suvom mestu, zaštićeno od direktnog uticaja sunca, na temperaturi od  +5°C do +30°C. Proizvod ne sme da smrzne. ",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              90.00,
+			Cena:              0.75,
 			Slug:              "pk_kulir",
 		},
 		19: &model.WingMaterijal{
@@ -323,7 +323,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              87.50,
+			Cena:              0.73,
 			Slug:              "pk_akril",
 		},
 		20: &model.WingMaterijal{
@@ -339,7 +339,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "12 meseci od datuma proizvodnje istaknutog na ambalaži. Cuvati u originalnoj, dobro zatvorenoj i neoštecenoj ambalaži, pri temperaturi od +5°C do +25°C, zaštićeno od direktne sunčeve svetlosti.",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              69.50,
+			Cena:              0.58,
 			Slug:              "pk_plast",
 		},
 		21: &model.WingMaterijal{
@@ -355,7 +355,7 @@ func (w *WingCal) NewMaterijal() {
 			RokUpotrebe:       "\"Skladištiti na suvom mestu (ako je moguće na drvenim paletama). Datum proizvodnje odštampan na vreći. Rok upotrebe najmanje 12 meseci prema direktivi 1907/2006/EZ na 20 °C, 65 % r.v.v.\n\"",
 			Jedinica:          "kg",
 			Pakovanje:         25,
-			Cena:              21.50,
+			Cena:              0.18,
 			Slug:              "lepak_za_kamen_sivi",
 		},
 	}

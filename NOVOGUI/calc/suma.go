@@ -128,7 +128,7 @@ func (w *WingCal) SumaIzgled() func() {
 							ukupan := w.Tema.DuoUIcontainer(16, w.Tema.Colors["Primary"])
 							ukupan.FullWidth = true
 							ukupan.Layout(w.Context, layout.W, func() {
-								suma := w.Tema.H5(latcyr.C("Ukupan neophdni materijal", w.Cyr))
+								suma := w.Tema.H5(latcyr.C("Ukupan neophodni materijal", w.Cyr))
 								suma.Alignment = text.End
 								suma.Layout(w.Context)
 							})
