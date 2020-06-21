@@ -3,7 +3,6 @@ package calc
 import (
 	"fmt"
 	"gioui.org/layout"
-	"github.com/marcetin/wingcal/model"
 	"github.com/marcetin/wingcal/pkg/latcyr"
 )
 
@@ -59,12 +58,16 @@ func (w *WingCal) RadNeophodanMaterijal(l *layout.List) func() {
 func (w *WingCal) UkupanNeophodanMaterijal(l *layout.List) func() {
 	return func() {
 
-		var materijal model.WingNeophodanMaterijal
+		//fmt.Println(":::::UkupanNeophodanMaterijal", w.Suma.UkupanNeophodanMaterijal)
+		//var materijal model.WingNeophodanMaterijal
 		width := w.Context.Constraints.Width.Max
 		l.Layout(w.Context, len(w.Suma.UkupanNeophodanMaterijal), func(i int) {
 
-			materijal = w.Suma.UkupanNeophodanMaterijal[i]
-
+			materijal := w.Suma.UkupanNeophodanMaterijalPrikaz[i]
+			materijal.Materijal = *w.Materijal[materijal.Id-1]
+			//fmt.Println(":::::NazivNazivNaziv", materijal.Materijal.Naziv)
+			fmt.Println(":::::IDidididi111", materijal.Id)
+			//fmt.Println(":::::IDidididi", materijal.Materijal.Id)
 			w.Context.Constraints.Width.Min = width
 
 			layout.Flex{

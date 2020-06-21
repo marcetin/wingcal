@@ -158,15 +158,27 @@ func (w *WingCal) SumaIzgled() func() {
 
 func (w *WingCal) NeopodanMaterijal() {
 	u := make(map[int]model.WingNeophodanMaterijal)
+	unm := make(map[int]model.WingNeophodanMaterijal)
 	for _, e := range w.Suma.Elementi {
 		for _, n := range e.Element.NeophodanMaterijal {
 			u[n.Id] = model.WingNeophodanMaterijal{
-				Id:       n.Id,
-				Kolicina: w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina + float64(kolicina.Value),
+				Id: n.Id,
+				//Materijal:  *w.Materijal[n.Id-1],
+				Kolicina: u[n.Id].Kolicina + float64(e.Kolicina),
 			}
+			fmt.Println(":::::nnnnnnID", n.Id)
 		}
 	}
 	w.Suma.UkupanNeophodanMaterijal = u
+
+	i := 0
+	for _, uu := range u {
+		unm[i] = uu
+		i++
+	}
+	fmt.Println(":::::uuuuuuu", u)
+
+	w.Suma.UkupanNeophodanMaterijalPrikaz = unm
 }
 
 func (w *WingCal) tabela(colona, width int) {
@@ -189,41 +201,54 @@ func (w *WingCal) cell(tekst string) {
 
 func (w *WingCal) SumaRacunica() {
 	s := 0.0
-	materijal := make(map[int]model.WingNeophodanMaterijal)
+	//ukm := make(map[int]model.WingNeophodanMaterijal)
+	//materijal := make(map[int]model.WingNeophodanMaterijal)
+	fmt.Println(":::::::::::::::::")
+	fmt.Println(":::::::::::::::::")
+	fmt.Println(":::::::::::::::::")
 	for _, e := range w.Suma.Elementi {
 		s = s + e.SumaCena
+		//
+		//fmt.Println("Element::", e.Element.Naziv)
+		//for _, n := range e.Element.NeophodanMaterijal {
+		//	//materijal = w.Suma.UkupanNeophodanMaterijal[i-1]
+		//
+		//	w.Suma.UkupanNeophodanMaterijal[n.Id-1] = &model.WingNeophodanMaterijal{
+		//		Id: n.Id-1,
+		//		Materijal: *w.Materijal[n.Id-1],
+		//	}
 
-		for _, n := range e.Element.NeophodanMaterijal {
-			//materijal = w.Suma.UkupanNeophodanMaterijal[i-1]
-			nn := model.WingNeophodanMaterijal{
-				Id:        n.Materijal.Id - 1,
-				Materijal: *w.Materijal[n.Id-1],
-			}
-			nn.Kolicina = w.Suma.UkupanNeophodanMaterijal[n.Materijal.Id-1].Kolicina + float64(e.Kolicina)
-			//kolicina := 0.0
-			//if n.Koeficijent > 0 {
-			kolicina := nn.Materijal.Potrosnja * float64(e.Kolicina) * n.Koeficijent
-			//}
-			n.UkupnaCena = nn.Materijal.Cena * float64(kolicina)
-			n.UkupnoPakovanja = int(kolicina / float64(n.Materijal.Pakovanje))
+		//ukm[n.Materijal.Id]= nn
 
-			//w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina = w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina + float64(kolicina)
+		//nn.Id = n.Materijal.Id
+		//nn.Kolicina = w.Suma.UkupanNeophodanMaterijal[nn.Materijal.Id].Kolicina + float64(e.Kolicina)
+		//kolicina := 0.0
+		//if n.Koeficijent > 0 {
+		//k := nn.Materijal.Potrosnja * float64(e.Kolicina) * n.Koeficijent
+		//}
+		//nn.UkupnaCena = nn.Materijal.Cena * float64(k)
+		//nn.UkupnoPakovanja = int(k / float64(nn.Materijal.Pakovanje))
 
-			materijal[n.Materijal.Id] = nn
+		//w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina = w.Suma.UkupanNeophodanMaterijal[n.Id].Kolicina + float64(kolicina)
 
-			fmt.Println("kkkn.Materijal.Id:", n.Materijal.Id)
-			fmt.Println("kkkn.Id-1:", n.Id)
+		//w.Suma.UkupanNeophodanMaterijal[n.Id] = nn
 
-			fmt.Println("NNNEmaterijalmaterijal:", n.Materijal.Naziv)
-			fmt.Println("Potrosnja:", n.Materijal.Potrosnja)
-			fmt.Println("kkk:", kolicina)
-			fmt.Println("e:", e.Kolicina)
-			fmt.Println("UkupnaCena:", n.UkupnaCena)
-			fmt.Println("Kolicina:", n.Kolicina)
-			fmt.Println("Koeficijent:", n.Koeficijent)
+		//fmt.Println("nnnnnnnnnnnnnnn:", n.)
+		//fmt.Println("kkkn.Materijal.Id:", n.Id)
+		//fmt.Println("kkkn.Id-1:", n.Id)
+		//fmt.Println("NNNEmaterijalmaterijal:", n.Materijal.Naziv)
+		//fmt.Println("Potrosnja:", nn.Materijal.Potrosnja)
+		//fmt.Println("e:", e.Kolicina)
+		//fmt.Println("UkupnaCena:", nn.UkupnaCena)
+		//fmt.Println("Kolicina:", nn.Kolicina)
+		//fmt.Println("Koeficijent:", nn.Koeficijent)
 
-		}
+		//}
 	}
+
+	//fmt.Println("kkkn.Materijal.Id:", n)
+	//w.Suma.UkupanNeophodanMaterijal = ukm
+
 	w.Suma.SumaCena = s
-	w.Suma.UkupanNeophodanMaterijal = materijal
+
 }

@@ -96,7 +96,7 @@ func (w *WingCal) PrikazaniElementDugmeDodaj(sumaCena float64) func() {
 				//}
 			}
 			//var neophodanmaterijal map[int]model.WingNeophodanMaterijal
-			//w.NeopodanMaterijal()
+			w.NeopodanMaterijal()
 			w.SumaRacunica()
 		}
 		btn.Layout(w.Context, dodajDugme)
