@@ -11,8 +11,8 @@ import (
 
 var (
 	IzborVrsteRadovaPanelElement = gel.NewPanel()
-	podvrstaradova               string
-	elementi                     string
+	Podvrstaradova               string
+	Elementi                     string
 )
 
 func (w *WingCal) IzborVrsteRadova() func() {
@@ -57,16 +57,16 @@ func (w *WingCal) IzborVrsteRadova() func() {
 
 										if len(w.Putanja) == 1 {
 											komanda = fmt.Sprint(i + 1)
-											podvrstaradova = fmt.Sprint(i + 1)
+											Podvrstaradova = fmt.Sprint(i + 1)
 											w.Podvrsta = i + 1
 										}
 										if len(w.Putanja) == 2 {
-											komanda = podvrstaradova + "/" + fmt.Sprint(i+1)
-											elementi = fmt.Sprint(i + 1)
+											komanda = Podvrstaradova + "/" + fmt.Sprint(i+1)
+											Elementi = fmt.Sprint(i + 1)
 											w.Roditelj = i + 1
 										}
 										if len(w.Putanja) == 3 {
-											komanda = podvrstaradova + "/" + elementi + "/" + fmt.Sprint(i+1)
+											komanda = Podvrstaradova + "/" + Elementi + "/" + fmt.Sprint(i+1)
 										}
 										if len(w.Putanja) == 1 {
 											w.APIpozivIzbornik("radovi/" + komanda)

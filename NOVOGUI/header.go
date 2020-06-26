@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"gioui.org/layout"
 	"gioui.org/unit"
 	"github.com/gioapp/gel"
@@ -15,7 +16,12 @@ var (
 	materijalDugme  = new(gel.Button)
 	projekatDugme   = new(gel.Button)
 	editorDugme     = new(gel.Button)
-	headerMenuList  = &layout.List{
+
+	putanjaRadoviDugme   = new(gel.Button)
+	putanjaPodvrstaDugme = new(gel.Button)
+	putanjaElementDugme  = new(gel.Button)
+
+	headerMenuList = &layout.List{
 		Axis: layout.Horizontal,
 	}
 )
@@ -28,7 +34,49 @@ func header(w *calc.WingCal) func() {
 		}.Layout(w.Context,
 			layout.Flexed(0.5, func() {
 				putanjaList.Layout(w.Context, len(w.Putanja), func(i int) {
-					w.Tema.Button(latcyr.C(w.Putanja[i], w.Cyr)).Layout(w.Context, btn)
+					switch i {
+					case 0:
+						w.Tema.Button(latcyr.C(w.Putanja[i], w.Cyr)).Layout(w.Context, putanjaRadoviDugme)
+						for putanjaRadoviDugme.Clicked(w.Context) {
+
+							komanda := ""
+							//if len(w.Putanja) == 3 {
+							//	komanda = "/" + fmt.Sprint(w.Roditelj)
+							//	//podvrstaradova = fmt.Sprint(w.Roditelj)
+							//	fmt.Println("roddddditeL111::", w.Roditelj)
+							//}
+							//if len(w.Putanja) == 4 {
+							//	komanda = "/" + calc.Podvrstaradova + "/" + fmt.Sprint(w.Roditelj)
+							//}
+							w.APIpozivIzbornik("radovi" + komanda)
+							//w.LinkoviIzboraVrsteRadova = GenerisanjeLinkova(w.IzbornikRadova)
+							w.GenerisanjeLinkova(w.IzbornikRadova)
+							//w.Putanja = nil
+							//w.Putanja = append(w.Putanja, w.Radovi.Naziv)
+
+						}
+					case 1:
+						w.Tema.Button(latcyr.C(w.Putanja[i], w.Cyr)).Layout(w.Context, putanjaPodvrstaDugme)
+						for putanjaPodvrstaDugme.Clicked(w.Context) {
+							komanda := ""
+
+							komanda = "/" + fmt.Sprint(w.Roditelj)
+							//podvrstaradova = fmt.Sprint(w.Roditelj)
+							//fmt.Println("roddddditeL111::", w.Roditelj)
+							//komanda = "/" + calc.Podvrstaradova + "/" + fmt.Sprint(w.Roditelj)
+
+							w.APIpozivIzbornik("radovi" + komanda)
+							//w.LinkoviIzboraVrsteRadova = GenerisanjeLinkova(w.IzbornikRadova)
+							w.GenerisanjeLinkova(w.IzbornikRadova)
+							w.Putanja = w.Putanja[:len(w.Putanja)-1]
+
+						}
+					case 2:
+						w.Tema.Button(latcyr.C(w.Putanja[i], w.Cyr)).Layout(w.Context, putanjaElementDugme)
+						for putanjaElementDugme.Clicked(w.Context) {
+							w.Element = false
+						}
+					}
 				})
 			}),
 			layout.Flexed(0.5, func() {

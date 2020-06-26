@@ -28,13 +28,13 @@ func NewWingCal() *WingCal {
 	}
 	wing.NewMaterijal()
 	wing.Radovi = model.WingVrstaRadova{
-		Id:             0,
-		Naziv:          "Radovi",
-		Slug:           "radovi",
-		Omogucen:       false,
-		Baza:           false,
-		Element:        false,
-		PodvrsteRadova: wing.Db.DbReadAll("radovi"),
+		Id:       0,
+		Naziv:    "Radovi",
+		Slug:     "radovi",
+		Omogucen: false,
+		Baza:     false,
+		Element:  false,
+		//PodvrsteRadova: wing.Db.DbReadAll("radovi"),
 	}
 
 	wing.EditPolja = &model.EditabilnaPoljaVrsteRadova{

@@ -9,23 +9,19 @@ import (
 	"github.com/marcetin/wingcal/pkg/latcyr"
 )
 
-var (
-	zatvoriElementDugme = new(gel.Button)
-)
-
 func (w *WingCal) PrikazaniElementIzgled() func() {
 	return func() {
 		layout.Flex{
 			Axis: layout.Vertical,
 		}.Layout(w.Context,
-			layout.Rigid(func() {
-				btnZatvoriElement := w.Tema.Button(latcyr.C("zatvori", w.Cyr))
-				btnZatvoriElement.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
-				for zatvoriElementDugme.Clicked(w.Context) {
-					w.Element = false
-				}
-				btnZatvoriElement.Layout(w.Context, zatvoriElementDugme)
-			}),
+			//layout.Rigid(func() {
+			//	btnZatvoriElement := w.Tema.Button(latcyr.C("zatvori", w.Cyr))
+			//	btnZatvoriElement.Background = gelook.HexARGB(w.Tema.Colors["Secondary"])
+			//	for zatvoriElementDugme.Clicked(w.Context) {
+			//		w.Element = false
+			//	}
+			//	btnZatvoriElement.Layout(w.Context, zatvoriElementDugme)
+			//}),
 			layout.Rigid(func() {
 				w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGray"]).Layout(w.Context, layout.W, func() {
 					w.Tema.H5(fmt.Sprint(w.Podvrsta) + "." + fmt.Sprint(w.Roditelj) + "." + fmt.Sprint(w.PrikazaniElement.Id) + " " + latcyr.C(w.PrikazaniElement.Naziv, w.Cyr)).Layout(w.Context)

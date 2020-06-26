@@ -51,9 +51,12 @@ func (w *WingCal) SumaIzgled() func() {
 							})
 						}),
 						layout.Rigid(func() {
-							suma := w.Tema.H5("Suma: " + fmt.Sprint(sumaSumarum))
-							suma.Alignment = text.End
-							suma.Layout(w.Context)
+
+							w.Tema.DuoUIcontainer(8, w.Tema.Colors["Primary"]).Layout(w.Context, layout.NW, func() {
+								suma := w.Tema.H5("Suma: " + fmt.Sprint(sumaSumarum))
+								suma.Alignment = text.End
+								suma.Layout(w.Context)
+							})
 						}),
 					)
 				}),

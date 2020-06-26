@@ -19,7 +19,7 @@ func (w *WingCal) Nazad() func() {
 					fmt.Println("roddddditeL111::", w.Roditelj)
 				}
 				if len(w.Putanja) == 4 {
-					komanda = "/" + podvrstaradova + "/" + fmt.Sprint(w.Roditelj)
+					komanda = "/" + Podvrstaradova + "/" + fmt.Sprint(w.Roditelj)
 				}
 				w.APIpozivIzbornik("radovi" + komanda)
 				//w.LinkoviIzboraVrsteRadova = GenerisanjeLinkova(w.IzbornikRadova)

@@ -17,7 +17,7 @@ var (
 func (w *WingCal) SumaIzgled() func() {
 	return func() {
 		w.Tema.DuoUIcontainer(0, w.Tema.Colors["LightGrayI"]).Layout(w.Context, layout.NW, func() {
-
+			width := w.Context.Constraints.Width.Max
 			layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 				layout.Flexed(0.5, func() {
 					layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
@@ -25,7 +25,7 @@ func (w *WingCal) SumaIzgled() func() {
 							ukupan := w.Tema.DuoUIcontainer(16, w.Tema.Colors["Primary"])
 							ukupan.FullWidth = true
 							ukupan.Layout(w.Context, layout.W, func() {
-								suma := w.Tema.H5(latcyr.C("Ukupna cena radova", w.Cyr))
+								suma := w.Tema.H6(latcyr.C("Ukupna cena radova", w.Cyr))
 								suma.Alignment = text.End
 								suma.Layout(w.Context)
 							})
@@ -114,21 +114,23 @@ func (w *WingCal) SumaIzgled() func() {
 								}))
 						}),
 						layout.Rigid(func() {
-							suma := w.Tema.H5(latcyr.C("Suma: ", w.Cyr) + fmt.Sprintf("%.2f", w.Suma.SumaCena))
-							suma.Alignment = text.End
-							suma.Layout(w.Context)
+							w.Context.Constraints.Width.Min = width
+							w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGrayII"]).Layout(w.Context, layout.SE, func() {
+								suma := w.Tema.H5(latcyr.C("Suma: ", w.Cyr) + fmt.Sprintf("%.2f", w.Suma.SumaCena))
+								suma.Alignment = text.End
+								suma.Layout(w.Context)
+							})
 						}),
 					)
 				}),
 
 				layout.Flexed(0.5, func() {
-					width := w.Context.Constraints.Width.Max
 					layout.Flex{Axis: layout.Vertical}.Layout(w.Context,
 						layout.Rigid(func() {
 							ukupan := w.Tema.DuoUIcontainer(16, w.Tema.Colors["Primary"])
 							ukupan.FullWidth = true
 							ukupan.Layout(w.Context, layout.W, func() {
-								suma := w.Tema.H5(latcyr.C("Ukupan neophodni materijal", w.Cyr))
+								suma := w.Tema.H6(latcyr.C("Ukupan neophodni materijal", w.Cyr))
 								suma.Alignment = text.End
 								suma.Layout(w.Context)
 							})
@@ -138,9 +140,12 @@ func (w *WingCal) SumaIzgled() func() {
 						layout.Flexed(1, w.UkupanNeophodanMaterijal(ukupanNeophodanMaterijalList)),
 
 						layout.Rigid(func() {
-							suma := w.Tema.H5(latcyr.C("Suma materijal: ", w.Cyr) + fmt.Sprintf("%.2f", w.Suma.SumaCenaMaterijal))
-							suma.Alignment = text.End
-							suma.Layout(w.Context)
+							w.Context.Constraints.Width.Min = width
+							w.Tema.DuoUIcontainer(8, w.Tema.Colors["LightGrayII"]).Layout(w.Context, layout.SE, func() {
+								suma := w.Tema.Body2(latcyr.C("Suma materijal: ", w.Cyr) + fmt.Sprintf("%.2f", w.Suma.SumaCenaMaterijal))
+								suma.Alignment = text.End
+								suma.Layout(w.Context)
+							})
 						}),
 
 						layout.Rigid(w.Stampa()))
